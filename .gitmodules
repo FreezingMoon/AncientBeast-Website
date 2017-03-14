@@ -1,0 +1,3 @@
+[submodule "game"]
+	path = game
+	url = git@github.com:FreezingMoon/AncientBeast.git
