@@ -78,7 +78,7 @@ $source = "http://localhost:8080/index.html";
 $whitelist = array('127.0.0.1', '::1');
 
 if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)) {
-	$source = "https://ancientbeast.herokuapp.com";
+	$source = "https://play.AncientBeast.com";
 }
 ?>
 
