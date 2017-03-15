@@ -49,7 +49,7 @@ require_once 'header.php';
 		<div class="button" style="background-image: url(images/push_button.png);">Game Design Document</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
-		<a href="game"><img src="images/squares/play.jpg" style="width: 290px; height: 290px;" class="frame" alt="Play the Game"><br>
+		<a href="https://ancientbeast.herokuapp.com"><img src="images/squares/play.jpg" style="width: 290px; height: 290px;" class="frame" alt="Play the Game"><br>
 		<div class="button" style="background-image: url(images/push_button.png); ;">Play the Game for Free</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
