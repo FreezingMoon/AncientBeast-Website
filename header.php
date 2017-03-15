@@ -87,7 +87,7 @@ if(isset($_GET['action']) == 'logout') {
   foreach ($menu as &$menuItem) {
     echo '<td>
       <a href="' . $site_root . $menuItem . '/" id="' . ucfirst($menuItem) . '" style="display:block;" class="lighten">
-      <img alt=" ' . ucfirst($menuItem) . '" src="' . $site_root . 'images/icons/' . $menuItem . '.png" width="90" height="90"><br>
+      <img src="' . $site_root . 'images/icons/' . $menuItem . '.png" width="90" height="90" alt=" ' . ucfirst($menuItem) . '"><br>
       ' . ucfirst($menuItem) . '</a></td>';
   } 
 ?>
