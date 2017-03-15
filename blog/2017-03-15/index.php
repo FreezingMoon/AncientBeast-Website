@@ -39,52 +39,83 @@ require_once("../../header.php");
 
 <div class="div" id="game">
 <h2 class="indexheader"><a href="#game">Game changes</a></h2>
-
-<p><b>5 more playable creatures.</b> Unlike chess, this project is very modular and extendable. We're aiming to add a high number of units given enough time and resources, each one being unique and serving certain purposes, like a tool. The more units out there, the more interesting the gameplay becomes, as the posibilities will increase exponentially. Ladies and gents, I introduce you to Nutcase, Nightmare, Headless, Scavenger and Cyber Hound.</p>
+<br>
 <img src="creatures.jpg" alt="creatures" title="New playable creatures">
-
-<p><b>Big revamps for all previous units.</b> When you look at a unit, you should pretty much instantly be able to tell what's it capable overall. I consider this one of the key elements for a good design for such a game. Some unit abilities got revamped even 5 times, until I felt they're intuitive, have good synergy with the other ones and also have strategic value that really enriches the gameplay.</p>
+<p>
+<b>5 more playable creatures.</b> Unlike chess, this project is very modular and extendable. We're aiming to add a high number of units given enough time and resources, each one being unique and serving certain purposes, like a tool. The more units out there, the more interesting the gameplay becomes, as the posibilities will increase exponentially. Ladies and gents, I introduce you to Nutcase, Nightmare, Headless, Scavenger and Cyber Hound.
+</p>
+<br>
 <img src="revamps.jpg" alt="revamps" title="Unit revamps">
-
-<p><b>Added unit ability upgrades.</b> This is an awesome feature that really takes the gameplay to a whole new level, rewarding players that manage to keep a unit alive long enough to unlock its potential. Passive abilities tend to get upgraded after a number of rounds, while active ones after a number of uses, having extra stomping power or functionality that comes in handy. Also, this feature makes things more interesting when you get to see multiple units of the same type as the same time on the combat field, as each might specialize in different attacks or abilities first. While this wasn't a MVP thing (minimum viable product), I thought I would prioritize this as it requires a lot of thinking and balancing to get right. Other gaming companies would had probably added this as a paid expansion way later on, this is how the industry usually works, DLC's on top of even more DLC's.</p>
-
+<p>
+<b>Big revamps for all previous units.</b> When you look at a unit, you should pretty much instantly be able to tell what's it capable overall. I consider this one of the key elements for a good design for such a game. Some unit abilities got revamped even 5 times, until I felt they're intuitive, have good synergy with the other ones and also have strategic value that really enriches the gameplay.
+</p>
+<br>
 <a href="<?php echo $site_root; ?>units/?view=viewer#focus" target="_blank"><img src="upgrades.jpg" alt="upgrades" title="All unit abilities can be upgraded now!"></a>
-
-<p><b>In-game music player and tracklist.</b> You can now view the tracks and choose which one you want to play. There are also volume sliders you can play with in order to adjust the in-game music independently from the sound fx.</p>
+<p>
+<b>Added unit ability upgrades.</b> This is an awesome feature that really takes the gameplay to a whole new level, rewarding players that manage to keep a unit alive long enough to unlock its potential. Passive abilities tend to get upgraded after a number of rounds, while active ones after a number of uses, having extra stomping power or functionality that comes in handy. Also, this feature makes things more interesting when you get to see multiple units of the same type as the same time on the combat field, as each might specialize in different attacks or abilities first. While this wasn't a MVP thing (minimum viable product), I thought I would prioritize this as it requires a lot of thinking and balancing to get right. Other gaming companies would had probably added this as a paid expansion way later on, this is how the industry usually works, DLC's on top of even more DLC's.
+</p>
+<br>
 <a href="<?php echo $site_root; ?>media/?type=music" target="_blank"><img src="<?php echo $site_root; ?>media/band.jpg" alt="music" title="Enjoy the epic tracks!"></a>
-
-<p><b>Functional energy and meditations.</b> Each unit replenishes a certain amount of energy each round, provided they're not harmed too much. Energy can be used to perform attacks or activate abilities, so try to use it wisely!</p>
-
-<p><b>Functional endurance and fatigue.</b> Some units replenish more health and energy then others, but some are more consistent in doing so by having a higher endurance, meaning they can take more damage until becoming fatigued, which would cancel their regrowth and meditation for that turn. This adds a lot more to the strategy.</p>
-
-<p><b>Unit names shouted when materialized.</b> It's easier to learn how the units are called, by constantly hearing them getting introduced when materialized on the combat field each match you play or watch. Know your team!</p>
+<p>
+<b>In-game music player and tracklist.</b> You can now view the tracks and choose which one you want to play. There are also volume sliders you can play with in order to adjust the in-game music independently from the sound fx.
+</p>
+<br>
+<p>
+<b>Functional energy and meditations.</b> Each unit replenishes a certain amount of energy each round, provided they're not harmed too much. Energy can be used to perform attacks or activate abilities, so try to use it wisely!
+</p>
+<br>
+<p>
+<b>Functional endurance and fatigue.</b> Some units replenish more health and energy then others, but some are more consistent in doing so by having a higher endurance, meaning they can take more damage until becoming fatigued, which would cancel their regrowth and meditation for that turn. This adds a lot more to the strategy.
+</p>
+<br>
 <img src="waveform.jpg" alt="waveform" title="Gilded Maiden's shout waveform">
-
-<p><b>Item drops from killed units.</b> Pick them up to instantly restore a small amount of health and/or energy. Yummy!</p>
+<p>
+<b>Unit names shouted when materialized.</b> It's easier to learn how the units are called, by constantly hearing them getting introduced when materialized on the combat field each match you play or watch. Know your team!
+</p>
+<br>
 <img src="drops.jpg" alt="drops" title="Pick them up!">
-
-<p><b>Improved pre-match screen.</b> The layout has been improved and a few more game options have been added.</p>
+<p>
+<b>Item drops from killed units.</b> Pick them up to instantly restore a small amount of health and/or energy. Yummy!
+</p>
+<br>
 <a rel="pop" href="<?php echo $site_root; ?>media/screenshots/v0.3 Before Match.jpg"><img class="shadow artwork" width=100% src="<?php echo $site_root; ?>media/screenshots/v0.3 Before Match.jpg" title="Pre-match screen" alt="pre-match screen"></a>
-
-<p><b>Improved the action log look.</b> This part of the UI has been refined to have a modern look, pleasant to the eye.</p>
-
-<p><b>Non-obstructive mini-tutorial.</b> Players can optionally check out some very useful tips on how to get started.</p>
+<p>
+<b>Improved pre-match screen.</b> The layout has been improved and a few more game options have been added.
+</p>
+<br>
 <a rel="pop" href="<?php echo $site_root; ?>media/screenshots/v0.3 Frozen Skull.jpg"><img class="shadow artwork" width=100% src="<?php echo $site_root; ?>media/screenshots/v0.3 Frozen Skull.jpg" title="v0.3 Frozen Skull" alt="Frozen Skull"></a>
-
-<p><b>Ability tooltips display more info.</b> Ability upgrade status is included, along with numbers of uses remaining.</p>
-
-<p><b>Improved unit grid behavior.</b> More hexagon types are used in order to differentiate between various states.</p>
+<p>
+<b>Ability tooltips display more info.</b> Ability upgrade status is included, along with numbers of uses remaining.
+</p>
+<p>
+<b>Improved the action log look.</b> This part of the UI has been refined to have a modern look, pleasant to the eye.
+</p>
+<p>
+<b>Non-obstructive mini-tutorial.</b> Players can optionally check out some very useful tips on how to get started.
+</p>
+<br>
 <img src="improvements.jpg" alt="improvements" title="Dashed hexagons and cancel cursor">
-
-<p><b>Many usability enhancements.</b> You can switch between usable abilities with the mouse screen wheel or cancel when clicking outside the abilitie's targeting area, which will show a different type of cursor now. The unit queue displays more info under each unit and hovering an avatar will evidentiate that unit, so you can locate it easier. Also, hovering over the round marker will show the coordinates of all the hexagons, helping out strategy talks.</p>
+<p>
+<b>Improved unit grid behavior.</b> More hexagon types are used in order to differentiate between various states.
+</p>
+<br>
 <img src="enhancements.jpg" alt="enhancements" title="Queue info and grid coordinates">
-
-<p><b>Lots of bug fixes and balancing.</b> All the problematic unit abilities have been fixed, no longer freezing the game.</p>
-
-<p><b>Removed the PHP dependency.</b> Setting up a local copy of the game to play offline, test or patch is simpler now.</p>
-
-<p><b>Updated Phaser game engine.</b> We've updated our game engine, <a href="http://phaser.io" target="_blank">Phaser</a>, one major version, from 1.1.3 all the way to 2.3.0, which packs more features and performs better, as quite a few bugs have been fixed along the way and the rendering engine used, <a href="http://www.pixijs.com" target="_blank">Pixi.js</a> was also updated in the process, which is faster, supporting more devices.</p>
+<p>
+<b>Many usability enhancements.</b> You can switch between usable abilities with the mouse screen wheel or cancel when clicking outside the abilitie's targeting area, which will show a different type of cursor now. The unit queue displays more info under each unit and hovering an avatar will evidentiate that unit, so you can locate it easier. Also, hovering over the round marker will show the coordinates of all the hexagons, helping out strategy talks.
+</p>
+<br>
+<p>
+<b>Lots of bug fixes and balancing.</b> All the problematic unit abilities have been fixed, no longer freezing the game.
+</p>
+<br>
+<p>
+<b>Removed the PHP dependency.</b> Setting up a local copy of the game to play offline, test or patch is simpler now.
+</p>
+<br>
 <a href="https://phaser.io" target="_blank"><img src="Phaser.jpg" alt="Phaser" title="Phaser game engine"></a>
+<p>
+<b>Updated Phaser game engine.</b> We've updated our game engine, <a href="http://phaser.io" target="_blank">Phaser</a>, one major version, from 1.1.3 all the way to 2.3.0, which packs more features and performs better, as quite a few bugs have been fixed along the way and the rendering engine used, <a href="http://www.pixijs.com" target="_blank">Pixi.js</a> was also updated in the process, which is faster, supporting more devices.
+</p>
 </div>
 
 <div class="div" id="website">
