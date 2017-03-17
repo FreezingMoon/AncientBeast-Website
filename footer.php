@@ -1,7 +1,7 @@
 <?php mysqli_close($link); ?>
 </div>
 <div class="footer smalldiv center">
-	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CJF8R55CJE9R4" target="_blank">
+	<a href="https://www.paypal.me/AncientBeast" target="_blank">
 		<img src="<?php echo $site_root; ?>images/footer/paypal.png" class="lighten" alt="paypal" title="Donate using PayPal!">
 	</a>
 	<a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast">
