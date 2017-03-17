@@ -55,7 +55,8 @@ $style = '
 require_once("../header.php");
 ?>
 <div id="bar">
-	<a href="https://gitter.im/FreezingMoon/AncientBeast" style="margin-left: 815px;" target="_blank">Open Gitter</a>
+	<a href="https://gitter.im/FreezingMoon/AncientBeast" style="margin-left: 18px;" target="_blank">Open Gitter</a>
+	<a href="https://discord.gg/x78rKen" style="margin-left: 666px;" target="_blank">Open Discord</a>
 </div>
 
 <!-- Hightlight active page -->
