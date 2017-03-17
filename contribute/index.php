@@ -45,7 +45,7 @@ This is a collaborative project, meaning you can be part of it too:
 <p>
 We strongly believe in open source software development, but to run a successful project, you still require quite a bit of money in order to have at least few people work part-time on the project and deal with the stuff nobody else wants to ever actually do and there are also services and hardware requirements that must be satisfied which tend to add up.
 </p><p>
-You should consider donating via <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CJF8R55CJE9R4" target="_blank"><b>Paypal</b></a> or <a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast"><b>Bitcoin</b></a>, even if you're not into turn based strategy games you must see the bigger picture: we're setting an example in the industry and also creating a huge high quality art repository that you and others can use for commercial work and possibly even make other neat games, comics or maybe even some animations.
+You should consider donating via <a href="https://www.paypal.me/AncientBeast" target="_blank"><b>Paypal</b></a> or <a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast"><b>Bitcoin</b></a>, even if you're not into turn based strategy games you must see the bigger picture: we're setting an example in the industry and also creating a huge high quality art repository that you and others can use for commercial work and possibly even make other neat games, comics or maybe even some animations.
 </p><p>
 Feel free to become our <a href="http://patreon.com/FreezingMoon" target="_blank"><b>Patreon</b></a> and receive cool rewards.
 You can address individual issues by using <a href="https://www.bountysource.com/teams/ancientbeast/issues" target="_blank"><b>Bounty Source</b></a>.
@@ -54,7 +54,7 @@ Any amount you can donate is very appreciated, thank you!<br>
 <!--Don't forget you can always spend some in our online <a href="https://AncientBeast.com/shop"><b>shop</b></a>.-->
 </p>
 <p>
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CJF8R55CJE9R4" target="_blank"><img src="http://img.shields.io/badge/Donate-PayPal-yellow.svg" class="lighten"></a>
+<a href="https://www.paypal.me/AncientBeast" target="_blank"><img src="http://img.shields.io/badge/Donate-PayPal-yellow.svg" class="lighten"></a>
 <a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast" target="_blank"><img src="http://img.shields.io/badge/Donate-Bitcoin-orange.svg" class="lighten"></a>
 <a href="http://patreon.com/FreezingMoon" target="_blank"><img src="http://img.shields.io/badge/Donate-Patreon-red.svg" class="lighten"></a>
 <a href="https://www.bountysource.com/teams/ancientbeast/issues" target="_blank"><img src="http://img.shields.io/badge/Donate-Bountysource-green.svg" class="lighten"></a>
