@@ -25,7 +25,7 @@
 $page_title = "Chat";
 $style = '
 .gitter-chat-embed-action-bar { display: none; }
-.gitter iframe { width: 100%; height: 600px; }
+.gitter iframe { width: 595px; height: 600px; border-radius: 5px; }
 
 #bar {
 	background: transparent;
@@ -62,7 +62,9 @@ require_once("../header.php");
 <!-- Hightlight active page -->
 <script>document.getElementById("<?php echo $page_title; ?>").className += " active";</script>
 
-<div class="div gitter"></div>
+<div class="gitter" style="display: inline;"></div>
+<iframe src="https://discordapp.com/widget?id=154868963132571649&theme=dark" width="350" height="600" allowtransparency="true" frameborder="0" style="display: inline;"></iframe>
+
 <script>
 	((window.gitter = {}).chat = {}).options = {
 		room: 'FreezingMoon/AncientBeast',
@@ -74,10 +76,7 @@ require_once("../header.php");
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-<div class="div">
-<iframe src="https://discordapp.com/widget?id=154868963132571649&theme=dark" width="100%" height="400" allowtransparency="true" frameborder="0"></iframe>
-</div>
-
+<br>
 <div class="center" id="action">
 	<div style="display: inline-block;" class="lighten">
 		<a href="http://reddit.com/r/AncientBeast" target="_blank"><img src="../images/squares/reddit.jpg" class="frame"><br>
