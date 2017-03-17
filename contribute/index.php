@@ -31,12 +31,105 @@ $style = '
 .image { margin-left: 10px; width: 400px; height: 250px; }
 .scale { transform: scale(-1, 1); }
 ';
+$stylesheet = '../units/cards.css';
+
 require_once('../header.php'); 
 ?>
 
-<div class="div center" id="info">
-This is a collaborative project, meaning you can be part of it too: 
-<a href="#donate"><b>Donate</b></a> | <a href="#artwork"><b>Artwork</b></a> | <a href="#coding"><b>Coding</b></a> | <a href="#audio"><b>Audio</b></a> | <a href="#supporter"><b>Supporter</b></a>
+<!-- Contribution Widget -->
+<div class="div center" id="contribute">
+	<!-- Left Side -->
+	<div class="center" style="display: inline-block; vertical-align: top;">
+		<div class="card sideA" style="background-image: url(<?php echo $site_root; ?>images/cards/margin.png), url(<?php echo $site_root; ?>images/teamwork.jpg);">
+			<!-- Card Anchor -->
+			<a href="#donate" title="Let's make things happen!"><div style="height: 100%;"></div></a>
+	
+			<!-- Display unit info -->
+			<a href="#donate" class="name" style="color: white;">
+				<div class="section info sinL">
+					Contribute to this project today!
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<!-- Right Side -->
+	<div class="card sideB" style="background-image: url(<?php echo $site_root; ?>images/cards/margin.png), url(<?php echo $site_root; ?>images/cards/G.jpg);">
+	  	<!-- Display main ways to contribute -->
+		<div class="section abilities">
+
+			<div class="ability">
+				<a href="#donate">
+				<div id="first_icon" class="icon" style="background-image: url(<?php echo $site_root; ?>images/contribute/donate.svg);">
+					<div class="contour"></div>
+				</div>
+				<div class="wrapper">
+					<div class="info">
+						<h3 id="first_title" class="underline">Donate</h3>
+						<span class="desc" id="desc">You can donate to the project directly via PayPal or Bitcoin and we also have nice Patreon and Bountysource pages.</span>
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="ability">
+				<a href="#artwork">
+				<div id="second_icon" class="icon" style="background-image: url(<?php echo $site_root; ?>images/contribute/artwork.svg);">
+					<div class="contour"></div>
+				</div>
+				<div class="wrapper">
+					<div class="info">
+						<h3 id="second_title" class="underline">Artwork</h3>
+						<span class="desc" id="desc">You can donate existing artwork that you think it could nicely fit the project or offer your skills to create new stuff.</span>
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="ability">
+				<a href="#coding">
+				<div id="third_icon" class="icon" style="background-image: url(<?php echo $site_root; ?>images/contribute/coding.svg);">
+					<div class="contour"></div>
+				</div>
+				<div class="wrapper">
+					<div class="info">
+						<h3 id="third_title" class="underline">Coding</h3>
+						<span class="desc" id="desc">We can always use an extra coding hand adding new functionality to the game or website and to squash bugs.</span>
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="ability">
+				<a href="#audio">
+				<div id="fourth_icon" class="icon" style="background-image: url(<?php echo $site_root; ?>images/contribute/audio.svg);">
+					<div class="contour"></div>
+				</div>
+				<div class="wrapper">
+					<div class="info">
+						<h3 id="fourth_title" class="underline">Audio</h3>
+						<span class="desc" id="desc">Fast paced epic tracks can really set players in the mood for combat, while sound effects can empower abilities.</span>
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="ability">
+				<a href="#support">
+				<div id="fifth_icon" class="icon" style="background-image: url(<?php echo $site_root; ?>images/contribute/writing.svg);">
+					<div class="contour"></div>
+				</div>
+				<div class="wrapper">
+					<div class="info">
+						<h3 id="fifth_title" class="underline">Support</h3>
+						<span class="desc" id="desc">If none of the options above suit you but you still want to contribute to the project, there are many ways to do so!</span>
+					</div>
+				</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
 </div>
 
 <div class="div" id="donate">
@@ -235,9 +328,9 @@ If you make any sample tracks, it would be ideal to have them uploaded to <a hre
 </div>
 </div>
 
-<div class="div" id="supporter">
+<div class="div" id="support">
 <div style="width: 475px; text-align: justify; display:inline-block;">
-<h3 class="indexheader"><a href="#supporter">Supporter</a></h3>
+<h3 class="indexheader"><a href="#support">Support</a></h3>
 <p>
 No moneys and no coding or artistic skills? No worries, you can still help out by being part of the community, testing out the game and reporting issues, brainstorming and spreading out the word as our marketing budget is pretty much non-existend, so we rely on you for that! Feedback and boosting the numbers are always nice, as they can also boost up morale and reassure us we're on the proper path.
 Click on the icons below and join our various project groups. You can also hang out with us in our own project <a href="https://AncientBeast.com/chat"><b>chat room</b></a>.
