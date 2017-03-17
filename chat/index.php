@@ -54,13 +54,13 @@ $style = '
 ';
 require_once("../header.php");
 ?>
+<!-- Hightlight active page -->
+<script>document.getElementById("<?php echo $page_title; ?>").className += " active";</script>
+
 <div id="bar">
 	<a href="https://gitter.im/FreezingMoon/AncientBeast" style="margin-left: 18px;" target="_blank">Open Gitter</a>
 	<a href="https://discord.gg/x78rKen" style="margin-left: 666px;" target="_blank">Open Discord</a>
 </div>
-
-<!-- Hightlight active page -->
-<script>document.getElementById("<?php echo $page_title; ?>").className += " active";</script>
 
 <div class="gitter" style="display: inline;"></div>
 <iframe src="https://discordapp.com/widget?id=154868963132571649&theme=dark" width="350" height="600" allowtransparency="true" frameborder="0" style="display: inline;"></iframe>
