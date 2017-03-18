@@ -26,7 +26,7 @@ $page_title = "We Are Hiring A Coder";
 require_once("../../header.php");
 ?>
 
-<img src="<?php echo $site_root; ?>images/We_Want_YOU.jpg">
+<img src="<?php echo $site_root; ?>contribute/We_Want_YOU.jpg">
 <div class="div">
 <h2 class="center">We are looking to hire a part-time coder!</h2>
 <p class="center">posted 1st February 2016</p>
