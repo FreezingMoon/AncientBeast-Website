@@ -45,15 +45,15 @@ require_once 'header.php';
 <div class="center">
 	<!-- Featured Blog Article -->
 	<div style="display: inline-block;" class="lighten">
-		<a href="design"><img src="images/squares/design.jpg" style="width: 290px; height: 290px;" class="frame" alt="Game Design Document"><br>
+		<a href="design"><img src="images/squares/design.jpg" alt="GDD" class="frame" width="290"; height="290"><br>
 		<div class="button" style="background-image: url(images/push_button.png);">Game Design Document</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
-		<a href="https://play.AncientBeast.com"><img src="images/squares/play.jpg" style="width: 290px; height: 290px;" class="frame" alt="Play the Game"><br>
+		<a href="https://play.AncientBeast.com"><img src="images/squares/play.jpg"  alt="Play" class="frame" width="290"; height="290"><br>
 		<div class="button" style="background-image: url(images/push_button.png); ;">Play the Game for Free</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
-		<a href="contribute"><img src="images/squares/contribute.jpg" style="width: 290px; height: 290px;" class="frame" alt="Make Your Contribution"><br>
+		<a href="contribute"><img src="images/squares/contribute.jpg" alt="Contribute" class="frame" width="290"; height="290"><br>
 		<div class="button" style="background-image: url(images/push_button.png);">Make Your Contribution</div></a>
 	</div>
 </div>
@@ -66,9 +66,9 @@ require_once 'header.php';
 </p><p>
 Ancient Beast is <a href="https://mega.co.nz/#F!GAJAjAzL!AhBUayQndZbH_j2IL2B-nA" target="_blank">free</a> and <a href="https://github.com/FreezingMoon/AncientBeast" target="_blank">open source</a>, being developed by <a href="http://www.FreezingMoon.org" target="_blank" class="FM"><b>Freezing Moon</b></a> and community. It uses web technologies such as HTML, PHP, JavaScript and Node.js, so that it's playable from modern browsers without requiring plugins.</p></div>
 <div class="lighten" id="screenshot"><a href="media/?type=screenshots#id=0">
-<img src="images/thumbs/screenie1.png" class="image frame active" style="width: 400px; height: 225px;" alt="Screenshot 1">
-<img src="images/thumbs/screenie2.png" class="image frame" style="opacity: 0; width: 400px; height: 225px;" alt="Screenshot 2">
-<img src="images/thumbs/screenie3.png" class="image frame" style="opacity: 0; width: 400px; height: 225px;" alt="Screenshot 3">
+<img src="images/thumbs/screenie1.png" class="image frame active" alt="Screenshot_1 width="400" height="225"">
+<img src="images/thumbs/screenie2.png" class="image frame" alt="Screenshot_2" width="400" height="225" style="opacity: 0;">
+<img src="images/thumbs/screenie3.png" class="image frame" alt="Screenshot_3" width="400" height="225" style="opacity: 0;">
 <div class="center" style="padding-top: 235px;"><b>Check out some screenshots!</b></div></a></div>
 </div>
 
@@ -149,17 +149,17 @@ Ancient Beast is <a href="https://mega.co.nz/#F!GAJAjAzL!AhBUayQndZbH_j2IL2B-nA"
 </div>
 
 <div class="div" id="plot">
-	<img src="images/hand.png" class="image lighten" onClick="toggleSound();" style="cursor: pointer; width: 400px; height: 387px;" title="Click to play narrative" alt="Click to paly narrative">
+	<img src="images/hand.png" class="image lighten" onClick="toggleSound();" alt="hand" width="400" height="387" style="cursor: pointer;" title="Click to play narrative">
 	<audio id="narration" src="plot.ogg"></audio>
 
-	<div style="width: 475px; text-align: justify; display: inline-block;">
+	<div width="475" style="text-align: justify; display: inline-block;">
 		<h3 class="indexheader"><a href="#plot">Plot</a></h3>
 		<p>
 		It's the year 2653. In the last few centuries, technology advanced exponentially and everyone had a fair chance of playing God. With help from the <a href="http://reprap.org" target="_blank"><b>RepRap</b></a> project, a free desktop 3d printer, which gave anyone power to build their own weapon factory or genetic laboratory on their own property. Mechanic parts or genetic modifications turned from a fashion option into a requirement for daily survival.
 		</p><p>
 	Despite their combined efforts, the world's governments couldn't prevent the world from plunging into chaos. The Earth has become a battlefield, split between 7 factions fighting for dominion over the ravaged landscape. The apocalypse is here and only the strong ones will surpass it.
 		</p>
-		<div class="center"><audio id="narration" controls src="plot.ogg" style="width: 475px;"></audio></div>
+		<div class="center"><audio id="narration" controls src="plot.ogg" width="475"></audio></div>
 		<br>
 	</div>
 </div>
