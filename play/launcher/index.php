@@ -29,7 +29,7 @@
 			border: 0;
 		}
 		#bar {
-			background: transparent;
+			background: black;
 			text-align: center;
 			width: 100%;
 			height: 25px;
@@ -47,7 +47,6 @@
 			border-radius: 4px;
 			border: 1px solid #d3d3d3;
 			color: #555555;
-			background: rgb(255, 255, 255); /* Old browsers */
 			background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 50%, rgba(225, 225, 225, 1) 51%, rgba(246, 246, 246, 1) 100%);
 
 		}
@@ -57,17 +56,12 @@
 			width: 100%;
 			height: 100%;
 			box-sizing: border-box;
-			-moz-box-sizing: border-box;
 			border: 0;
 			padding-top: 32px;
 			position: absolute;
 			z-index: 1;
 			display: block;
-			top: 1px;
-		}
-
-		iframe.fullscreen {
-			padding-top: 0;
+			top: 0;
 		}
 		</style>
 	</head>
@@ -76,11 +70,10 @@
 			<a href="https://AncientBeast.com" target="_blank">AncientBeast.com</a>
 			<a href="https://www.facebook.com/AncientBeast" target="_blank">Facebook</a>
 			<a href="https://www.twitter.com/AncientBeast" target="_blank">Twitter</a>
-			<a href="https://plus.google.com/+AncientBeast" target="_blank">Google+</a>
 			<a href="https://www.paypal.me/AncientBeast" target="_blank">Donate</a>
 			<a onclick="if(confirm('Reset Game?')) var ifr=document.getElementsByName('game')[0]; ifr.src=ifr.src;">Reset</a>
 			<a onclick="$('#game').fullScreen(true)">Fullscreen</a>
 		</div>
-		<iframe id="game" name="game" src="https://play.AncientBeast.com" seamless webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
+		<iframe id="game" name="game" src="https://play.AncientBeast.com" seamless allowFullScreen></iframe>
 	</body>
 </html>
