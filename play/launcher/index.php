@@ -8,17 +8,6 @@
 		<title>Ancient Beast</title>
 		<meta name="description" content="Ancient Beast is a turn based strategy indie game project.">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="jquery.fullscreen-min.js"></script>
-
-		<script type="text/javascript">
-		$(document).ready(function() {
-			$(document).bind("fullscreenchange", function() {
-				$('#game').toggleClass('fullscreen');
-			});
-		});
-		</script>
-
 		<style>
 		html, body {
 			width: 100%;
@@ -72,8 +61,10 @@
 			<a href="https://www.twitter.com/AncientBeast" target="_blank">Twitter</a>
 			<a href="https://www.paypal.me/AncientBeast" target="_blank">Donate</a>
 			<a onclick="if(confirm('Reset Game?')) var ifr=document.getElementsByName('game')[0]; ifr.src=ifr.src;">Reset</a>
-			<a onclick="$('#game').fullScreen(true)">Fullscreen</a>
+			<a onclick="requestFullScreen()">Fullscreen</a>
 		</div>
 		<iframe id="game" name="game" src="https://play.AncientBeast.com" seamless allowFullScreen></iframe>
 	</body>
 </html>
+
+<script src="fullscreen.js"></script>

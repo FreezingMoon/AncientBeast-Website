@@ -56,20 +56,9 @@ require_once('../header.php'); ?>
 <!-- Hightlight active page -->
 <script>document.getElementById("<?php echo $page_title; ?>").className += " active";</script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="launcher/jquery.fullscreen-min.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function() {
-	$(document).bind("fullscreenchange", function() {
-		$('#game').toggleClass('fullscreen');
-	});
-});
-</script>
-
 <div id="bar">
 	<a onclick="if(confirm('Reset Game?')) var ifr=document.getElementsByName('game')[0]; ifr.src=ifr.src;" style="margin-left: 5px;"><img src="reset.svg" style="margin-bottom: 3px;"> Reset Game</a>
-	<a onclick="$('#game').fullScreen(true)" style="margin-left: 660px;">Fullscreen <img src="fullscreen.svg" style="margin-bottom: 3px;"></a>
+	<a onclick="requestFullScreen()" style="margin-left: 660px;">Fullscreen <img src="fullscreen.svg" style="margin-bottom: 3px;"></a>
 </div>
 
 <?php
@@ -88,3 +77,5 @@ if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)) {
 
 <?php
 include('../footer.php'); ?>
+
+<script src="launcher/fullscreen.js"></script>
