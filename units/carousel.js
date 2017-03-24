@@ -7,7 +7,7 @@ $(function() {
 	var modValue = (carouselLength - 1) / 2;
 
 	// Get the units data as an array
-	$.getJSON("data.json", function(results) {
+	$.getJSON("../game/deploy/units/data.json", function(results) {
 		// Set the global var
 		units = results;
 		// Draw the carousel
