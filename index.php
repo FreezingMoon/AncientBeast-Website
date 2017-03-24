@@ -24,7 +24,6 @@
  */
 
 $style = '
-a.FM:hover { text-shadow: black 0.1em 0.1em 0.2em, blue 0 0 10px; }
 .image { cursor: pointer; display: inline-block; padding-left: 10px; }
 .small { width: 128px; height: 128px; }
 
@@ -45,12 +44,12 @@ require_once 'header.php';
 <div class="center">
 	<!-- Featured Blog Article -->
 	<div style="display: inline-block;" class="lighten">
-		<a href="design"><img src="images/squares/design.jpg" alt="GDD" class="frame" width="290"; height="290"><br>
-		<div class="button" style="background-image: url(images/push_button.png);">Game Design Document</div></a>
+		<a href="blog/2017-03-15"><img src="blog/2017-03-15/thumb.jpg" class="frame"><br>
+		<div class="button" style="background-image: url(images/push_button.png);">Version 0.3 Released</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
 		<a href="https://play.AncientBeast.com"><img src="images/squares/play.jpg"  alt="Play" class="frame" width="290"; height="290"><br>
-		<div class="button" style="background-image: url(images/push_button.png); ;">Play the Game for Free</div></a>
+		<div class="button" style="background-image: url(images/push_button.png);">Play the Game for Free</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
 		<a href="contribute"><img src="images/squares/contribute.jpg" alt="Contribute" class="frame" width="290"; height="290"><br>
@@ -63,8 +62,9 @@ require_once 'header.php';
 <h3 class="indexheader"><a href="#intro">Intro</a></h3>
 <p>
 <b>Ancient Beast</b> is a turn based strategy indie game project, played against other people (or bots) in hotseat or online modes, featuring a wide variety of units to acquire and put to good use in order to defeat all your opponents in battle.<br>This project was carefully designed to be easy to learn, fun to play and hard to master. We hope you'll enjoy it as well!
-</p><p>
-Ancient Beast is <a href="https://mega.co.nz/#F!GAJAjAzL!AhBUayQndZbH_j2IL2B-nA" target="_blank">free</a> and <a href="https://github.com/FreezingMoon/AncientBeast" target="_blank">open source</a>, being developed by <a href="http://www.FreezingMoon.org" target="_blank" class="FM"><b>Freezing Moon</b></a> and community. It uses web technologies such as HTML, PHP, JavaScript and Node.js, so that it's playable from modern browsers without requiring plugins.</p></div>
+</p>
+<div class="center"><a href="design"><div class="button" style="background-image: url(images/push_button.png);">Design Document</div></a></div>
+</div>
 <div class="lighten" id="screenshot"><a href="media/?type=screenshots#id=0">
 <img src="images/thumbs/screenie1.png" class="image frame active" alt="Screenshot_1 width="400" height="225"">
 <img src="images/thumbs/screenie2.png" class="image frame" alt="Screenshot_2" width="400" height="225" style="opacity: 0;">
@@ -148,11 +148,11 @@ Ancient Beast is <a href="https://mega.co.nz/#F!GAJAjAzL!AhBUayQndZbH_j2IL2B-nA"
 	</div>
 </div>
 
-<div class="div" id="plot">
+<div class="div" id="plot" style="display: flex;">
 	<img src="images/hand.png" class="image lighten" onClick="toggleSound();" alt="hand" width="400" height="387" style="cursor: pointer;" title="Click to play narrative">
 	<audio id="narration" src="plot.ogg"></audio>
 
-	<div width="475" style="text-align: justify; display: inline-block;">
+	<div width="475" style="text-align: justify;">
 		<h3 class="indexheader"><a href="#plot">Plot</a></h3>
 		<p>
 		It's the year 2653. In the last few centuries, technology advanced exponentially and everyone had a fair chance of playing God. With help from the <a href="http://reprap.org" target="_blank"><b>RepRap</b></a> project, a free desktop 3d printer, which gave anyone power to build their own weapon factory or genetic laboratory on their own property. Mechanic parts or genetic modifications turned from a fashion option into a requirement for daily survival.
