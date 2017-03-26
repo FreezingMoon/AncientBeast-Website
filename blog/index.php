@@ -32,7 +32,7 @@ require_once("../global.php");
 
 <!-- TODO: php should check for link variable, if there's none, then scan for folders and gather data, make an array of items, get some variables to generate the thumbnails/info;
 if there's a GET link variable, it should gather that and display that article only; this whole thing is to automise the blog and remove manual work and template redundancy -->
-<div class="center">
+<div class="center" id="focus">
 	<div style="display: inline-block;" class="lighten">
 		<a href="2017-03-15"><img src="2017-03-15/thumb.jpg" class="frame"><br>
 		<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Version 0.3 Released</div></a>
@@ -59,3 +59,6 @@ if there's a GET link variable, it should gather that and display that article o
 include('subscribe.php');
 include('../footer.php');
 ?>
+
+<!-- Focus on content when clicking the navigation button again -->
+<script>document.getElementById("<?php echo $page_title; ?>").href += "#focus";</script>

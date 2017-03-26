@@ -24,7 +24,6 @@
 
 // Display default or selected page
 $type = isset($_GET['type']) ? $_GET['type'] : 'Media';
-
 $style = '
 .bigger { font-size: 28px; color: #e6e6e6; }
 .artwork { height: 200px; margin: 5px; }
