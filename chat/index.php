@@ -24,60 +24,32 @@
 
 $page_title = "Chat";
 $style = '
-.gitter-chat-embed-action-bar { display: none; }
-.gitter iframe { width: 595px; height: 600px; border-radius: 5px; }
-
-#bar {
-	background: transparent;
-	width: 100%;
-	height: 25px;
-	position: relative;
-	margin-top: -35px;
-	padding-bottom: 5px;
+#discord {
+	display: inline;
+	vertical-align: top;
+	margin-top: 5px;
 }
-#bar a {
-	text-decoration: none;
-	text-shadow: none;
-	font-weight: bold !important;
-	font-family: Verdana, Arial, sans-serif;
-	font-size: .9em !important;
-	padding: 2px 7px !important;
-	cursor: pointer;
-	border-radius: 4px;
-	border: 1px solid #d3d3d3;
-	color: #555555;
-	background: rgb(255,255,255); /* Old browsers */
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 50%, rgba(225, 225, 225, 1) 51%, rgba(246, 246, 246, 1) 100%);
-}
-#bar a:hover { background: white; color: black; }
-
 ';
+
 require_once("../header.php");
 ?>
 <!-- Hightlight active page -->
 <script>document.getElementById("<?php echo $page_title; ?>").className += " active";</script>
 
-<div id="bar">
-	<a href="https://gitter.im/FreezingMoon/AncientBeast" style="margin-left: 18px;" target="_blank">Open Gitter</a>
-	<a href="https://discord.gg/x78rKen" style="margin-left: 666px;" target="_blank">Open Discord</a>
+<div class="div center" id="focus" style="display: inline-block; width: 530px; height: 460px;">
+<p>Feel free to join us in our Discord server, a place where both developers and fans of the project hang around in harmony.
+</p>
+
+<div style="display: inline-block; width: 100%;" class="lighten center">
+	<a href=https://discord.gg/x78rKen" target="_blank"><img src="../images/squares/discord.jpg" class="frame"><br>
+	<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Discord server</div></a>
+</div>
 </div>
 
-<div class="gitter" style="display: inline;"></div>
-<iframe src="https://discordapp.com/widget?id=154868963132571649&theme=dark" width="350" height="600" allowtransparency="true" frameborder="0" style="display: inline;"></iframe>
-
-<script>
-	((window.gitter = {}).chat = {}).options = {
-		room: 'FreezingMoon/AncientBeast',
-		showChatByDefault: true,
-		targetElement: '.gitter',
-		useStyles: false,
-		preload: true
-	};
-</script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
+<iframe src="https://discordapp.com/widget?id=154868963132571649&theme=dark" id="discord" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
 <br>
-<div class="center" id="action">
+<br>
+<div class="center" id="action" style="text-align: left;">
 	<div style="display: inline-block;" class="lighten">
 		<a href="http://reddit.com/r/AncientBeast" target="_blank"><img src="../images/squares/reddit.jpg" class="frame"><br>
 		<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Reddit: Join Forum</div></a>
@@ -95,3 +67,6 @@ require_once("../header.php");
 <?php
 disqus();
 include('../footer.php'); ?>
+
+<!-- Focus on content when clicking the navigation button again -->
+<script>document.getElementById("<?php echo $page_title; ?>").href += "#focus";</script>
