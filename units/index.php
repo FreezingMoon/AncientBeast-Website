@@ -35,7 +35,6 @@ $style = '
 #statsTable tr:nth-child(even), #statsTable th { background: rgba(200, 200, 200, 0.2); }
 #statsTable tr:hover, #statsTable col.hover { background: rgba(200, 200, 200, 0.4); }
 #statsTable td:hover { color: white; }
-
 ';
 require_once '../header.php';
 require_once 'functions.php';
