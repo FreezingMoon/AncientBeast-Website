@@ -42,7 +42,7 @@ require_once("../header.php");
 
 <div style="display: inline-block; width: 100%;" class="lighten center">
 	<a href="https://discord.gg/x78rKen" target="_blank"><img src="../images/squares/discord.jpg" class="frame"><br>
-	<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Discord server</div></a>
+	<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Discord: Join Server</div></a>
 </div>
 </div>
 
