@@ -192,7 +192,7 @@ If you want a task assigned, simply drop by our <a href="../chat"><b>chat room</
 </p><p>
 Several ways you can help out using with your artistic skills:<br>
 <p><b>Draw playable creatures or characters</b><br>
-All new units should be rather original, so no typically known fantasy monsters, also their negative shape should stand out when next to the ones of the other ingame <a href="../units"><b>characters</b></a>.</p>
+All new units should be rather original, so no typically known fantasy monsters, also their negative shape should stand out when next to the ones of the other ingame <a href="../units"><b>units</b></a>.</p>
 
 <p><b>Make fanart of existing creatures</b><br>
 We always love seeing the current game <a href="../units"><b>characters</b></a> in new poses and doing new things or interacting with each other. If you can come up with a small comic strip, then awesome!</p>
@@ -202,7 +202,7 @@ All the in-game units are being made into 3d and animated using <a href="http://
 </p>
 
 <p><b>Create more combat locations</b><br>
-Each location can be themed to fit any of the game <a href="../media/?type=realms"><b>realms</b></a>. Only the two lower thirds of the height are for unit walking. The background has to be 1920 by 1080 pixels, png format.
+Each location can be themed to fit any of the game <a href="../units/?view=dwellings"><b>realms</b></a>. Only the two lower thirds of the height are for unit walking. The background has to be 1920 by 1080 pixels, png format.
 </p>
 
 <p><b>Prototype better ability icons</b><br>
