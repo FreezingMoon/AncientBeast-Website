@@ -156,8 +156,8 @@ Any amount you can donate is very appreciated, thank you!<br>
 
 <div style="display: inline-block; vertical-align: top;" class="center">
 <table style="width: 400px;"><tr><td><b>Top Donors via PayPal</b></td><td><b>$</b></td></tr>
+<tr><td><a href="https://FreezingMoon.org" target="_blank" class="lighten donate"><img src="yellow.png"> Anastase family <img src="yellow.png" class="scale"></a></td><td>3765</td></tr>
 <tr><td><a href="https://harumorii.deviantart.com" target="_blank" class="lighten donate"><img src="yellow.png"> Haru <img src="yellow.png" class="scale"></a></td><td>2500</td></tr>
-<tr><td><a href="https://FreezingMoon.org" target="_blank" class="lighten donate"><img src="yellow.png"> Anastase family <img src="yellow.png" class="scale"></a></td><td>2830</td></tr>
 <tr><td><a href="https://fiverr.com/dreadknight" target="_blank" class="lighten donate"><img src="yellow.png"> Dread Knight <img src="yellow.png" class="scale"></a></td><td>1350</td></tr>
 <tr><td><a href="http://ugnis.com" target="_blank" class="lighten donate"><img src="yellow.png"> Karolis Masiulis  <img src="yellow.png" class="scale"></a></td><td>300</td></tr>
 <tr><td><a href="https://github.com/unhammer" target="_blank" class="lighten donate"><img src="yellow.png"> Kevin Brubeck Unhammer <img src="yellow.png" class="scale"></a></td><td>50</td></tr>
@@ -246,6 +246,7 @@ We can always use some more desktop <a href="../media/?type=wallpapers"><b>wallp
 <tr><td><a href="https://facebook.com/All.Things.Rotten.Maggotmaster" target="_blank"  class="lighten artwork"><img src="red.png"> Maggot Master <img src="red.png" class="scale"></td><td><?php echo ++$i; ?></td></tr>
 <tr><td><a href="http://random223.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> random223 <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
 <tr><td><a href="http://onirke.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Oliwia Grambo <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://opengameart.org/users/stumpystrust" target="_blank" class="lighten artwork"><img src="red.png"> StumpyStrust <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
 <tr><td>Your Name</td><td>?</td></tr>
 </table><br>
 <div style="display: inline-block;" class="center"><img src="gumble.png" class="image"></div>
