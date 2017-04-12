@@ -340,7 +340,7 @@ Click on the icons below and join our various project groups. You can also hang 
 <div style="display: inline-block;" class="center"><img src="together.jpg" class="image"></div>
 </div>
 
-<a href="#contribute"><img src="<?php echo $site_root; ?>contribute/We_Want_YOU.jpg" alt="We Want YOU" title="It's true!"></a>
+<a href="#contribute"><img src="<?php echo $site_root; ?>images/We_Want_YOU.jpg" alt="We Want YOU" title="It's true!"></a>
 
 <?php include('../footer.php'); ?>
 <script>
