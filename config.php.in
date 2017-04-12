@@ -23,10 +23,10 @@
  */
 
 // Directory of site relative to root, ending with a slash
-// Eg: $site_root = '/' or $site_root = '/ancientbeast/'
+// Eg: $site_root = '/' or $site_root = '/AncientBeast/'
 // Warning: You might need to use your port number too!
 // Eg: $site_root = ':8088/';
-$site_root = '/';
+$site_root = '/AncientBeast/'; // Warning: If you need to change this variable, do it in a duplicated file named "config.php"!
 
 // MySQL database information is stored over here
 // Default values are http://OpenShift.com env vars
@@ -36,7 +36,5 @@ $user = getenv('OPENSHIFT_MYSQL_DB_USERNAME') ? getenv('OPENSHIFT_MYSQL_DB_USERN
 $password = getenv('OPENSHIFT_MYSQL_DB_PASSWORD') ? getenv('OPENSHIFT_MYSQL_DB_PASSWORD') : 'password';
 $database = getenv('OPENSHIFT_APP_NAME') ? getenv('OPENSHIFT_APP_NAME') : 'AncientBeast';
 
-$link = mysqli_connect($host, $user, $password, $database)
-or die('<br>Error connecting to the MySQL server! If you\'re not running an <a href="https://www.openshift.com/" target="_blank">OpenShift</a> instance for development purposes, '
-	.'then edit the <b>config.php.in</b> file with your info and save it as <b>config.php</b><br><br><b><a href="http://AncientBeast.com">Ancient Beast Official Website</a></b>');
+$link = mysqli_connect($host, $user, $password, $database);
 ?>
