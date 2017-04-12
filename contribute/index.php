@@ -24,6 +24,8 @@
 
 $page_title = 'Contribute';
 $style = '
+.abilities .ability .wrapper { height: 104px !important; padding-left: 107px !important; }
+.abilities .icon, .contour { width: 104px !important; height: 104px !important; }
 .donate { color: #FFE873 !important; }
 .artwork { color: #FC8585 !important; }
 .coding { color: #6EDD64 !important; }
