@@ -93,5 +93,38 @@ $(function() {
 			}
 		}
 
+		var abilitiesWrapper = $(".sideB .abilities");
+		abilitiesWrapper.empty();
+		var output = "";
+		unit.ability_info.forEach(function(info, idx) {
+			// Figure out if upgradable
+			var upgrade = info["upgrade"];
+			var cost;
+
+			if (upgrade) {
+				upgrade = `<br><span class="desc" id="upgrade">Upgrade: ${upgrade}</span>`;
+			}
+
+			if (idx == 0) {
+				cost = " - this ability is passive.";
+			} else {
+				cost = ` - costs ${info.costs.energy} energy pts.`;
+			}
+
+			output += `<div class="ability">
+				<div class="icon" style="background-image: url('${siteUrl}game/deploy/units/abilities/${unit.name} ${idx}.svg');">
+					<div class="contour"></div>
+				</div>
+				<div class="wrapper">
+					<div class="info">
+						<h3><span style="text-decoration: underline;">${info.title}</span>${cost}</h3>
+						<span class="desc" id="desc">${info.desc}</span><br>
+						<span class="desc" id="info">${info.info}</span>
+						${upgrade}
+					</div>
+				</div>
+			</div>`;
+			abilitiesWrapper.html(output);
+		});
 	}
 });
