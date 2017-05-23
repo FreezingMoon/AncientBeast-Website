@@ -26,7 +26,7 @@
 // Eg: $site_root = '/' or $site_root = '/AncientBeast/'
 // Warning: You might need to use your port number too!
 // Eg: $site_root = ':8088/';
-$site_root = '/AncientBeast/'; // Warning: If you need to change this variable, do it in a duplicated file named "config.php"!
+$site_root = '/'; // Warning: If you need to change this variable, do it in a duplicated file named "config.php"!
 
 // MySQL database information is stored over here
 // Default values are http://OpenShift.com env vars
