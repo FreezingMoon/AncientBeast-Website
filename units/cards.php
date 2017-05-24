@@ -122,7 +122,15 @@ function cards($r = "", $id = -1, $modifiers = false) {
 						// Figure out if upgradable
 						if (!empty($r["ability_info"][$i]["upgrade"])) { $upgrade = '<br><span class="desc" id="upgrade">Upgrade: ' . $r["ability_info"][$i]["upgrade"] . '</span>'; }
 						// Figure out the cost
-						if ($i==0) { $cost = ' - this ability is passive.'; } else { $cost = ' - costs ' . $r["ability_info"][$i]["costs"]["energy"] . ' energy pts.'; }
+						if ($i==0) {
+							$cost = ' - this ability is passive.';
+						} else {
+							if (!empty($r["ability_info"][$i]["costs"]["energy"])) {
+								$cost = ' - costs ' . $r["ability_info"][$i]["costs"]["energy"] . ' energy pts.';
+							} else {
+								$cost = '';
+							}
+						}
 						echo '
 						<div class="ability">
 							<div class="icon" style="background-image: url(\'' . $site_url . 'game/deploy/units/abilities/' . $r["name"] . ' ' . $i . '.svg\');">

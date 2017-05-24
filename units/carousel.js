@@ -108,7 +108,11 @@ $(function() {
 			if (idx == 0) {
 				cost = " - this ability is passive.";
 			} else {
-				cost = ` - costs ${info.costs.energy} energy pts.`;
+				if (info.cost && info.costs.energy) {
+					cost = ` - costs ${info.costs.energy} energy pts.`;
+				} else {
+					cost = "";
+				}
 			}
 
 			output += `<div class="ability">
