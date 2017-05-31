@@ -103,6 +103,8 @@ $(function() {
 
 			if (upgrade) {
 				upgrade = `<br><span class="desc" id="upgrade">Upgrade: ${upgrade}</span>`;
+			} else {
+				upgrade = '';
 			}
 
 			if (idx == 0) {
