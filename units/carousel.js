@@ -23,7 +23,7 @@ $(function() {
 
 			updateCarousel();
 			updateCard(selectedUnit);
-			var title = `Ancient Beast - ${unit.name}`;
+			var title = "Ancient Beast - " + unit.name;
 			document.title = title;
 			history.pushState({}, title, "/units/?view=viewer&id=" + selectedUnit);
 
