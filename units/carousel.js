@@ -19,8 +19,19 @@ $(function() {
 		// Since the events are on DOM elements not added at runtime, we have to do this
 		$(document).on("click", ".carouselAvatar", function(e) {
 			selectedUnit = $(e.target).data("id");
+			var unit = units[selectedUnit];
+
 			updateCarousel();
 			updateCard(selectedUnit);
+			var title = `Ancient Beast - ${unit.name}`;
+			document.title = title;
+			history.pushState({}, title, "/units/?view=viewer&id=" + selectedUnit);
+
+			// call reset function for Disqus to update page comments.
+			resetDisqus(title, window.location.href, title);
+
+			e.stopPropagation();
+			e.preventDefault();
 		});
 
 	});
@@ -34,10 +45,11 @@ $(function() {
 			// Grabs a spot from the unit array
 			var index = Math.abs((units.length + selectedUnit + i) % units.length);
 			// Add in the div we'll build on
-			var unitDiv = document.createElement("div");
+			var unitDiv = document.createElement("a");
 			// Add the class and data id (index)
 			$(unitDiv).addClass("carouselAvatar");
 			$(unitDiv).data("id", index);
+			unitDiv.href = "/units/?view=viewer&id=" + index;
 			// Add in the background images
 			$(unitDiv).css("background", "url('" + siteUrl + "images/frame.png'), url('../game/deploy/units/avatars/" + units[index].name + ".jpg')");
 			// Add it to the carousel
@@ -53,6 +65,8 @@ $(function() {
 			var unitIndex = Math.abs((units.length + selectedUnit + i) % units.length);
 			// Add in the data id
 			$(this).data("id", unitIndex);
+			this.href = "/units/?view=viewer&id=" + unitIndex;
+
 			// Add in the background images
 			$(this).css("background", "url('" + siteUrl + "images/frame.png'), url('../game/deploy/units/avatars/" + units[unitIndex].name + ".jpg')");
 			i++;
