@@ -26,6 +26,10 @@ $(function() {
 			var title = `Ancient Beast - ${unit.name}`;
 			document.title = title;
 			history.pushState({}, title, "/units/?view=viewer&id=" + selectedUnit);
+
+			// call reset function for Disqus to update page comments.
+			resetDisqus(title, window.location.href, title);
+
 			e.stopPropagation();
 			e.preventDefault();
 		});
