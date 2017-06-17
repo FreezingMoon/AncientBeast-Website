@@ -61,7 +61,7 @@ $(function() {
 			var unitIndex = Math.abs((units.length + selectedUnit + i) % units.length);
 			// Add in the data id
 			$(this).data("id", unitIndex);
-			this.href = "/units/?view=viewer&id=" + index;
+			this.href = "/units/?view=viewer&id=" + unitIndex;
 
 			// Add in the background images
 			$(this).css("background", "url('" + siteUrl + "images/frame.png'), url('../game/deploy/units/avatars/" + units[unitIndex].name + ".jpg')");
