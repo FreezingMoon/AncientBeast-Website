@@ -13,26 +13,11 @@
 	<a href="https://www.patreon.com/FreezingMoon" target="_blank">
 		<img src="<?php echo $site_root; ?>images/footer/patreon.png" style="width: 48px; height: 48px;" class="lighten" alt="patreon" title="Donate via Patreon!">
 	</a>
-	<a href="https://flattr.com/thing/126547/Ancient-Beast" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/flattr.png" style="width: 48px; height: 48px;" class="lighten" alt="flattr" title="Donate via Flattr!">
-	</a>
-	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=195722359" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/steam.png" style="width: 48px; height: 48px;" class="lighten" alt="steam" title="Steam">
-	</a>
-	<a href="http://www.indiedb.com/games/ancient-beast" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/indiedb.png" style="width: 48px; height: 48px;" class="lighten" alt="indiedb" title="IndieDB">
-	</a>
-	<a href="https://gamejolt.com/games/ancient-beast/15964" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/gamejolt.png" style="width: 48px; height: 48px;" class="lighten" alt="gamejolt" title="Game Jolt">
-	</a>
 	<a href="https://facebook.com/AncientBeast" target="_blank">
 		<img src="<?php echo $site_root; ?>images/footer/facebook.png" style="width: 48px; height: 48px;" class="lighten" alt="facebook" title="Facebook">
 	</a>
 	<a href="https://twitter.com/AncientBeast" target="_blank">
 		<img src="<?php echo $site_root; ?>images/footer/twitter.png" style="width: 48px; height: 48px;" class="lighten" alt="twitter" title="Twitter">
-	</a>
-	<a href="https://plus.google.com/+AncientBeast" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/google.png" style="width: 48px; height: 48px;" class="lighten" alt="google" title="Google Plus">
 	</a>
 	<a href="https://www.youtube.com/AncientBeastGame" target="_blank">
 		<img src="<?php echo $site_root; ?>images/footer/youtube.png" style="width: 48px; height: 48px;" class="lighten" alt="youtube" title="Youtube">
@@ -48,6 +33,9 @@
 	</a>
 	<a href="https://www.reddit.com/r/AncientBeast" target="_blank">
 		<img src="<?php echo $site_root; ?>images/footer/reddit.png" style="width: 48px; height: 48px;" class="lighten" alt="reddit" title="Reddit">
+	</a>
+	<a href="https://discord.me/AncientBeast" target="_blank">
+		<img src="<?php echo $site_root; ?>images/footer/discord.png" style="width: 48px; height: 48px;" class="lighten" alt="discord" title="Discord">
 	</a>
 	<a href="mailto:DreadKnight@FreezingMoon.org?Subject=I love this project!" target="_blank">
 		<img src="<?php echo $site_root; ?>images/footer/contact.png" style="width: 48px; height: 48px;" class="lighten" alt="contact" title="Contact">

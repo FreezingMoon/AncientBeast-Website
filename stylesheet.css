@@ -75,6 +75,8 @@ img { border: none; vertical-align: bottom; }
 	padding: 5px 10px 0;
 }
 
+.footer img { padding: 0 8px; }
+
 .button {
 	background-color: transparent;
 	background-image: url(images/push_button.png);
