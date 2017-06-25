@@ -42,7 +42,7 @@ require_once("../../header.php");
 <br>
 <img src="creatures.jpg" alt="creatures" title="New playable creatures">
 <p>
-<b>5 more playable creatures.</b> Unlike chess, this project is very modular and extendable. We're aiming to add a high number of units given enough time and resources, each one being unique and serving certain purposes, like a tool. The more units out there, the more interesting the gameplay becomes, as the posibilities will increase exponentially. Ladies and gents, I introduce you to Nutcase, Nightmare, Headless, Scavenger and Cyber Hound.
+<b>5 more playable creatures.</b> Unlike chess, this project is very modular and extendable. We're aiming to add a high number of units given enough time and resources, each one being unique and serving certain purposes, like a tool. The more units out there, the more interesting the gameplay becomes, as the possibilities will increase exponentially. Ladies and gents, I introduce you to Nutcase, Nightmare, Headless, Scavenger and Cyber Hound.
 </p>
 <br>
 <img src="revamps.jpg" alt="revamps" title="Unit revamps">
@@ -174,7 +174,7 @@ All the things listed below will hopefully be worked on and fixed asap. Feel fre
 <div class="div" id="thanks">
 <h2 class="indexheader"><a href="#thanks">Special thanks</a></h2>
 <p>I wanna thank my parents and <a href="https://harumorii.deviantart.com" target="_blank">Haru</a> for all the support they offered me so far, I couldn't have made it without it!
-Also, big thanks to <a href="https://www.patreon.com/user?u=55200" target="_blank">Rob</a> for breaking the ice with our new and underground <a href="" target="_blank"><b>Patreon page</b></a>, please go check it out!</p>
+Also, big thanks to <a href="https://www.patreon.com/user?u=55200" target="_blank">Rob</a> for breaking the ice with our new and underground <a href="https://www.patreon.com/FreezingMoon" target="_blank"><b>Patreon page</b></a>, please go check it out!</p>
 <a href="https://www.patreon.com/FreezingMoon" target="_blank"><img src="Patreon.jpg" alt="Patreon" title="Support us on Patreon!"></a>
 </div>
 
