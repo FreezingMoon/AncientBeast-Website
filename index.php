@@ -63,7 +63,7 @@ require_once 'header.php';
 <p>
 <b>Ancient Beast</b> is a turn based strategy indie game project, played against other people (or bots) in hotseat or online modes, featuring a wide variety of units to acquire and put to good use in order to defeat all your opponents in battle.<br>This project was carefully designed to be easy to learn, fun to play and hard to master. We hope you'll enjoy it as well!
 </p>
-<div class="center"><a href="design"><div class="button" style="background-image: url(images/push_button.png);">Design Document</div></a></div>
+<div class="center"><a href="https://discord.me/AncientBeast" target="_blank"><div class="button" style="background-image: url(images/push_button.png);">Join Discord Server</div></a></div>
 </div>
 <div class="lighten" id="screenshot"><a href="media/?type=screenshots#id=0">
 <img src="images/thumbs/screenie1.png" class="image frame active" alt="Screenshot_1 width="400" height="225"">
