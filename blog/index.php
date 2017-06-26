@@ -23,8 +23,7 @@
  */
 
 $page_title = "Blog";
-require_once("../header.php");
-require_once("../global.php");
+require_once "../header.php";
 ?>
 
 <!-- Hightlight active page -->
@@ -34,24 +33,24 @@ require_once("../global.php");
 if there's a GET link variable, it should gather that and display that article only; this whole thing is to automise the blog and remove manual work and template redundancy -->
 <div class="center" id="focus">
 	<div style="display: inline-block;" class="lighten">
-		<a href="2017-03-15"><img src="2017-03-15/thumb.jpg" class="frame"><br>
-		<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Version 0.3 Released</div></a>
+		<a href="2017-03-15"><img src="2017-03-15/thumb.jpg" class="frame frame-top">
+		<div class="frame frame-bottom">Version 0.3 Released</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
-		<a href="2016-02-1"><img src="2016-02-1/thumb.jpg" class="frame"><br>
-		<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">We Are Hiring A Coder</div></a>
+		<a href="2016-02-1"><img src="2016-02-1/thumb.jpg" class="frame frame-top">
+		<div class="frame frame-bottom">We Are Hiring A Coder</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
-		<a href="2013-06-15"><img src="2013-06-15/thumb.jpg" class="frame"><br>
-		<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Version 0.2 Released</div></a>
+		<a href="2013-06-15"><img src="2013-06-15/thumb.jpg" class="frame frame-top">
+		<div class="frame frame-bottom">Version 0.2 Released</div></a>
 	</div>
 	</div>
 </div>
 
 <div>
 	<div style="display: inline-block;" class="lighten">
-		<a href="2012-12-12"><img src="2012-12-12/thumb.jpg" class="frame"><br>
-		<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Version 0.1 Released</div></a>
+		<a href="2012-12-12"><img src="2012-12-12/thumb.jpg" class="frame frame-top">
+		<div class="frame frame-bottom">Version 0.1 Released</div></a>
 	</div>
 </center>
 
@@ -60,5 +59,5 @@ include('subscribe.php');
 include('../footer.php');
 ?>
 
-<!-- Focus on content when clicking the navigation button again -->
+<!-- Focus on content when clicking subpage again -->
 <script>document.getElementById("<?php echo $page_title; ?>").href += "#focus";</script>

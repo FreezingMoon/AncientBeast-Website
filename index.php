@@ -44,16 +44,16 @@ require_once 'header.php';
 <div class="center">
 	<!-- Featured Blog Article -->
 	<div style="display: inline-block;" class="lighten">
-		<a href="blog/2017-03-15"><img src="blog/2017-03-15/thumb.jpg" class="frame"><br>
-		<div class="button" style="background-image: url(images/push_button.png);">Version 0.3 Released</div></a>
+		<a href="blog/2017-03-15"><img src="blog/2017-03-15/thumb.jpg" alt="News" class="frame frame-top">
+		<div class="frame frame-bottom">Version 0.3 Released</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
-		<a href="https://play.AncientBeast.com"><img src="images/squares/play.jpg"  alt="Play" class="frame" width="290"; height="290"><br>
-		<div class="button" style="background-image: url(images/push_button.png);">Play the Game for Free</div></a>
+		<a href="https://play.AncientBeast.com"><img src="images/squares/play.jpg" alt="Play" class="frame frame-top">
+		<div class="frame frame-bottom">Play the Game for Free</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
-		<a href="contribute"><img src="images/squares/contribute.jpg" alt="Contribute" class="frame" width="290"; height="290"><br>
-		<div class="button" style="background-image: url(images/push_button.png);">Make Your Contribution</div></a>
+		<a href="contribute"><img src="images/squares/contribute.jpg" alt="Contribute" class="frame frame-top">
+		<div class="frame frame-bottom">Make Your Contribution</div></a>
 	</div>
 </div>
 

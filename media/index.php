@@ -30,7 +30,7 @@ $style = '
 .screenies { width: 285px; margin: 5px; }
 .wallpapers { width: 435px; margin: 5px; }
 ';
-require_once("../header.php");
+require_once "../header.php";
 
 // Display list of subpages
 $sections = array(
@@ -68,28 +68,28 @@ switch($type) {
 		?>
 		<div class="center">
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=artwork"><img src="<?php echo $site_root; ?>images/squares/artwork.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Browse Official Artwork</div></a>
+				<a href="?type=artwork"><img src="<?php echo $site_root; ?>images/squares/artwork.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Browse Official Artwork</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=fanart"><img src="<?php echo $site_root; ?>images/squares/fanart.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png); ;">View Selected Fanart</div></a>
+				<a href="?type=fanart"><img src="<?php echo $site_root; ?>images/squares/fanart.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">View Selected Fanart</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=screenshots"><img src="<?php echo $site_root; ?>images/squares/screenshots.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Gameplay Screenshots</div></a>
+				<a href="?type=screenshots"><img src="<?php echo $site_root; ?>images/squares/screenshots.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Gameplay Screenshots</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=wallpapers"><img src="<?php echo $site_root; ?>images/squares/wallpapers.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png); ;">Pick Desktop Wallpaper</div></a>
+				<a href="?type=wallpapers"><img src="<?php echo $site_root; ?>images/squares/wallpapers.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Pick Desktop Wallpaper</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=videos"><img src="<?php echo $site_root; ?>images/squares/videos.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Watch Project Videos</div></a>
+				<a href="?type=videos"><img src="<?php echo $site_root; ?>images/squares/videos.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Watch Project Videos</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=music"><img src="<?php echo $site_root; ?>images/squares/music.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Listen To Music</div></a>
+				<a href="?type=music"><img src="<?php echo $site_root; ?>images/squares/music.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Listen To Music</div></a>
 			</div>
 		</div>
 		<?php
@@ -162,11 +162,11 @@ switch($type) {
 	case 'videos':
 		?>
 		<div class="div center">
-		<iframe width="880" height="495" src="http://www.youtube.com/embed/videoseries?list=PLC179DAED0274E304" frameborder="0" allowfullscreen></iframe></div>
+		<iframe frame-top width="880" height="495" src="http://www.youtube.com/embed/videoseries?list=PLC179DAED0274E304" frame frame-topborder="0" allowfullscreen></iframe frame-top></div>
 		<div class="div center" id="gameplay">
-		<iframe width="880" height="495" src="http://www.youtube.com/embed/videoseries?list=PLADfTwuzK0YQG6rKWImoeKlpVZy9dj_XI" frameborder="0" allowfullscreen></iframe></div>
+		<iframe frame-top width="880" height="495" src="http://www.youtube.com/embed/videoseries?list=PLADfTwuzK0YQG6rKWImoeKlpVZy9dj_XI" frame frame-topborder="0" allowfullscreen></iframe frame-top></div>
 		<div class="div center" id="clips">
-		<iframe width="880" height="495" src="//www.youtube.com/embed/videoseries?list=PLADfTwuzK0YR-qoT0Dy6o3AGAoNCq1Y3R" frameborder="0" allowfullscreen></iframe></div>
+		<iframe frame-top width="880" height="495" src="//www.youtube.com/embed/videoseries?list=PLADfTwuzK0YR-qoT0Dy6o3AGAoNCq1Y3R" frame frame-topborder="0" allowfullscreen></iframe frame-top></div>
 		<?php break;
 
 	case 'music':
@@ -183,7 +183,7 @@ switch($type) {
 		foreach($media as $file){
 			$title = substr($file, 0, -4);
 			$file = str_replace(' ', '%20', $file);
-			if($title!="") echo '<li class=""><a href="' . $site_url . 'game/deploy/music/' . $file . '">' . $title . '</a></li>';
+			if($title!="") echo '<li><a href="' . $site_url . 'game/deploy/music/' . $file . '">' . $title . '</a></li>';
 			$i++;
 		} ?>
 		</ul>

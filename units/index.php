@@ -73,28 +73,28 @@ switch ($view) {
 		?>
 		<div class="center">
 			<div style="display: inline-block;" class="lighten">
-				<a href="?view=viewer"><img src="<?php echo $site_root; ?>images/squares/viewer<?php echo rand(1, 2); ?>.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Unit Cards Viewer</div></a>
+				<a href="?view=viewer"><img src="<?php echo $site_root; ?>images/squares/viewer<?php echo rand(1, 2); ?>.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Unit Cards Viewer</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?view=sets"><img src="<?php echo $site_root; ?>images/squares/sets.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Complete Grid Sets</div></a>
+				<a href="?view=sets"><img src="<?php echo $site_root; ?>images/squares/sets.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Complete Grid Sets</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?view=table"><img src="<?php echo $site_root; ?>images/squares/table.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Stats Comparison Table</div></a>
+				<a href="?view=table"><img src="<?php echo $site_root; ?>images/squares/table.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Stats Comparison Table</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?view=widget"><img src="<?php echo $site_root; ?>images/squares/widget.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">3D Models Widget</div></a>
+				<a href="?view=widget"><img src="<?php echo $site_root; ?>images/squares/widget.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">3D Models Widget</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?view=dwellings"><img src="<?php echo $site_root; ?>images/squares/dwellings.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Realms And Dwellings</div></a>
+				<a href="?view=dwellings"><img src="<?php echo $site_root; ?>images/squares/dwellings.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Realms And Dwellings</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?view=metrics"><img src="<?php echo $site_root; ?>images/squares/metrics.jpg" class="frame"><br>
-				<div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">Online Usage Metrics</div></a>
+				<a href="?view=metrics"><img src="<?php echo $site_root; ?>images/squares/metrics.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Online Usage Metrics</div></a>
 			</div>
 		</div>
 		<?php
