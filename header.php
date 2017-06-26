@@ -83,7 +83,7 @@ if(isset($_GET['action']) == 'logout') {
 <!-- Navigation Menu -->
 <nav><table style="font-size: 18px; font-weight: bold; margin: 0; padding: 0; margin-left: auto; margin-right: auto; text-align: center;"><tr>
 <?php
-  $menu = array('units', 'media', 'shop', 'play', 'blog', 'chat');
+  $menu = array('lore', 'media', 'shop', 'play', 'blog', 'units');
   foreach ($menu as &$menuItem) {
     echo '<td>
       <a href="' . $site_root . $menuItem . '/" id="' . ucfirst($menuItem) . '" style="display:block;" class="lighten">

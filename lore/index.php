@@ -18,8 +18,6 @@ $sections = array(
 	'kingdom'
 );
 ?>
-<!-- Warning: Work in progress! -->
-<div class="center warning">The game design documentation is currently a very rough early draft and it requires a few more writing sessions.</div>
 
 <nav class="div center" id="navigation"><ul class="sections">
 
