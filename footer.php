@@ -11,34 +11,34 @@
 		<img src="<?php echo $site_root; ?>images/footer/bountysource.png" style="width: 48px; height: 48px;" class="lighten" alt="bountysource" title="Place some bounties!">
 	</a>
 	<a href="https://www.patreon.com/FreezingMoon" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/patreon.png" style="width: 48px; height: 48px;" class="lighten" alt="patreon" title="Donate via Patreon!">
+		<img src="<?php echo $site_root; ?>images/footer/patreon.png" style="width: 48px; height: 48px;" class="lighten" alt="patreon" title="Pledge to our Patreon campaign!">
 	</a>
 	<a href="https://facebook.com/AncientBeast" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/facebook.png" style="width: 48px; height: 48px;" class="lighten" alt="facebook" title="Facebook">
+		<img src="<?php echo $site_root; ?>images/footer/facebook.png" style="width: 48px; height: 48px;" class="lighten" alt="facebook" title="Give us a like on Facebook!">
 	</a>
 	<a href="https://twitter.com/AncientBeast" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/twitter.png" style="width: 48px; height: 48px;" class="lighten" alt="twitter" title="Twitter">
+		<img src="<?php echo $site_root; ?>images/footer/twitter.png" style="width: 48px; height: 48px;" class="lighten" alt="twitter" title="Follow us on Twitter!">
 	</a>
 	<a href="https://www.youtube.com/AncientBeastGame" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/youtube.png" style="width: 48px; height: 48px;" class="lighten" alt="youtube" title="Youtube">
+		<img src="<?php echo $site_root; ?>images/footer/youtube.png" style="width: 48px; height: 48px;" class="lighten" alt="youtube" title="Subscribe to our Youtube channel!">
 	</a>
 	<a href="https://github.com/FreezingMoon/AncientBeast" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/github.png" style="width: 48px; height: 48px;" class="lighten" alt="github" title="Github">
+		<img src="<?php echo $site_root; ?>images/footer/github.png" style="width: 48px; height: 48px;" class="lighten" alt="github" title="Check our Github project page!">
 	</a>
 	<a href="https://mega.co.nz/#F!GAJAjAzL!AhBUayQndZbH_j2IL2B-nA" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/mega.png" style="width: 48px; height: 48px;" class="lighten" alt="mega" title="Mega">
+		<img src="<?php echo $site_root; ?>images/footer/mega.png" style="width: 48px; height: 48px;" class="lighten" alt="mega" title="Browse our free assets on Mega!">
 	</a>
 	<a href="https://Ancient-Beast.deviantart.com" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/deviantart.png" style="width: 48px; height: 48px;" class="lighten" alt="deviantart" title="deviantArt">
+		<img src="<?php echo $site_root; ?>images/footer/deviantart.png" style="width: 48px; height: 48px;" class="lighten" alt="deviantart" title="Join our deviantArt group!">
 	</a>
 	<a href="https://www.reddit.com/r/AncientBeast" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/reddit.png" style="width: 48px; height: 48px;" class="lighten" alt="reddit" title="Reddit">
+		<img src="<?php echo $site_root; ?>images/footer/reddit.png" style="width: 48px; height: 48px;" class="lighten" alt="reddit" title="Subscribe to our Reddit!">
 	</a>
 	<a href="https://discord.me/AncientBeast" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/discord.png" style="width: 48px; height: 48px;" class="lighten" alt="discord" title="Discord">
+		<img src="<?php echo $site_root; ?>images/footer/discord.png" style="width: 48px; height: 48px;" class="lighten" alt="discord" title="Join our Discord server!">
 	</a>
 	<a href="mailto:DreadKnight@FreezingMoon.org?Subject=I love this project!" target="_blank">
-		<img src="<?php echo $site_root; ?>images/footer/contact.png" style="width: 48px; height: 48px;" class="lighten" alt="contact" title="Contact">
+		<img src="<?php echo $site_root; ?>images/footer/contact.png" style="width: 48px; height: 48px;" class="lighten" alt="contact" title="Send us an e-mail!">
 	</a>
 </div>
 </body>
