@@ -190,7 +190,7 @@ Any amount you can donate is very appreciated, thank you!<br>
 <h3 class="indexheader"><a href="#artwork">Artwork</a></h3>
 <p>
 Perhaps it's not money you want to contribute, but rather spend some time and energy while putting your pen and brush to some good use in order to create more visual content for the project or simply having fun drawing fan art of already existing creatures? If you have something lying around and you think it could nicely fit the game while under the same <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank"><b>CC-BY-SA 3.0</b></a> license, feel free to send it our way!<br>
-If you want a task assigned, simply drop by our <a href="https://discord.me/AncientBeast" target="_blank"><b>chat room</b></a> and poke <i>DreadKnight</i>, the project's founder, he'll brief you.
+If you want a task assigned, simply drop by our <a href="https://discord.me/AncientBeast" target="_blank"><b>Discord chat</b></a> and poke <i>DreadKnight</i>, the project's founder, he'll brief you.
 </p><p>
 Several ways you can help out using with your artistic skills:<br>
 <p><b>Draw playable creatures or characters</b><br>
@@ -263,7 +263,7 @@ We can always use an extra hand or two when it comes to polishing and adding new
 It is also open source, you can find the repository on <a href="https://github.com/photonstorm/phaser" target="_blank"><b>Github</b></a>.
 </p><p>
 Check out this <a href="https://github.com/FreezingMoon/AncientBeast/blob/master/CONTRIBUTING.md#readme" target="_blank"><b>guide</b></a> about how to set up the project locally.
-If you want a task assigned, simply drop by our <a href="https://discord.me/AncientBeast" target="_blank"><b>chat room</b></a> and poke <i>DreadKnight</i>, the project's founder, he'll brief you.<br>
+If you want a task assigned, simply drop by our <a href="https://discord.me/AncientBeast" target="_blank"><b>Discord chat</b></a> and poke <i>DreadKnight</i>, the project's founder, he'll brief you.<br>
 Sometimes even reviewing or talking code can greatly help.
 </p>
 <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank"><img src="http://img.shields.io/badge/license-AGPL3.0-green.svg" class="lighten"></a>
@@ -314,7 +314,7 @@ Here are some playlists that include non-combat tracks:
 <a href="https://www.youtube.com/watch?v=iKGrzdwyW-M&list=PL570FD020D275457E" target="_blank"><b>Extra playlist: King's Bounty: The Legend</b></a><br>
 <a href="https://www.youtube.com/watch?v=tnNowmSdP1c&list=PL5052849DDF6C95A6" target="_blank"><b>Extra playlist: King's Bounty: Armored Princess</b></a><br>
 </p><p>
-If you make any sample tracks, it would be ideal to have them uploaded to <a href="https://SoundCloud.com" target="_blank"><b>SoundCloud</b></a> and share their links in our <a href="https://discord.me/AncientBeast" target="_blank"><b>chatroom</b></a> to receive some feedback from <a href="https://github.com/DreadKnight" target="_blank"><b>Dread Knight</b></a> before proceeding, making sure you are on the right track ;-)
+If you make any sample tracks, it would be ideal to have them uploaded to <a href="https://SoundCloud.com" target="_blank"><b>SoundCloud</b></a> and share their links in our <a href="https://discord.me/AncientBeast" target="_blank"><b>Discord chat</b></a> to receive some feedback from <a href="https://github.com/DreadKnight" target="_blank"><b>Dread Knight</b></a> before proceeding, making sure you are on the right track ;-)
 </p>
 </div>
 
@@ -336,7 +336,7 @@ If you make any sample tracks, it would be ideal to have them uploaded to <a hre
 <h3 class="indexheader"><a href="#support">Support</a></h3>
 <p>
 No moneys and no coding or artistic skills? No worries, you can still help out by being part of the community, testing out the game and reporting issues, brainstorming and spreading out the word as our marketing budget is pretty much non-existend, so we rely on you for that! Feedback and boosting the numbers are always nice, as they can also boost up morale and reassure us we're on the proper path.
-Click on the icons below and join our various project groups. You can also hang out with us in our own project <a href="https://discord.me/AncientBeast" target="_blank"><b>chat room</b></a>.
+Click on the icons below and join our various project groups. You can hang out with us in our own project's  <a href="https://discord.me/AncientBeast" target="_blank"><b>Discord chat</b></a>.
 </p>
 </div>
 <div style="display: inline-block;" class="center"><img src="together.jpg" class="image"></div>
