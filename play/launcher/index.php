@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width">
-	    
+
 		<title>Ancient Beast</title>
 		<meta name="description" content="Ancient Beast is a turn based strategy indie game project.">
 
@@ -25,7 +25,9 @@
 			position: relative;
 			padding-top: 7px;
 			z-index: 2;
+			user-select: none;
 		}
+
 		a {
 			text-decoration: none;
 			font-weight: bold !important;
