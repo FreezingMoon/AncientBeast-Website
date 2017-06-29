@@ -26,7 +26,8 @@ require_once "../images/stats/index.php"; ?>
 
 <script>
 function CallCreature() {
-	var thisSound = $(".sideA audio");
+	// Find the previous audio tag sibling.
+	var thisSound = $(event.target).prev("audio");
 
 	if (thisSound.length > 0) {
 		thisSound = thisSound[0];
