@@ -63,12 +63,12 @@ ga('send', 'pageview');
 <body>
 <?php
 if(isset($_SESSION['id'])) { ?>
-<span class="account" style="margin-left: -423px;"><a href="<?php echo $site_root; ?>account" id="Account">Account</a></span>
+<span class="account" style="margin-left: -423px;"><a href="<?php echo $site_root; ?>account/" id="Account">Account</a></span>
 <span class="account" style="margin-left: 359px;"><a href="<?php echo $site_root; ?>index.php?action=logout">Logout</a></span>
 
 <?php } else { ?>
-<span class="account" style="margin-left: -423px;"><a href="<?php echo $site_root; ?>account/register" id="Register" class="alpha">Register</a></span>
-<span class="account" style="margin-left: 366px;"><a href="<?php echo $site_root; ?>account/login" id="Login" class="alpha">Login</a></span>
+<span class="account" style="margin-left: -423px;"><a href="<?php echo $site_root; ?>account/register/" id="Register" class="alpha">Register</a></span>
+<span class="account" style="margin-left: 366px;"><a href="<?php echo $site_root; ?>account/login/" id="Login" class="alpha">Login</a></span>
 <?php }
 if(isset($_GET['action']) == 'logout') {
 	session_destroy();
