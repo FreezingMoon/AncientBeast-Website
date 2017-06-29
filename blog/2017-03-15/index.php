@@ -40,17 +40,17 @@ require_once("../../header.php");
 <div class="div" id="game">
 <h2 class="indexheader"><a href="#game">Game changes</a></h2>
 <br>
-<img src="creatures.jpg" alt="creatures" title="New playable creatures">
+<img src="./creatures.jpg" alt="creatures" title="New playable creatures">
 <p>
 <b>5 more playable creatures.</b> Unlike chess, this project is very modular and extendable. We're aiming to add a high number of units given enough time and resources, each one being unique and serving certain purposes, like a tool. The more units out there, the more interesting the gameplay becomes, as the possibilities will increase exponentially. Ladies and gents, I introduce you to Nutcase, Nightmare, Headless, Scavenger and Cyber Hound.
 </p>
 <br>
-<img src="revamps.jpg" alt="revamps" title="Unit revamps">
+<img src="./revamps.jpg" alt="revamps" title="Unit revamps">
 <p>
 <b>Big revamps for all previous units.</b> When you look at a unit, you should pretty much instantly be able to tell what's it capable overall. I consider this one of the key elements for a good design for such a game. Some unit abilities got revamped even 5 times, until I felt they're intuitive, have good synergy with the other ones and also have strategic value that really enriches the gameplay.
 </p>
 <br>
-<a href="<?php echo $site_root; ?>units/?view=viewer#focus" target="_blank"><img src="upgrades.jpg" alt="upgrades" title="All unit abilities can be upgraded now!"></a>
+<a href="<?php echo $site_root; ?>units/?view=viewer#focus" target="_blank"><img src="./upgrades.jpg" alt="upgrades" title="All unit abilities can be upgraded now!"></a>
 <p>
 <b>Added unit ability upgrades.</b> This is an awesome feature that really takes the gameplay to a whole new level, rewarding players that manage to keep a unit alive long enough to unlock its potential. Passive abilities tend to get upgraded after a number of rounds, while active ones after a number of uses, having extra stomping power or functionality that comes in handy. Also, this feature makes things more interesting when you get to see multiple units of the same type as the same time on the combat field, as each might specialize in different attacks or abilities first. While this wasn't a MVP thing (minimum viable product), I thought I would prioritize this as it requires a lot of thinking and balancing to get right. Other gaming companies would had probably added this as a paid expansion way later on, this is how the industry usually works, DLC's on top of even more DLC's.
 </p>
@@ -68,12 +68,12 @@ require_once("../../header.php");
 <b>Functional endurance and fatigue.</b> Some units replenish more health and energy then others, but some are more consistent in doing so by having a higher endurance, meaning they can take more damage until becoming fatigued, which would cancel their regrowth and meditation for that turn. This adds a lot more to the strategy.
 </p>
 <br>
-<img src="waveform.jpg" alt="waveform" title="Gilded Maiden's shout waveform">
+<img src="./waveform.jpg" alt="waveform" title="Gilded Maiden's shout waveform">
 <p>
 <b>Unit names shouted when materialized.</b> It's easier to learn how the units are called, by constantly hearing them getting introduced when materialized on the combat field each match you play or watch. Know your team!
 </p>
 <br>
-<img src="drops.jpg" alt="drops" title="Pick them up!">
+<img src="./drops.jpg" alt="drops" title="Pick them up!">
 <p>
 <b>Item drops from killed units.</b> Pick them up to instantly restore a small amount of health and/or energy. Yummy!
 </p>
@@ -94,12 +94,12 @@ require_once("../../header.php");
 <b>Non-obstructive mini-tutorial.</b> Players can optionally check out some very useful tips on how to get started.
 </p>
 <br>
-<img src="improvements.jpg" alt="improvements" title="Dashed hexagons and cancel cursor">
+<img src="./improvements.jpg" alt="improvements" title="Dashed hexagons and cancel cursor">
 <p>
 <b>Improved unit grid behavior.</b> More hexagon types are used in order to differentiate between various states.
 </p>
 <br>
-<img src="enhancements.jpg" alt="enhancements" title="Queue info and grid coordinates">
+<img src="./enhancements.jpg" alt="enhancements" title="Queue info and grid coordinates">
 <p>
 <b>Many usability enhancements.</b> You can switch between usable abilities with the mouse screen wheel or cancel when clicking outside the abilitie's targeting area, which will show a different type of cursor now. The unit queue displays more info under each unit and hovering an avatar will evidentiate that unit, so you can locate it easier. Also, hovering over the round marker will show the coordinates of all the hexagons, helping out strategy talks.
 </p>
@@ -112,7 +112,7 @@ require_once("../../header.php");
 <b>Removed the PHP dependency.</b> Setting up a local copy of the game to play offline, test or patch is simpler now.
 </p>
 <br>
-<a href="https://phaser.io" target="_blank"><img src="Phaser.jpg" alt="Phaser" title="Phaser game engine"></a>
+<a href="https://phaser.io" target="_blank"><img src="./Phaser.jpg" alt="Phaser" title="Phaser game engine"></a>
 <p>
 <b>Updated Phaser game engine.</b> We've updated our game engine, <a href="http://phaser.io" target="_blank">Phaser</a>, one major version, from 1.1.3 all the way to 2.3.0, which packs more features and performs better, as quite a few bugs have been fixed along the way and the rendering engine used, <a href="http://www.pixijs.com" target="_blank">Pixi.js</a> was also updated in the process, which is faster, supporting more devices.
 </p>
@@ -166,7 +166,7 @@ All the things listed below will hopefully be worked on and fixed asap. Feel fre
 
 <p>My old and faithful smartphone broke recently, my Wacom died, my hard drives are dying, I got no steady income (if any at all) and even the chair I'm sitting on is broken, so I'm constantly falling when I'm trying to sit at my desk to get some work done. Also, even if the project is open source, it still requires someone to get paid in order to maintain the codebase and do all the dirty work nobody wants to do. Please consider donating via <a href="https://www.patreon.com/FreezingMoon" target="_blank"><b>Patreon</b></a>, <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CJF8R55CJE9R4" target="_blank"><b>Paypal</b></a> or <a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast"><b>Bitcoin</b></a>, or getting involved in other ways but only if you're serious about it! It's really awful when people waste my time wanting to contribute and then vanishing or slacking even before properly finishing the first patch or drawing. It's very depressing, time consuming and energy draining. Open source is great when dealing with passionate people that can be self motivated but most people quit after the first road bump.</p>
 
-<a href="<?php echo $site_root;?>contribute" target="_blank"><img src="contribute.jpg" alt="contribute" title="Your support is needed!"></a>
+<a href="<?php echo $site_root;?>contribute" target="_blank"><img src="./contribute.jpg" alt="contribute" title="Your support is needed!"></a>
 
 <p><b>Future plans.</b> Will try to release another version in the next few months, fixing quite a few important bugs, revamping some of the current abilities, adding 3 more playable creatures, improving some of the existing artwork, 1-2 more combat locations and sound effects for all the existing abilities and actions in the game.</p>
 </div>
@@ -175,7 +175,7 @@ All the things listed below will hopefully be worked on and fixed asap. Feel fre
 <h2 class="indexheader"><a href="#thanks">Special thanks</a></h2>
 <p>I wanna thank my parents and <a href="https://harumorii.deviantart.com" target="_blank">Haru</a> for all the support they offered me so far, I couldn't have made it without it!
 Also, big thanks to <a href="https://www.patreon.com/user?u=55200" target="_blank">Rob</a> for breaking the ice with our new and underground <a href="https://www.patreon.com/FreezingMoon" target="_blank"><b>Patreon page</b></a>, please go check it out!</p>
-<a href="https://www.patreon.com/FreezingMoon" target="_blank"><img src="Patreon.jpg" alt="Patreon" title="Support us on Patreon!"></a>
+<a href="https://www.patreon.com/FreezingMoon" target="_blank"><img src="./Patreon.jpg" alt="Patreon" title="Support us on Patreon!"></a>
 </div>
 
 <?php
@@ -200,7 +200,7 @@ $(document).ready(function() {
 			history.replaceState("", "", basePage);
 		}
 	});
-	
+
 	if (/[\#&]id=(\d+)/.test(location.hash))
 		$("#img" + RegExp.$1).trigger("click");
 });

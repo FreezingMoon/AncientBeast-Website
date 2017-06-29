@@ -33,15 +33,15 @@ require_once "../header.php";
 if there's a GET link variable, it should gather that and display that article only; this whole thing is to automise the blog and remove manual work and template redundancy -->
 <div class="center" id="focus">
 	<div style="display: inline-block;" class="lighten">
-		<a href="2017-03-15"><img src="2017-03-15/thumb.jpg" class="frame frame-top">
+		<a href="2017-03-15/"><img src="2017-03-15/thumb.jpg" class="frame frame-top">
 		<div class="frame frame-bottom">Version 0.3 Released</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
-		<a href="2016-02-1"><img src="2016-02-1/thumb.jpg" class="frame frame-top">
+		<a href="2016-02-1/"><img src="2016-02-1/thumb.jpg" class="frame frame-top">
 		<div class="frame frame-bottom">We Are Hiring A Coder</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
-		<a href="2013-06-15"><img src="2013-06-15/thumb.jpg" class="frame frame-top">
+		<a href="2013-06-15/"><img src="2013-06-15/thumb.jpg" class="frame frame-top">
 		<div class="frame frame-bottom">Version 0.2 Released</div></a>
 	</div>
 	</div>
@@ -49,7 +49,7 @@ if there's a GET link variable, it should gather that and display that article o
 
 <div>
 	<div style="display: inline-block;" class="lighten">
-		<a href="2012-12-12"><img src="2012-12-12/thumb.jpg" class="frame frame-top">
+		<a href="2012-12-12/"><img src="2012-12-12/thumb.jpg" class="frame frame-top">
 		<div class="frame frame-bottom">Version 0.1 Released</div></a>
 	</div>
 </center>
