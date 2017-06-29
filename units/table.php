@@ -64,7 +64,7 @@ $(function() {
 				$r['realm'],
 				$r['size'],
 				// sum the values in the array, divide by number of items and add a % sign.
-				array_sum($r['progress']) / sizeof($r['progress']) . '%'
+				array_sum($r['progress']) / sizeof($r['progress'])
 			];
 			$stats = $r['stats'];
 			$columns = array_merge($columns, $stats);
