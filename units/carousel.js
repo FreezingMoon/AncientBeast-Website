@@ -1,7 +1,15 @@
 $(function() {
 	// Establish a globally exposed namespace.
 	window.ABCarousel = window.ABCarousel || {};
+	// This will hold the JSON array of all units
+	var units;
+	// Total items in the carousel (needs to be odd)
+	var carouselLength = 7;
+	// Essentially, the amount on each side after you remove the middle
+	var modValue = (carouselLength - 1) / 2;
+
 	ABCarousel.updatePageDetails = function(id) {
+		var unit = units[id];
 		var title = "Ancient Beast - " + unit.name;
 		document.title = title;
 		history.pushState({}, title, "/units/?view=viewer&id=" + id);
@@ -21,13 +29,6 @@ $(function() {
 		e.stopPropagation();
 		e.preventDefault();
 	}
-
-	// This will hold the JSON array of all units
-	var units;
-	// Total items in the carousel (needs to be odd)
-	var carouselLength = 7;
-	// Essentially, the amount on each side after you remove the middle
-	var modValue = (carouselLength - 1) / 2;
 
 	// Get the units data as an array
 	$.getJSON("../game/deploy/units/data.json", function(results) {

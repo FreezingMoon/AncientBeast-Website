@@ -1,12 +1,12 @@
 <?php
 function creatureGrid($creature_results = false) {
-	global $site_root; // From config.php
-	
+	global $site_root; // From config.php.in or config.php
+
 	// If result is empty do a query
 	if ($creature_results == false) {
 		$creature_results = get_creatures();
 	}
-	
+
 echo '<style type="text/css">';
 	//TODO: Parse units in a better way, using set/realm/level data.json variables
 	foreach ($creature_results as $r) {
@@ -22,7 +22,7 @@ echo '<style type="text/css">';
 		}
 		$underscore = str_replace(' ', '_', $r['name']);
 		echo '<a href="#' . $underscore . '" class="vignette realm' . $r['realm'] . ' type' . $r['realm'] . $r['level'] . '" creature="' . $r['realm'] . $r['level'] . '"><div class="tooltip"><div class="content">' . $r['name'] . '</div></div><div class="overlay"></div><div class="border"></div></a>';
-	} 
+	}
 	echo '</div>';
 }
 ?>

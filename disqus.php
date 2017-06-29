@@ -16,6 +16,14 @@
     })();
     /* * * Disqus Reset Function * * */
     var resetDisqus = function(newIdentifier, newUrl, newTitle, newLanguage) {
+				if (!window.DISQUS) {
+					// Nasty hack to get around PHP + JS rendering conflicts.
+					setTimeout(function() {
+						resetDisqus(newIdentifier, newUrl, newTitle, newLanguage);
+					}, 250);
+					return;
+				}
+
         DISQUS.reset({
             reload: true,
             config: function () {
