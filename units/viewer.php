@@ -9,14 +9,18 @@ $id = isset($_GET['id']) ? $_GET['id'] : $random;
 // Calculate the total number of existing units
 $total_units = count($creature_results);
 
-// Make sure random id is within range or that the passed in $id is in range.
-while($id == $random || !in_array($id, $creature_results) {
+// Select random id
+if ($id == $random) {
+	$id = rand(1, $total_units);
+}
+
+while (!array_key_exists($id, $creature_results)) {
 	$id = rand(1, $total_units);
 }
 ?>
 <script>
 	var selectedUnit = <?php echo $id; ?>;
-	var siteUrl = "<?php echo $site_url; ?>";
+	var siteUrl = "<?php echo $site_root; ?>";
 </script>
 <script type="text/javascript" src="carousel.js"></script>
 
@@ -41,12 +45,19 @@ if ($r) {
 	// TODO: Add card flip eyecandy animation
 	echo '</div>';
 	// TODO: Fix Disqus page title
-	disqus($page_title);
-	}
 }
 
-// TODO: Show unit drop along with its modifiers
-echo "</div>";
 disqus($page_title);
+
+// TODO: Show unit drop along with its modifiers
 ?>
-<script>ABCarousel.updatePageDetails(<?php echo $id; ?>);</script>
+<script>
+	// Nasty hack to deal with PHP AND JS wanting to render stuff.
+	var oneTimeFunction = function() {
+		if (ABCarousel) {
+ 			ABCarousel.updatePageDetails(<?php echo $id; ?>);
+			clearInterval(oneTimeThis);
+		}
+	};
+	var oneTimeThis = setTimeout(oneTimeFunction, 250);
+</script>
