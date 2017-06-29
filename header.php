@@ -72,7 +72,7 @@ if(isset($_SESSION['id'])) { ?>
 <?php }
 if(isset($_GET['action']) == 'logout') {
 	session_destroy();
-	echo '<meta http-equiv="refresh" content="1; url=' . $site_url . '">';
+	echo '<meta http-equiv="refresh" content="1; url=' . $site_root . '">';
  }
 ?>
 

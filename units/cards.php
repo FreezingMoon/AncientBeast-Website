@@ -57,7 +57,7 @@ jQuery(document).ready(function() {
 <?php
 // Create the unit cards
 function cards($r = "", $id = -1, $modifiers = false) {
-	global $site_url; // From global.php
+	global $site_root; // From config.php.in or config.php
 	global $stats;
 
 	if ($id != -1 && !is_array($r)) {
@@ -75,7 +75,7 @@ function cards($r = "", $id = -1, $modifiers = false) {
 	// Side A
 ?>
 	<div class="center" style="display: inline-block; vertical-align: top;">
-		<div class="card sideA" style="background-image: url('<?php echo $site_url; ?>images/cards/margin.png'), url('<?php echo $site_url; ?>game/deploy/units/artwork/<?php echo $r['name']; ?>.jpg');">
+		<div class="card sideA" style="background-image: url('<?php echo $site_root; ?>images/cards/margin.png'), url('<?php echo $site_root; ?>game/deploy/units/artwork/<?php echo $r['name']; ?>.jpg');">
 
 			<!-- On hover mini tutorial -->
 			<div class="card_info stats_desc"><br>
@@ -109,7 +109,7 @@ function cards($r = "", $id = -1, $modifiers = false) {
 
 		// Side B
 		echo '
-		<div class="card sideB" style="background-image: url(' . $site_url . 'images/cards/margin.png), url(' . $site_url . 'images/cards/' . $r['realm'] . '.jpg);">
+		<div class="card sideB" style="background-image: url(' . $site_root . 'images/cards/margin.png), url(' . $site_root . 'images/cards/' . $r['realm'] . '.jpg);">
 				<div class="section numbers stats">';
 					// Display Stats
 					$i=1;
@@ -138,7 +138,7 @@ function cards($r = "", $id = -1, $modifiers = false) {
 						}
 						echo '
 						<div class="ability">
-							<div class="icon" style="background-image: url(\'' . $site_url . 'game/deploy/units/abilities/' . $r["name"] . ' ' . $i . '.svg\');">
+							<div class="icon" style="background-image: url(\'' . $site_root . 'game/deploy/units/abilities/' . $r["name"] . ' ' . $i . '.svg\');">
 								<div class="contour"></div>
 							</div>
 							<div class="wrapper">

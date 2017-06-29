@@ -38,7 +38,7 @@ if(isset($_POST['submit']) && $_POST['submit'] != "") {
 
 	if($worked['password'] == $password) {
     	$_SESSION["id"] = $worked['id'];
-		echo '<meta http-equiv="refresh" content="0; url=' . $site_url . 'account">';
+		echo '<meta http-equiv="refresh" content="0; url=' . $site_root . 'account">';
 		die();
 	} else {
 		echo "<div class='warning center'>Your username and password combination are invalid.</div>";

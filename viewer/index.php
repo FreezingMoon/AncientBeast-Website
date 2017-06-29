@@ -150,13 +150,13 @@ document.getElementById("textField11").value = site_root+"viewer/spritesheet.png
 
 var bs;
 
-var embed_code_start = $('<div />').html("<?php 
+var embed_code_start = $('<div />').html("<?php
 
-	echo htmlspecialchars('<div class="beastsprite" >\n<script type="text/javascript" src="'.$site_url.'viewer/b64.js"></script>\n<script type="text/javascript" src="'.$site_url.'viewer/beastsprite.js"></script>\n<canvas width="10" height="10" id="sprite_canvas" >canvas not supported</canvas>\n<script type="text/javascript" >\nwindow.onload = function() {\n	var sprite = new BeastSprite("sprite_canvas");\n	sprite.load_json_b64("');
+	echo htmlspecialchars('<div class="beastsprite" >\n<script type="text/javascript" src="'.$site_root.'viewer/b64.js"></script>\n<script type="text/javascript" src="'.$site_root.'viewer/beastsprite.js"></script>\n<canvas width="10" height="10" id="sprite_canvas" >canvas not supported</canvas>\n<script type="text/javascript" >\nwindow.onload = function() {\n	var sprite = new BeastSprite("sprite_canvas");\n	sprite.load_json_b64("');
 
  ?>").text();
 
-var embed_code_end = $('<div />').html("<?php 
+var embed_code_end = $('<div />').html("<?php
 
 	echo htmlspecialchars('");\n	sprite.loadImage(function(){\n		sprite.play();\n	});\n}\n</script>\n</div>');
 
@@ -185,14 +185,14 @@ function updateFields() {	//duh, updates the values defined in index.html
 	bs.imageY = parseInt(document.getElementById("textField9").value);
 	bs.offset = parseInt(document.getElementById("textField10").value);
 	bs.imageFile = document.getElementById("textField11").value;
-	
+
 	bs.update_json();
 	document.getElementById("JSON_out").value = bs.sprite_json;
 	document.getElementById("EMBED_out").value = embed_code_start+Base64.encode(bs.sprite_json)+embed_code_end;
-	
+
 	document.getElementById("download_link").innerHTML = '<a href="data:application/octet-stream;charset=utf-8;base64,'+Base64.encode(bs.sprite_json)+'">Save</a>';
 	document.getElementById("share_link").innerHTML = '<a href="'+site_root+"viewer/?s="+Base64.encode(bs.sprite_json)+'" target="_blank" >Copy</a>';
-	
+
 	bs.changeCanvasSize();
 	bs.loadImage(function(){
 		bs.play();
@@ -202,10 +202,10 @@ function updateFields() {	//duh, updates the values defined in index.html
 //window.onload = function(){
 
 	bs = new BeastSprite("kanvas");
-	
+
 	var start_json = "";
 	<?php if($_GET['s']){ ?>
-	
+
 		// load Base64 JSON from 's' get variable from share link and load it into viewer controls and sprite itself
 		start_json = "<?php echo $_GET['s']; ?>";
 		start_json = Base64.decode(start_json);
@@ -223,11 +223,11 @@ function updateFields() {	//duh, updates the values defined in index.html
 		document.getElementById("textField10").value = start_json.off;
 		document.getElementById("textField11").value = start_json.img;
 		bs.load_json(start_json);
-		
+
 	<?php } ?>
-	
+
 	updateFields();
-	
+
 //}
 
 </script>

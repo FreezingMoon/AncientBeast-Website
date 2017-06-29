@@ -177,13 +177,13 @@ switch($type) {
 		$i = 0;
 		$error = 'Your browser does not support the audio element.';
 
-		echo '<audio id="audio" preload="auto" controls="" style="width:890px;"><source src="' . $site_url . 'game/deploy/music/' . $media[0] . '"> '. $error
+		echo '<audio id="audio" preload="auto" controls="" style="width:890px;"><source src="' . $site_root . 'game/deploy/music/' . $media[0] . '"> '. $error
 			.'</audio><a style="cursor: pointer;" id="mp_shuffle">Shuffle</a><ul id="playlist" style="list-style-type:none; padding-left:0px;">';
 
 		foreach($media as $file){
 			$title = substr($file, 0, -4);
 			$file = str_replace(' ', '%20', $file);
-			if($title!="") echo '<li><a href="' . $site_url . 'game/deploy/music/' . $file . '">' . $title . '</a></li>';
+			if($title!="") echo '<li><a href="' . $site_root . 'game/deploy/music/' . $file . '">' . $title . '</a></li>';
 			$i++;
 		} ?>
 		</ul>

@@ -180,7 +180,7 @@ switch ($mode) {
 
 			<!-- Account avatar / settings button -->
 			<div style="display: inline-block; float: center;">
-			<a href="<?php echo $site_url; ?>account" class="lighten" style="float:right;"><img src="<?php echo $grav_url; ?>" title="Change settings" alt="avatar" width=70px height=70px style="position: absolute; margin-top: 20px; margin-left: 165px;">
+			<a href="<?php echo $site_root; ?>account" class="lighten" style="float:right;"><img src="<?php echo $grav_url; ?>" title="Change settings" alt="avatar" width=70px height=70px style="position: absolute; margin-top: 20px; margin-left: 165px;">
 			<img src="<?php echo $site_root; ?>images/wings.png"><br><b><?php echo $username; ?></b></a>
 			</div>
 
