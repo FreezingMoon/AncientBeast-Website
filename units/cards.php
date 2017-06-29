@@ -25,8 +25,13 @@ require_once "../images/stats/index.php"; ?>
 <link rel="stylesheet" href="../units/cards.css">
 
 <script>
-function CallCreature(shout) {
-	var thisSound = document.getElementById(shout);
+function CallCreature() {
+	var thisSound = $(".sideA audio");
+
+	if (thisSound.length > 0) {
+		thisSound = thisSound[0];
+	}
+
 	thisSound.play();
 }
 
@@ -65,7 +70,7 @@ function cards($r = "", $id = -1, $modifiers = false) {
 	// Preparing shout
 	$spaceless = str_replace(' ', '%20', $r['name'] );
 	$underscore = str_replace(' ', '_', $r['name'] );
-	$CallCreature = 'CallCreature(\'' . $spaceless . '_shout\');';
+	$CallCreature = 'CallCreature();';
 
 	// Side A
 ?>
