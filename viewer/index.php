@@ -172,7 +172,7 @@ function pauseButtonPressed(){
 	}
 }
 
-function updateFields() {	//duh, updates the values defined in index.html
+function updateFields() {	// Duh, updates the values defined in index.html
 	bs.framerate = parseInt(document.getElementById("textField0").value);
 	bs.bgColor = document.getElementById("textField1").value;
 	bs.spriteWidth = parseInt(document.getElementById("textField2").value);
@@ -206,7 +206,7 @@ function updateFields() {	//duh, updates the values defined in index.html
 	var start_json = "";
 	<?php if($_GET['s']){ ?>
 
-		// load Base64 JSON from 's' get variable from share link and load it into viewer controls and sprite itself
+		// Load Base64 JSON from 's' get variable from share link and load it into viewer controls and sprite itself
 		start_json = "<?php echo $_GET['s']; ?>";
 		start_json = Base64.decode(start_json);
 		start_json = JSON.parse(start_json);

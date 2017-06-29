@@ -200,7 +200,7 @@ All new units should be rather original, so no typically known fantasy monsters,
 We always love seeing the current game <a href="../units"><b>characters</b></a> in new poses and doing new things or interacting with each other. If you can come up with a small comic strip, then awesome!</p>
 
 <p><b>3d model or animate creatures</b><br>
-All the in-game units are being made into 3d and animated using <a href="http://blender.org" target="_blank"><b>Blender</b></a> package, then rendered as <a href="../viewer"><b>sprite sheets</b></a> using our <a href="https://github.com/Fweeb/blender_spritify" target="_blank"><b>Spritify</b></a> add-on (requires <a href="http://ImageMagick.org" target="_blank"><b>ImageMagick</b></a> installed).
+All the in-game units are being made into 3d and animated using <a href="http://blender.org" target="_blank"><b>Blender</b></a> package, then rendered as <a href="../viewer/"><b>sprite sheets</b></a> using our <a href="https://github.com/Fweeb/blender_spritify" target="_blank"><b>Spritify</b></a> add-on (requires <a href="http://ImageMagick.org" target="_blank"><b>ImageMagick</b></a> installed).
 </p>
 
 <p><b>Create more combat locations</b><br>
