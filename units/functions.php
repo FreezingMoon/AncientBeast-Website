@@ -32,7 +32,6 @@ function progress($category, $unit) {
 	$i = 0;
 	echo '<div class="center progress-widget"><a href="https://mega.co.nz/#F!DYYxzIRa!FKOq62BWn1TpAUw9gKL0YQ" target="_blank">';
 	foreach($category as $key => $value) {
-		if ($i++ < 1) continue;
 		$sum += $value;
 		$title = ucfirst($key) . ': '. $value . '% complete';
 		echo '<div class="progress-' . round($value) . ' common-values" title="' . $title . '"></div>';
