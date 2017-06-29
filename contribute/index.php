@@ -35,7 +35,7 @@ $style = '
 ';
 $stylesheet = '../units/cards.css';
 
-require_once('../header.php'); 
+require_once('../header.php');
 ?>
 
 <!-- Contribution Widget -->
@@ -45,7 +45,7 @@ require_once('../header.php');
 		<div class="card sideA" style="background-image: url(<?php echo $site_root; ?>images/cards/margin.png), url(<?php echo $site_root; ?>images/teamwork.jpg);">
 			<!-- Card Anchor -->
 			<a href="#donate" title="Let's make things happen!"><div style="height: 100%;"></div></a>
-	
+
 			<!-- Display unit info -->
 			<a href="#donate" class="name" style="color: white;">
 				<div class="section info sinL">
@@ -158,29 +158,29 @@ Any amount you can donate is very appreciated, thank you!<br>
 
 <div style="display: inline-block; vertical-align: top;" class="center">
 <table style="width: 400px;"><tr><td><b>Top Donors via PayPal</b></td><td><b>$</b></td></tr>
-<tr><td><a href="https://FreezingMoon.org" target="_blank" class="lighten donate"><img src="yellow.png"> Anastase family <img src="yellow.png" class="scale"></a></td><td>3765</td></tr>
-<tr><td><a href="https://harumorii.deviantart.com" target="_blank" class="lighten donate"><img src="yellow.png"> Haru <img src="yellow.png" class="scale"></a></td><td>2500</td></tr>
-<tr><td><a href="https://fiverr.com/dreadknight" target="_blank" class="lighten donate"><img src="yellow.png"> Dread Knight <img src="yellow.png" class="scale"></a></td><td>1350</td></tr>
-<tr><td><a href="http://ugnis.com" target="_blank" class="lighten donate"><img src="yellow.png"> Karolis Masiulis  <img src="yellow.png" class="scale"></a></td><td>300</td></tr>
-<tr><td><a href="https://github.com/unhammer" target="_blank" class="lighten donate"><img src="yellow.png"> Kevin Brubeck Unhammer <img src="yellow.png" class="scale"></a></td><td>50</td></tr>
-<tr><td><a href="https://teogreengage.blogspot.com" target="_blank" class="lighten donate"><img src="yellow.png"> Teo Cazghir <img src="yellow.png" class="scale"></td><td>50</td></tr>
-<tr><td><a href="https://bountysource.com" target="_blank" class="lighten donate"><img src="yellow.png"> David Rappo <img src="yellow.png" class="scale"></a></td><td>50</td></tr>
-<tr><td><a href="https://facebook.com/silvernessa" target="_blank" class="lighten donate"><img src="yellow.png"> Vanessa Young <img src="yellow.png" class="scale"></a></td><td>46</td></tr>
-<tr><td><a href="https://github.com/hpvb" target="_blank" class="lighten donate"><img src="yellow.png"> Hein-Pieter van Braam <img src="yellow.png" class="scale"></a></td><td>40</td></tr>
-<tr><td><a href="http://qubodup.net" target="_blank" class="lighten donate"><img src="yellow.png"> Iwan Gabovitch <img src="yellow.png" class="scale"></a></td><td>25</td></tr>
-<tr><td><a href="https://facebook.com/akumdara" target="_blank" class="lighten donate"><img src="yellow.png"> Adam Dalton <img src="yellow.png" class="scale"></a></td><td>20</td></tr>
-<tr><td><a href="https://twitter.com/alexandredes" target="_blank" class="lighten donate"><img src="yellow.png"> Alexandre Deschamps <img src="yellow.png" class="scale"></a></td><td>20</td></tr>
-<tr><td><a href="" target="_blank" class="lighten donate"><img src="yellow.png"> Vincent Bermel <img src="yellow.png" class="scale"></a></td><td>15</td></tr>
-<tr><td><a href="http://options.tradersapiens.ru/iqoption" target="_blank" class="lighten donate"><img src="yellow.png"> IQOption <img src="yellow.png" class="scale"></td><td>11</td></tr>
-<tr><td><a href="https://www.patreon.com/user?u=55200" target="_blank" class="lighten donate"><img src="yellow.png"> Rob <img src="yellow.png" class="scale"></td><td>10</td></tr>
-<tr><td><a href="http://binaryoptionstradingtips.com/no/bdswiss-erfaringer" target="_blank" class="lighten donate"><img src="yellow.png"> BDSwiss <img src="yellow.png" class="scale"></td><td>10</td></tr>
-<tr><td><a href="https://facebook.com/leifhl" target="_blank" class="lighten donate"><img src="yellow.png"> Leif Larsen <img src="yellow.png" class="scale"></td><td>10</td></tr>
-<tr><td><a href="https://mrfaemir.deviantart.com" target="_blank" class="lighten donate"><img src="yellow.png"> Daniel Cohen <img src="yellow.png" class="scale"></a></td><td>5</td></tr>
-<tr><td><a href="" target="_blank" class="lighten donate"><img src="yellow.png"> gamesandspace <img src="yellow.png" class="scale"></a></td><td>3</td></tr>
-<tr><td><a href="" target="_blank" class="lighten donate"><img src="yellow.png"> Markus Eliassen <img src="yellow.png" class="scale"></a></td><td>3</td></tr>
-<tr><td><a href="" target="_blank" class="lighten donate"><img src="yellow.png"> Pandu Aji Wirawan <img src="yellow.png" class="scale"></a></td><td>2</td></tr>
-<tr><td><a href="" target="_blank" class="lighten donate"><img src="yellow.png"> Caleb Smith <img src="yellow.png" class="scale"></a></td><td>1.23</td></tr>
-<tr><td><a href="" target="_blank" class="lighten donate"><img src="yellow.png"> Max Mazon <img src="yellow.png" class="scale"></a></td><td>1</td></tr>
+<tr><td><a href="https://FreezingMoon.org" target="_blank" class="lighten donate"><img src="./yellow.png"> Anastase family <img src="./yellow.png" class="scale"></a></td><td>3765</td></tr>
+<tr><td><a href="https://harumorii.deviantart.com" target="_blank" class="lighten donate"><img src="./yellow.png"> Haru <img src="./yellow.png" class="scale"></a></td><td>2500</td></tr>
+<tr><td><a href="https://fiverr.com/dreadknight" target="_blank" class="lighten donate"><img src="./yellow.png"> Dread Knight <img src="./yellow.png" class="scale"></a></td><td>1350</td></tr>
+<tr><td><a href="http://ugnis.com" target="_blank" class="lighten donate"><img src="./yellow.png"> Karolis Masiulis  <img src="./yellow.png" class="scale"></a></td><td>300</td></tr>
+<tr><td><a href="https://github.com/unhammer" target="_blank" class="lighten donate"><img src="./yellow.png"> Kevin Brubeck Unhammer <img src="./yellow.png" class="scale"></a></td><td>50</td></tr>
+<tr><td><a href="https://teogreengage.blogspot.com" target="_blank" class="lighten donate"><img src="./yellow.png"> Teo Cazghir <img src="./yellow.png" class="scale"></td><td>50</td></tr>
+<tr><td><a href="https://bountysource.com" target="_blank" class="lighten donate"><img src="./yellow.png"> David Rappo <img src="./yellow.png" class="scale"></a></td><td>50</td></tr>
+<tr><td><a href="https://facebook.com/silvernessa" target="_blank" class="lighten donate"><img src="./yellow.png"> Vanessa Young <img src="./yellow.png" class="scale"></a></td><td>46</td></tr>
+<tr><td><a href="https://github.com/hpvb" target="_blank" class="lighten donate"><img src="./yellow.png"> Hein-Pieter van Braam <img src="./yellow.png" class="scale"></a></td><td>40</td></tr>
+<tr><td><a href="http://qubodup.net" target="_blank" class="lighten donate"><img src="./yellow.png"> Iwan Gabovitch <img src="./yellow.png" class="scale"></a></td><td>25</td></tr>
+<tr><td><a href="https://facebook.com/akumdara" target="_blank" class="lighten donate"><img src="./yellow.png"> Adam Dalton <img src="./yellow.png" class="scale"></a></td><td>20</td></tr>
+<tr><td><a href="https://twitter.com/alexandredes" target="_blank" class="lighten donate"><img src="./yellow.png"> Alexandre Deschamps <img src="./yellow.png" class="scale"></a></td><td>20</td></tr>
+<tr><td><a href="" target="_blank" class="lighten donate"><img src="./yellow.png"> Vincent Bermel <img src="./yellow.png" class="scale"></a></td><td>15</td></tr>
+<tr><td><a href="http://options.tradersapiens.ru/iqoption" target="_blank" class="lighten donate"><img src="./yellow.png"> IQOption <img src="./yellow.png" class="scale"></td><td>11</td></tr>
+<tr><td><a href="https://www.patreon.com/user?u=55200" target="_blank" class="lighten donate"><img src="./yellow.png"> Rob <img src="./yellow.png" class="scale"></td><td>10</td></tr>
+<tr><td><a href="http://binaryoptionstradingtips.com/no/bdswiss-erfaringer" target="_blank" class="lighten donate"><img src="./yellow.png"> BDSwiss <img src="./yellow.png" class="scale"></td><td>10</td></tr>
+<tr><td><a href="https://facebook.com/leifhl" target="_blank" class="lighten donate"><img src="./yellow.png"> Leif Larsen <img src="./yellow.png" class="scale"></td><td>10</td></tr>
+<tr><td><a href="https://mrfaemir.deviantart.com" target="_blank" class="lighten donate"><img src="./yellow.png"> Daniel Cohen <img src="./yellow.png" class="scale"></a></td><td>5</td></tr>
+<tr><td><a href="" target="_blank" class="lighten donate"><img src="./yellow.png"> gamesandspace <img src="./yellow.png" class="scale"></a></td><td>3</td></tr>
+<tr><td><a href="" target="_blank" class="lighten donate"><img src="./yellow.png"> Markus Eliassen <img src="./yellow.png" class="scale"></a></td><td>3</td></tr>
+<tr><td><a href="" target="_blank" class="lighten donate"><img src="./yellow.png"> Pandu Aji Wirawan <img src="./yellow.png" class="scale"></a></td><td>2</td></tr>
+<tr><td><a href="" target="_blank" class="lighten donate"><img src="./yellow.png"> Caleb Smith <img src="./yellow.png" class="scale"></a></td><td>1.23</td></tr>
+<tr><td><a href="" target="_blank" class="lighten donate"><img src="./yellow.png"> Max Mazon <img src="./yellow.png" class="scale"></a></td><td>1</td></tr>
 <tr><td>Your Name</td><td>?</td></tr>
 </table></div>
 </div>
@@ -223,32 +223,32 @@ We can always use some more desktop <a href="../media/?type=wallpapers"><b>wallp
 <?php $i = 0; ?>
 <div style="display: inline-block; vertical-align: top;" class="center">
 <table style="width: 400px;"><tr><td><b>Top Art Contributors</b></td><td><b>#</b></td></tr>
-<tr><td><a href="http://sythgara.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Katarzyna Zalecka <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://velvetcat.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Indre Lelertaviciute <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://ashirox.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Ashirox <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://turjuque.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Clement Foucault <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://n-pigeon.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> n-pigeon <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://gabriel-verdon.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Gabriel Verdon <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://youtube.com/user/Jeepster3D" target="_blank" class="lighten artwork"><img src="red.png"> Jeepster3D <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://seekerofawe.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Mihai Walther <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://game-icons.net" target="_blank" class="lighten artwork"><img src="red.png"> Game Icons <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://dreadknight666.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Dread Knight <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://opengameart.org/users/piacenti" target="_blank" class="lighten artwork"><img src="red.png"> piacenti <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://youtube.com/user/thisroomthatIkeep" target="_blank" class="lighten artwork"><img src="red.png"> Roberto Roch <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://opengameart.org/users/5hiroi" target="_blank" class="lighten artwork"><img src="red.png"> shiroikuro <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://undeadkitty13.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> UndeadKitty13 <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://theshock.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Ramon Miranda <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://deevad.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> David Revoy <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="" target="_blank" class="lighten artwork"><img src="red.png"> GetBacon <img src="red.png" class="scale"></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://slyth3rin.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Bri Arwiie <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://rougespark.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Rogue Spark <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://monsterjavaguns.com" target="_blank"  class="lighten artwork"><img src="red.png"> Fweeb <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://betasector.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> BetaSector <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://nynn.contact.free.fr" target="_blank" class="lighten artwork"><img src="red.png"> Nynn <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://facebook.com/All.Things.Rotten.Maggotmaster" target="_blank"  class="lighten artwork"><img src="red.png"> Maggot Master <img src="red.png" class="scale"></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://random223.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> random223 <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://onirke.deviantart.com" target="_blank" class="lighten artwork"><img src="red.png"> Oliwia Grambo <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://opengameart.org/users/stumpystrust" target="_blank" class="lighten artwork"><img src="red.png"> StumpyStrust <img src="red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://sythgara.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> Katarzyna Zalecka <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://velvetcat.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> Indre Lelertaviciute <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://ashirox.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> Ashirox <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://turjuque.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> Clement Foucault <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://n-pigeon.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> n-pigeon <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://gabriel-verdon.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> Gabriel Verdon <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://youtube.com/user/Jeepster3D" target="_blank" class="lighten artwork"><img src="./red.png"> Jeepster3D <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://seekerofawe.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> Mihai Walther <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://game-icons.net" target="_blank" class="lighten artwork"><img src="./red.png"> Game Icons <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://dreadknight666.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> Dread Knight <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://opengameart.org/users/piacenti" target="_blank" class="lighten artwork"><img src="./red.png"> piacenti <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://youtube.com/user/thisroomthatIkeep" target="_blank" class="lighten artwork"><img src="./red.png"> Roberto Roch <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://opengameart.org/users/5hiroi" target="_blank" class="lighten artwork"><img src="./red.png"> shiroikuro <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://undeadkitty13.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> UndeadKitty13 <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://theshock.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> Ramon Miranda <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://deevad.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> David Revoy <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="" target="_blank" class="lighten artwork"><img src="./red.png"> GetBacon <img src="./red.png" class="scale"></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://slyth3rin.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> Bri Arwiie <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://rougespark.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> Rogue Spark <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://monsterjavaguns.com" target="_blank"  class="lighten artwork"><img src="./red.png"> Fweeb <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://betasector.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> BetaSector <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://nynn.contact.free.fr" target="_blank" class="lighten artwork"><img src="./red.png"> Nynn <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://facebook.com/All.Things.Rotten.Maggotmaster" target="_blank"  class="lighten artwork"><img src="./red.png"> Maggot Master <img src="./red.png" class="scale"></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://random223.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> random223 <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://onirke.deviantart.com" target="_blank" class="lighten artwork"><img src="./red.png"> Oliwia Grambo <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://opengameart.org/users/stumpystrust" target="_blank" class="lighten artwork"><img src="./red.png"> StumpyStrust <img src="./red.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
 <tr><td>Your Name</td><td>?</td></tr>
 </table><br>
 <div style="display: inline-block;" class="center"><img src="gumble.png" class="image"></div>
@@ -274,22 +274,22 @@ Sometimes even reviewing or talking code can greatly help.
 <?php $i = 0; ?>
 <div style="display: inline-block; vertical-align: top;" class="center">
 <table style="width: 400px;"><tr><td><b><a href="https://github.com/FreezingMoon/AncientBeast/graphs/contributors" target="_blank">Top Code Contributors</a></b></td><td><b>#</b></td></tr>
-<tr><td><a href="https://github.com/Hypersomniac" target="_blank" class="lighten coding"><img src="green.png"> Clement Turjuque <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://fiverr.com/dreadknight" target="_blank" class="lighten coding"><img src="green.png"> Dread Knight <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/Fweeb" target="_blank" class="lighten coding"><img src="green.png"> Fweeb <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/seand88" target="_blank" class="lighten coding"><img src="green.png"> seand88 <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/Spencer-Zhang" target="_blank" class="lighten coding"><img src="green.png"> Spencer-Zhang <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://cxong.github.io" target="_blank" class="lighten coding"><img src="green.png"> congusbongus <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/tukkek" target="_blank" class="lighten coding"><img src="green.png"> tukkek <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/Dobz" target="_blank" class="lighten coding"><img src="green.png"> Dobz <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/SlimeTP" target="_blank" class="lighten coding"><img src="green.png"> SlimeTP <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/Nehmulos" target="_blank" class="lighten coding"><img src="green.png"> Nehmulos <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/Archiboldian" target="_blank" class="lighten coding"><img src="green.png"> Archiboldian <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/snollygolly" target="_blank" class="lighten coding"><img src="green.png"> Matt Horning <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/s-lugo" target="_blank" class="lighten coding"><img src="green.png"> Sebastian Lugo <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/hjaarnio" target="_blank" class="lighten coding"><img src="green.png"> hjaarnio <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/Uhkis" target="_blank" class="lighten coding"><img src="green.png"> Uhkis <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://github.com/randompast" target="_blank" class="lighten coding"><img src="green.png"> randompast <img src="green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/Hypersomniac" target="_blank" class="lighten coding"><img src="./green.png"> Clement Turjuque <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://fiverr.com/dreadknight" target="_blank" class="lighten coding"><img src="./green.png"> Dread Knight <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/Fweeb" target="_blank" class="lighten coding"><img src="./green.png"> Fweeb <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/seand88" target="_blank" class="lighten coding"><img src="./green.png"> seand88 <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/Spencer-Zhang" target="_blank" class="lighten coding"><img src="./green.png"> Spencer-Zhang <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://cxong.github.io" target="_blank" class="lighten coding"><img src="./green.png"> congusbongus <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/tukkek" target="_blank" class="lighten coding"><img src="./green.png"> tukkek <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/Dobz" target="_blank" class="lighten coding"><img src="./green.png"> Dobz <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/SlimeTP" target="_blank" class="lighten coding"><img src="./green.png"> SlimeTP <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/Nehmulos" target="_blank" class="lighten coding"><img src="./green.png"> Nehmulos <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/Archiboldian" target="_blank" class="lighten coding"><img src="./green.png"> Archiboldian <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/snollygolly" target="_blank" class="lighten coding"><img src="./green.png"> Matt Horning <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/s-lugo" target="_blank" class="lighten coding"><img src="./green.png"> Sebastian Lugo <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/hjaarnio" target="_blank" class="lighten coding"><img src="./green.png"> hjaarnio <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/Uhkis" target="_blank" class="lighten coding"><img src="./green.png"> Uhkis <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://github.com/randompast" target="_blank" class="lighten coding"><img src="./green.png"> randompast <img src="./green.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
 <tr><td>Your Name</td><td>?</td></tr>
 </table></div>
 </div>
@@ -321,10 +321,10 @@ If you make any sample tracks, it would be ideal to have them uploaded to <a hre
 <?php $i = 0; ?>
 <div style="display: inline-block; vertical-align: top;" class="center">
 <table style="width: 400px;"><tr><td><b>Top Audio Contributors</b></td><td><b>#</b></td></tr>
-<tr><td><a href="http://youtube.com/user/moonthiefro" target="_blank" class="lighten audio"><img src="blue.png"> Moonthief <img src="blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="https://twitter.com/Jenskiilstofte" target="_blank" class="lighten audio"><img src="blue.png"> Jens Kiilstofte <img src="blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://youtube.com/user/DruoxTheShredder" target="_blank" class="lighten audio"><img src="blue.png"> Dreux Ferrano <img src="blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="http://opengameart.org/users/haeldb" target="_blank" class="lighten audio"><img src="blue.png"> Brandon756 <img src="blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://youtube.com/user/moonthiefro" target="_blank" class="lighten audio"><img src="./blue.png"> Moonthief <img src="./blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://twitter.com/Jenskiilstofte" target="_blank" class="lighten audio"><img src="./blue.png"> Jens Kiilstofte <img src="./blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://youtube.com/user/DruoxTheShredder" target="_blank" class="lighten audio"><img src="./blue.png"> Dreux Ferrano <img src="./blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="http://opengameart.org/users/haeldb" target="_blank" class="lighten audio"><img src="./blue.png"> Brandon756 <img src="./blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
 <tr><td>Your Name</td><td>?</td></tr>
 </table><br><br>
 <div style="display: inline-block;" class="center"><img src="band.jpg" class="image"></div>

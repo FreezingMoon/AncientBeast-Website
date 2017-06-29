@@ -26,18 +26,18 @@ $page_title = "Version 0.2 Released";
 require_once("../../header.php");
 ?>
 <div class="div">
-<img src="banner.jpg">
+<img src="./banner.jpg">
 <h2 class="center">Version 0.2 was released on 15th June (2013)</h2>
 
 <p><b>Perspective grid has been dropped.</b> It was working horrible in Firefox, sigh. Now the game feels less 3d-ish, but on the good side, the hexagons maintain their size so they're easier to target on touch devices and there's also less code to maintain. We might introduce this as an option later on though for those who prefer it more.</p>
 
 <p><b>3 new playable units: Gumble, Uncle Fungus and Abolished.</b> Let us know which ones are your favorite :-)<br>
-<img src="units.jpg"></p>
+<img src="./units.jpg"></p>
 
 <p><b>Unit balancing.</b> We're constantly play testing the game in order to figure out what units are over powered and which ones don't bring enough to the table, so we're revamping out abilities even multiple times in order to enhance and balance the gameplay, also stats get constantly tweaked to make things interesting. We'll make a habit of documenting these changes better with time as the game gets more stable and has more updates.</p>
 
 <p><b>Hotkey support.</b> Even though the game UI's designed for touch devices, it's meant to be playable with pretty much any input device possible, so we're working on implementing them one by one. Current hotkeys are <b>Tab</b> (unit dash), <b>WER</b> (left side icons: active abilities), <b>ASDF</b> (right side icons: audio, skip, delay, forfeit), the <b>arrow keys</b> can select a target hexagon in the combat view and toggle between units in the dash, <b>Spacebar</b> confirms selected hexagon and the <b>Return</b> key selects the unit from dash in order for the Dark Priest to materialize it.
-<img src="hotkeys.jpg"></p>
+<img src="./hotkeys.jpg"></p>
 
 <p><b>Improved UI behaviour.</b> We're constantly tweaking the UI to look and behave better, which means nicer looking elements, displayed tooltip information and various animations so it shouldn't slow the gameplay.</p>
 

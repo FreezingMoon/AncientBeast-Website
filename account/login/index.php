@@ -67,7 +67,7 @@ $wip = 'onClick="alert(\'Please bear with us while we implement this feature!\')
 </div>
 
 <div class="div center">
-<img src="gumble.png" style="display: inline-block; float: left;">
+<img src="./gumble.png" style="display: inline-block; float: left;">
 <div style="display: inline-block;">
 <form name="login" method="post" action="index.php">
 <table width="25%" border=0 align=center cellpadding=0 cellspacing=0>
@@ -87,7 +87,7 @@ $wip = 'onClick="alert(\'Please bear with us while we implement this feature!\')
 <a href="#" <?php echo $wip; ?>><img src="<?php echo $site_root; ?>account/google.png" class="lighten"></a>
 <a href="#" <?php echo $wip; ?>><img src="<?php echo $site_root; ?>account/twitter.png" class="lighten"></a>
 </div>
-<img src="snowbunny.png" style="display: inline-block; float: right;">
+<img src="./snowbunny.png" style="display: inline-block; float: right;">
 </div>
 
 <?php include('../../footer.php'); ?>
