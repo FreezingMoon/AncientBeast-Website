@@ -1,4 +1,27 @@
 $(function() {
+	// Establish a globally exposed namespace.
+	window.ABCarousel = window.ABCarousel || {};
+	ABCarousel.updatePageDetails = function(id) {
+		var title = "Ancient Beast - " + unit.name;
+		document.title = title;
+		history.pushState({}, title, "/units/?view=viewer&id=" + id);
+
+		// call reset function for Disqus to update page comments.
+		resetDisqus(title, window.location.href, title);
+	}
+
+	ABCarousel.avatarClicked = function(e) {
+		selectedUnit = $(e.target).data("id");
+		var unit = units[selectedUnit];
+
+		ABCarousel.updateCarousel();
+		ABCarousel.updateCard(selectedUnit);
+		ABCarousel.updatePageDetails(selectedUnit);
+
+		e.stopPropagation();
+		e.preventDefault();
+	}
+
 	// This will hold the JSON array of all units
 	var units;
 	// Total items in the carousel (needs to be odd)
@@ -11,33 +34,17 @@ $(function() {
 		// Set the global var
 		units = results;
 		// Draw the carousel
-		drawCarousel();
+		ABCarousel.drawCarousel();
 		// Preload all the images
-		preloadImages(units);
+		ABCarousel.preloadImages(units);
 		// Add an EL for any carousel divs
 		// It's important to note that the element is bound to document on purpose
 		// Since the events are on DOM elements not added at runtime, we have to do this
-		$(document).on("click", ".carouselAvatar", function(e) {
-			selectedUnit = $(e.target).data("id");
-			var unit = units[selectedUnit];
-
-			updateCarousel();
-			updateCard(selectedUnit);
-			var title = "Ancient Beast - " + unit.name;
-			document.title = title;
-			history.pushState({}, title, "/units/?view=viewer&id=" + selectedUnit);
-
-			// call reset function for Disqus to update page comments.
-			resetDisqus(title, window.location.href, title);
-
-			e.stopPropagation();
-			e.preventDefault();
-		});
-
+		$(document).on("click", ".carouselAvatar", ABCarousel.avatarClicked);
 	});
 
-	function drawCarousel() {
-		clearCarousel();
+	ABCarousel.drawCarousel = function() {
+		ABCarousel.clearCarousel();
 		// Start at -mod
 		var i = modValue * -1;
 		// Go until positive mod, should result in carouselLength iterations
@@ -58,7 +65,7 @@ $(function() {
 		}
 	}
 
-	function updateCarousel() {
+	ABCarousel.updateCarousel = function() {
 		var i = modValue * -1;
 		$(".carouselAvatar").each(function(index) {
 			// Grabs a spot from the unit array
@@ -73,12 +80,12 @@ $(function() {
 		});
 	}
 
-	function clearCarousel() {
+	ABCarousel.clearCarousel = function() {
 		// Remove all the data from the carousel and that's about it
 		$("#carousel").html("");
 	}
 
-	function preloadImages(unitArr) {
+	ABCarousel.preloadImages = function(unitArr) {
 		var images = [];
 		var i = 0;
 		while (i < unitArr.length) {
@@ -88,7 +95,7 @@ $(function() {
 		}
 	}
 
-	function updateCard(unitIndex) {
+	ABCarousel.updateCard = function(unitIndex) {
 		// Set the unit to the selected unit
 		var unit = units[unitIndex];
 		// Update side A
@@ -117,7 +124,7 @@ $(function() {
 			var cost;
 
 			if (upgrade) {
-				upgrade = `<br><span class="desc" id="upgrade">Upgrade: ${upgrade}</span>`;
+				upgrade = '<br><span class="desc" id="upgrade">Upgrade: ' + upgrade + '</span>';
 			} else {
 				upgrade = '';
 			}
