@@ -3,19 +3,14 @@ require_once '../images/stats/index.php';
 // TODO: Show specific unit card when clicking a row
 ?>
 <script>document.title = "Ancient Beast - Table";</script>
-<script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.28.14/js/jquery.tablesorter.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/floatthead/2.0.3/jquery.floatThead.min.js"></script>
-
-<script>
-// Allow sorting of tables
-$(function() {
-	$("#statsTable").tablesorter( {
-		"paging": false,
-		"search": false
-	} );
-} );
-</script>
-
+<style>
+	.tablesorter > thead td,
+	.tablesorter > thead th {
+		cursor: pointer;
+	}
+</style>
 <div class="div center">
 <table id="statsTable" class="tablesorter" width=100%>
 	<colgroup>
@@ -80,8 +75,9 @@ $(function() {
 // Float table header
 var $table = $('#statsTable');
 
+$table.tablesorter();
 $table.floatThead();
-
+</script>
 $('td').hover(function() { $(this).parents('#statsTable').find('col:eq('+$(this).index()+')').toggleClass('hover'); });
 </script>
 </div>

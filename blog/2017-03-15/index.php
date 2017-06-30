@@ -182,6 +182,7 @@ Also, big thanks to <a href="https://www.patreon.com/user?u=55200" target="_blan
 disqus();
 include('../../footer.php'); ?>
 
+<script type="text/javascript" src="<?php echo $site_root; ?>media/fancybox/jquery.easing.compatability.js"></script>
 <script type="text/javascript" src="<?php echo $site_root; ?>media/fancybox/jquery.fancybox.pack.js"></script>
 
 <script type="text/javascript">
@@ -190,8 +191,10 @@ $(document).ready(function() {
 	var basePage = window.location.href.replace(/#.*/, "");
 	$("a[rel=pop]").fancybox({
 		'overlayColor'  : 'black',
-		'transitionIn'	: 'elastic',
-		'transitionOut'	: 'elastic',
+		'openEffect'	: 'elastic',
+		'closeEffect'	: 'elastic',
+		'nextEffect'  : 'fade',
+		'prevEffect'  : 'fade',
 		'onComplete'	: function(array, index) {
 			history.replaceState("", "", basePage + "#id=" + index);
 		},
