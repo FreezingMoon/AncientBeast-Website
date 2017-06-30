@@ -4,7 +4,7 @@ require_once '../images/stats/index.php';
 ?>
 <script>document.title = "Ancient Beast - Table";</script>
 <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
-<script type="text/javascript" src="jquery.floatThead.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/floatthead/2.0.3/jquery.floatThead.min.js"></script>
 
 <script>
 // Allow sorting of tables

@@ -25,7 +25,7 @@
 <?php
 $page_title = "Sprite Sheet Animation Viewer";
 require_once("../header.php"); ?>
-<script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <div class="div center">
 <canvas class="center" id="kanvas" width="500" height="400" onclick="{pauseButtonPressed()}">
 No canvas support.

@@ -26,8 +26,8 @@ $page_title = "Version 0.3 Released";
 require_once("../../header.php");
 ?>
 
-<link rel="stylesheet" href="<?php echo $site_root; ?>media/fancybox/jquery.fancybox-1.3.4.css" media="screen">
-<script src="<?php echo $site_root; ?>jquery.min.js"></script>
+<link rel="stylesheet" href="<?php echo $site_root; ?>media/fancybox/jquery.fancybox.css" media="screen">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <div class="div" id="intro">
 <h2 class="indexheader"><a href="#intro">Version 0.3 was released on 15th March (2017)</a></h2>
@@ -182,8 +182,7 @@ Also, big thanks to <a href="https://www.patreon.com/user?u=55200" target="_blan
 disqus();
 include('../../footer.php'); ?>
 
-<script type="text/javascript" src="<?php echo $site_root; ?>media/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<script defer type="text/javascript" src="<?php echo $site_root; ?>media/fancybox/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="<?php echo $site_root; ?>media/fancybox/jquery.fancybox.pack.js"></script>
 
 <script type="text/javascript">
 // Change URL to viewed image
