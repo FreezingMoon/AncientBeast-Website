@@ -56,7 +56,7 @@ document.title = "Ancient Beast - <?php echo ucfirst($type); ?>";
 document.getElementById("Media").className += " active";
 </script>
 
-<link rel="stylesheet" href="fancybox/jquery.fancybox.css" media="screen">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/css/jquery.fancybox.min.css" media="screen">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <?php
@@ -202,7 +202,6 @@ include('../footer.php'); ?>
 <script>document.getElementById("<?php echo $type; ?>").href += "#focus";</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
-<script defer type="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js></script>
 
 <script type="text/javascript">
 // Change URL to viewed image
