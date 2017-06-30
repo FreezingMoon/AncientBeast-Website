@@ -55,10 +55,10 @@ progress[value] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-  
+
 	/* Get rid of default border in Firefox. */
 	border: none;
-  
+
 	/* Dimensions */
 	width: 250px;
 	height: 20px;
@@ -89,7 +89,7 @@ $grav_url = 'http://www.gravatar.com/avatar/' . md5(strtolower(trim($email))) . 
 <!-- Hightlight active page -->
 <script>document.getElementById("<?php echo $page_title; ?>").className += " active";</script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="launcher/jquery.fullscreen-min.js"></script>
 
 <script type="text/javascript">

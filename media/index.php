@@ -56,8 +56,8 @@ document.title = "Ancient Beast - <?php echo ucfirst($type); ?>";
 document.getElementById("Media").className += " active";
 </script>
 
-<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" media="screen">
-<script src="../jquery.min.js"></script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css" media="screen">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <?php
 // This div serves as an anchor
@@ -201,9 +201,8 @@ include('../footer.php'); ?>
 <!-- Focus on content when clicking subpage again -->
 <script>document.getElementById("<?php echo $type; ?>").href += "#focus";</script>
 
-<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<script defer type="text/javascript" src="fancybox/jquery.easing-1.3.pack.js"></script>
-<script defer type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+<script defer type="text/javascript" src="fancybox/jquery.mousewheel.pack.js"></script>
 
 <script type="text/javascript">
 // Change URL to viewed image
@@ -220,7 +219,7 @@ $(document).ready(function() {
 			history.replaceState("", "", basePage);
 		}
 	});
-	
+
 	if (/[\#&]id=(\d+)/.test(location.hash))
 		$("#img" + RegExp.$1).trigger("click");
 });

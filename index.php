@@ -38,7 +38,7 @@ $style = '
 ';
 $stylesheet = 'units/cards.css';
 
-require_once 'header.php'; 
+require_once 'header.php';
 ?>
 
 <div class="center">
@@ -169,7 +169,7 @@ include 'blog/subscribe.php';
 include 'footer.php';
 ?>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <!-- Screenshot Thumbnail Slideshow -->
 <script>
