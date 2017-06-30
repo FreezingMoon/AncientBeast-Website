@@ -26,7 +26,7 @@ $page_title = "Version 0.3 Released";
 require_once("../../header.php");
 ?>
 
-<link rel="stylesheet" href="<?php echo $site_root; ?>media/fancybox/jquery.fancybox.css" media="screen">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/css/jquery.fancybox.min.css" media="screen">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <div class="div" id="intro">
@@ -182,8 +182,7 @@ Also, big thanks to <a href="https://www.patreon.com/user?u=55200" target="_blan
 disqus();
 include('../../footer.php'); ?>
 
-<script type="text/javascript" src="<?php echo $site_root; ?>media/fancybox/jquery.easing.compatability.js"></script>
-<script type="text/javascript" src="<?php echo $site_root; ?>media/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
 
 <script type="text/javascript">
 // Change URL to viewed image

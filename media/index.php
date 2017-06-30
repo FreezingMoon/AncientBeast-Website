@@ -201,8 +201,8 @@ include('../footer.php'); ?>
 <!-- Focus on content when clicking subpage again -->
 <script>document.getElementById("<?php echo $type; ?>").href += "#focus";</script>
 
-<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
-<script defer type="text/javascript" src="fancybox/jquery.mousewheel.pack.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
+<script defer type="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js></script>
 
 <script type="text/javascript">
 // Change URL to viewed image
@@ -210,8 +210,10 @@ $(document).ready(function() {
 	var basePage = window.location.href.replace(/#.*/, "");
 	$("a[rel=pop]").fancybox({
 		'overlayColor'  : 'black',
-		'transitionIn'	: 'elastic',
-		'transitionOut'	: 'elastic',
+		'openEffect'	: 'elastic',
+ 		'closeEffect'	: 'elastic',
+ 		'nextEffect'	: 'fade',
+ 		'prevEffect'	: 'fade',
 		'onComplete'	: function(array, index) {
 			history.replaceState("", "", basePage + "#id=" + index);
 		},
