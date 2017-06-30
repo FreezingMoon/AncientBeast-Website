@@ -21,7 +21,8 @@ $(function() {
 	<colgroup>
 	<?php
 	$i = 0;
-	while ($i < 22) { echo '<col>'; $i++; }
+	// there are 22 rows, we must loop over this once per row.
+	while ($i <= 22) { echo '<col>'; $i++; }
 	?>
 	</colgroup>
 	<thead>
