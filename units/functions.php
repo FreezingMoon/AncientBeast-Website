@@ -7,7 +7,7 @@ function get_creatures() {
 	$i = 0;
 	foreach($creature_json as &$creature) {
 		$creature["progress"] = $progress_json[$i];
-		$creature_results[$creature["id"]] = $creature;
+		$creature_results[$creature["type"]] = $creature;
 		$i++;
 	}
 	ksort($creature_results);
