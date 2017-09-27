@@ -13,7 +13,7 @@ require_once("../header.php"); ?>
 
 <div class="div">
 	<h3 class="center">Coming Soon</h3>
-This game has no pay-to-win elements and it will stay like this. From this shop you will be able to soon purchase various items in order to support the project, such as physical merchandise, access to extra content (which won't give you any advantages over other opponents), training sessins and tickets to the official tournament matches.
+This game has no pay-to-win elements and it will stay like this. From this shop you will be able to soon purchase various items in order to support the project, such as physical merchandise, access to extra content (which won't give you any advantages over other opponents), training sessions and tickets to the official tournament matches.
 </div>
 
 <div class="center" id="focus">
