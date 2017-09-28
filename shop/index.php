@@ -18,15 +18,15 @@ This game has no pay-to-win elements and it will stay like this. From this shop 
 
 <div class="center" id="focus">
 	<div style="display: inline-block;" class="lighten">
-		<a href=""><img src="stickers.jpg" class="frame frame-top">
+		<a href=""><img src="stickers.png" class="frame frame-top">
 		<div class="frame frame-bottom">Stickers</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
-		<a href=""><img src="t-shirts.jpg" class="frame frame-top">
+		<a href=""><img src="t-shirts.png" class="frame frame-top">
 		<div class="frame frame-bottom">T-Shirts</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
-		<a href=""><img src="plushies.jpg" class="frame frame-top">
+		<a href=""><img src="plushies.png" class="frame frame-top">
 		<div class="frame frame-bottom">Plushies</div></a>
 	</div>
 	</div>
