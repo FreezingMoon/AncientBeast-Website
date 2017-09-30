@@ -34,8 +34,8 @@ require_once "../global.php";
 // Display list of subpages
 $sections = array(
 	'info',
+	'combat',	
 	'input',
-	'combat',
 	'arcade',
 	'tournament',
 	'kingdom'
