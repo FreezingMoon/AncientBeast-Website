@@ -259,7 +259,7 @@ We can always use some more desktop <a href="../media/?type=wallpapers"><b>wallp
 <div style="width: 475px; text-align: justify; display:inline-block;">
 <h3 class="indexheader"><a href="#coding">Coding</a></h3>
 <p>
-We can always use an extra hand or two when it comes to polishing and adding new functionality to the website and to the game itself of course. All the coding languages used are web based, such as HTML, CSS, PHP, Javascript and Node.js. The project uses the great <a href="http://phaser.io" target="_blank"><b>Phaser</b></a> game engine, having a neat <a href="http://html5gamedevs.com/forum/14-phaser" target="_blank"><b>community</b></a>, <a href="http://phaser.io/docs" target="_blank"><b>documentation</b></a> and <a href="http://phaser.io/examples" target="_blank"><b>examples</b></a>.
+We can always use an extra hand or two when it comes to polishing and adding new functionality to the website and to the game itself of course. All the coding languages used are web based, such as HTML, CSS, PHP, Javascript and Node.js. The project uses the great <a href="http://phaser.io" target="_blank"><b>Phaser</b></a> game engine, having a neat <a href="http://html5gamedevs.com/forum/14-phaser" target="_blank"><b>community</b></a>, <a href="https://photonstorm.github.io/phaser-ce" target="_blank"><b>documentation</b></a> and <a href="http://phaser.io/examples" target="_blank"><b>examples</b></a>.
 It is also open source, you can find the repository on <a href="https://github.com/photonstorm/phaser" target="_blank"><b>Github</b></a>.
 </p><p>
 Check out this <a href="https://github.com/FreezingMoon/AncientBeast/blob/master/docs/CONTRIBUTING.md#readme" target="_blank"><b>guide</b></a> about how to set up the project locally.
