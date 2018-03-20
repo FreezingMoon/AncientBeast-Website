@@ -78,7 +78,6 @@ var $table = $('#statsTable');
 
 $table.tablesorter();
 $table.floatThead();
-</script>
 $('td').hover(function() { $(this).parents('#statsTable').find('col:eq('+$(this).index()+')').toggleClass('hover'); });
 </script>
 </div>
