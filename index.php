@@ -66,7 +66,7 @@ require_once 'header.php';
 <div class="center"><a href="https://discord.me/AncientBeast" target="_blank"><div class="button" style="background-image: url(images/push_button.png);">Join Discord Server</div></a></div>
 </div>
 <div class="lighten" id="screenshot"><a href="media/?type=screenshots#id=0">
-<img src="images/thumbs/screenie1.png" class="image frame active" alt="Screenshot_1 width="400" height="225"">
+<img src="images/thumbs/screenie1.png" class="image frame active" alt="Screenshot_1" width="400" height="225">
 <img src="images/thumbs/screenie2.png" class="image frame" alt="Screenshot_2" width="400" height="225" style="opacity: 0;">
 <img src="images/thumbs/screenie3.png" class="image frame" alt="Screenshot_3" width="400" height="225" style="opacity: 0;">
 <div class="center" style="padding-top: 235px;"><b>Check out some screenshots!</b></div></a></div>
