@@ -5,7 +5,7 @@
 body {
 	background: url(images/header.png) no-repeat center top, #000 url(images/bg.jpg) no-repeat left top fixed;
 	background-size: 1180px 295px, cover;
-	color: #b7b7b7;
+	color: #e3e3e3;
 	font-family: Play, sans-serif;
 	font-size: 18px;
 	overflow-x: hidden;
@@ -122,13 +122,13 @@ img { border: none; vertical-align: bottom; }
 
 a:link,
 a:visited,
-a:active { text-decoration: none; color: #b7b7b7; }
+a:active { text-decoration: none; color: #e6e6e6; }
 
 a:hover,
 .active a,
 a.active {
 	text-decoration: none;
-	color: #e6e6e6;
+	color: #f1f1f1;
 	cursor: pointer;
 	text-shadow: #000 0.1em 0.1em 0.2em, red 0 0 10px;
 }
@@ -150,6 +150,7 @@ iframe {
 .frame-bottom {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
+	font-size: 1.23em;
 	text-shadow: 0.1em 0.1em 0.1em black, 0 0 0.7em red;
 	text-align: center;
 	margin-bottom: 5px;
