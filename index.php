@@ -150,7 +150,6 @@ require_once 'header.php';
 
 <div class="div" id="plot" style="display: flex;">
 	<img src="images/hand.png" class="image lighten" onClick="toggleSound();" alt="hand" width="400" height="387" style="cursor: pointer;" title="Click to play narrative">
-	<audio id="narration" src="plot.ogg"></audio>
 
 	<div width="475" style="text-align: justify;">
 		<h3 class="indexheader"><a href="#plot">Plot</a></h3>
@@ -169,7 +168,7 @@ include 'blog/subscribe.php';
 include 'footer.php';
 ?>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <!-- Screenshot Thumbnail Slideshow -->
 <script>
@@ -192,14 +191,14 @@ function slideSwitch() {
 }
 $(function() { setInterval("slideSwitch()", 4000); });
 
-// Toggle Plot Narration
+// Toggle plot narration
 function toggleSound() {
 	var audioElem = document.getElementById('narration');
 	if (audioElem.paused) audioElem.play();
 	else audioElem.pause();
 }
 
-// Show next info card
+// Show next features info card
 var i = 0;
 var total = 3;
 function nextCard() {
