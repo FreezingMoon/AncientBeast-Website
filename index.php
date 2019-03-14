@@ -149,8 +149,6 @@ require_once 'header.php';
 </div>
 
 <div class="div" id="plot" style="display: flex;">
-	<img src="images/hand.png" class="image lighten" onClick="toggleSound();" alt="hand" width="400" height="387" style="cursor: pointer;" title="Click to play narrative">
-
 	<div width="475" style="text-align: justify;">
 		<h3 class="indexheader"><a href="#plot">Plot</a></h3>
 		<p>
@@ -161,6 +159,7 @@ require_once 'header.php';
 		<div class="center"><audio id="narration" controls src="plot.ogg" width="475"></audio></div>
 		<br>
 	</div>
+	<img src="images/hand.png" class="image lighten" onClick="toggleSound();" alt="hand" width="400" height="387" style="cursor: pointer;" title="Click to play narrative">
 </div>
 
 <?php
