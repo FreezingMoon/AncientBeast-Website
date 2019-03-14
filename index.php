@@ -96,7 +96,7 @@ require_once 'header.php';
 				<div class="wrapper">
 					<div class="info">
 						<h3 id="first_title" class="underline"></h3>
-						<span class="desc" id="desc"></span>
+						<span class="desc"></span>
 					</div>
 				</div>
 			</div>
@@ -107,7 +107,7 @@ require_once 'header.php';
 				<div class="wrapper">
 					<div class="info">
 						<h3 id="second_title"></h3>
-						<span class="desc" id="desc"></span>
+						<span class="desc"></span>
 					</div>
 				</div>
 			</div>
@@ -118,7 +118,7 @@ require_once 'header.php';
 				<div class="wrapper">
 					<div class="info">
 						<h3 id="third_title"></h3>
-						<span class="desc" id="desc"></span>
+						<span class="desc"></span>
 					</div>
 				</div>
 			</div>
@@ -129,7 +129,7 @@ require_once 'header.php';
 				<div class="wrapper">
 					<div class="info">
 						<h3 id="fourth_title"></h3>
-						<span class="desc" id="desc"></span>
+						<span class="desc"></span>
 					</div>
 				</div>
 			</div>
@@ -140,7 +140,7 @@ require_once 'header.php';
 				<div class="wrapper">
 					<div class="info">
 						<h3 id="fifth_title"></h3>
-						<span class="desc" id="desc"></span>
+						<span class="desc"></span>
 					</div>
 				</div>
 			</div>
