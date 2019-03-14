@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Play:400,700);
-@font-face { font-display: block; }
+@font-face { font-display: swap; }
 
 .alpha { color: rgba(0, 0, 0, 0)!important; text-shadow: none; }
 
