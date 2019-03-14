@@ -16,7 +16,7 @@
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  * https://www.AncientBeast.com
  * https://github.com/FreezingMoon/AncientBeast
@@ -63,7 +63,7 @@ require_once 'header.php';
 <p>
 <b>Ancient Beast</b> is a turn based strategy indie game project, played against other people (or bots) in hotseat or online modes, featuring a wide variety of units to acquire and put to good use in order to defeat all your opponents in battle.<br>This project was carefully designed to be easy to learn, fun to play and hard to master. We hope you'll enjoy it as well!
 </p>
-<div class="center"><a href="https://discord.me/AncientBeast" target="_blank"><div class="button" style="background-image: url(images/push_button.png);">Join Discord Server</div></a></div>
+<div class="center"><a href="https://discord.me/AncientBeast" target="_blank" rel="noopener"><div class="button" style="background-image: url(images/push_button.png);">Join Discord Server</div></a></div>
 </div>
 <div class="lighten" id="screenshot"><a href="media/?type=screenshots#id=0">
 <img src="images/thumbs/screenie1.png" class="image frame active" alt="Screenshot_1" width="400" height="225">
@@ -155,7 +155,7 @@ require_once 'header.php';
 	<div width="475" style="text-align: justify;">
 		<h3 class="indexheader"><a href="#plot">Plot</a></h3>
 		<p>
-		It's the year 2653. In the last few centuries, technology advanced exponentially and everyone had a fair chance of playing God. With help from the <a href="http://reprap.org" target="_blank"><b>RepRap</b></a> project, a free desktop 3d printer, which gave anyone power to build their own weapon factory or genetic laboratory on their own property. Mechanic parts or genetic modifications turned from a fashion option into a requirement for daily survival.
+		It's the year 2653. In the last few centuries, technology advanced exponentially and everyone had a fair chance of playing God. With help from the <a href="https://reprap.org" target="_blank" rel="noopener"><b>RepRap</b></a> project, a free desktop 3d printer, which gave anyone power to build their own weapon factory or genetic laboratory on their own property. Mechanic parts or genetic modifications turned from a fashion option into a requirement for daily survival.
 		</p><p>
 	Despite their combined efforts, the world's governments couldn't prevent the world from plunging into chaos. The Earth has become a battlefield, split between 7 factions fighting for dominion over the ravaged landscape. The apocalypse is here and only the strong ones will surpass it.
 		</p>
