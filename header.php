@@ -96,6 +96,6 @@ if(isset($_GET['action']) == 'logout') {
 </header>
 
 <!-- Main Area -->
-<div id="scroll"><a href="#"><img src="<?php echo $site_root; ?>images/AB.gif" height="32" width="32" alt="top"></a></div>
+<div id="scroll"><a href="#"><img src="<?php echo $site_root; ?>images/AB.gif" height="32" width="32" alt="top" style="padding-bottom: 4px;"></a></div>
 <div id="wrapper">
 
