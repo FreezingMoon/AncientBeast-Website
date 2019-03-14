@@ -159,7 +159,7 @@ require_once 'header.php';
 		<div class="center"><audio id="narration" controls src="plot.ogg" width="475"></audio></div>
 		<br>
 	</div>
-	<img src="images/hand.png" width="400" height="387" class="image lighten" style="cursor: pointer;" title="Click to play narrative" alt="hand" onClick="toggleSound();">
+	<img src="images/hand.png" class="image lighten" style="cursor: pointer; width: 400px; height: 387px;" title="Click to play narrative" alt="hand" onClick="toggleSound();">
 </div>
 
 <?php
