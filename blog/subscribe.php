@@ -17,8 +17,10 @@
 				</div>
 				<!-- Real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
 				<div style="position: absolute; left: -5000px;">
-					<label for="mce-human">Are you a human?</label>
-					<input type="text" name="b_32f1406080b23a82ecf9e8d6b_94b74a4105" tabindex="-1" value="" id="mce-human">
+					<label>
+						<input type="text" name="b_32f1406080b23a82ecf9e8d6b_94b74a4105" tabindex="-1" value="">
+						Are you a human?
+					</label>
 				</div>
 			</div>
 		</form>
