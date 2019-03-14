@@ -160,7 +160,7 @@ require_once 'header.php';
 		<br>
 	</div>
 	<div width="400">
-		<img src="images/hand.png" width="400" height="387" style="cursor: pointer;" class="image lighten"  title="Click to play narrative" alt="hand" onClick="toggleSound();">
+		<img src="images/hand.png" width="400" height="387" class="image lighten"  title="Click to play narrative" alt="hand" onClick="toggleSound();">
 	</div>
 </div>
 
