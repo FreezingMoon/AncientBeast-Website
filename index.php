@@ -149,7 +149,7 @@ require_once 'header.php';
 </div>
 
 <div class="div" id="plot" style="display: flex;">
-	<div width="475" style="text-align: justify;">
+	<div style="text-align: justify;">
 		<h3 class="indexheader"><a href="#plot">Plot</a></h3>
 		<p>
 		It's the year 2653. In the last few centuries, technology advanced exponentially and everyone had a fair chance of playing God. With help from the <a href="https://reprap.org" target="_blank" rel="noopener"><b>RepRap</b></a> project, a free desktop 3d printer, which gave anyone power to build their own weapon factory or genetic laboratory on their own property. Mechanic parts or genetic modifications turned from a fashion option into a requirement for daily survival.
