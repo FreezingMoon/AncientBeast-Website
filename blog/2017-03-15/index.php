@@ -1,6 +1,6 @@
 <?php
 /* Ancient Beast - Free Open Source Online PvP TBS: card game meets chess, with creatures.
- * Copyright (C) 2007-2012  Valentin Anastase (a.k.a. Dread Knight)
+ * Copyright (C) 2007-2014  Valentin Anastase (a.k.a. Dread Knight)
  *
  * This file is part of Ancient Beast.
  *
@@ -11,13 +11,13 @@
  *
  * Ancient Beast is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see https://www.gnu.org/licenses
  *
- * http://www.AncientBeast.com
+ * https://www.AncientBeast.com
  * https://github.com/FreezingMoon/AncientBeast
  * DreadKnight@FreezingMoon.org
  */
