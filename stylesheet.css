@@ -44,13 +44,7 @@ img { border: none; vertical-align: bottom; }
 
 .center { margin-left: auto !important; margin-right: auto !important; text-align: center !important; }
 
-.lighten:hover {
-	filter: brightness(120%);
-	-webkit-filter: brightness(120%);
-	-moz-filter: brightness(120%);
-	-o-filter: brightness(120%);
-	-ms-filter: brightness(120%);
-}
+.lighten:hover { filter: brightness(120%); }
 
 .shadow { box-shadow: 0 0 10px #000; }
 .underline { text-decoration: underline; }
