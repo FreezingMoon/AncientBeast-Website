@@ -82,6 +82,7 @@ img { border: none; vertical-align: bottom; }
 	background-image: url(images/push_button.png);
 	background-position: center;
 	border: none;
+	color: #e6e6e6;
 	font-family: Play, sans-serif;
 	font-size: larger;
 	display: inline-block;
@@ -90,6 +91,7 @@ img { border: none; vertical-align: bottom; }
 	margin-bottom: 5px;
 	width: 300px;
 	padding: 0;
+	text-shadow: #000 0.1em 0.1em 0.2em;
 }
 
 .button:hover {
