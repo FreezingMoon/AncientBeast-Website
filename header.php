@@ -40,7 +40,7 @@ if (isset($style)) echo '<style type="text/css">' . $style . '</style>';
 if (isset($stylesheet)) echo '<link rel="stylesheet" href="' . $stylesheet . '">';
 ?>
 
-<!--set page title-->
+<!-- Set page title -->
 <title>
 <?php
 $title = "Ancient Beast - ";
@@ -48,12 +48,13 @@ if (isset($page_title)) echo $title . $page_title;
 else echo $title . "Turn Based Strategy Game";
 ?>
 </title>
-<!--google analytics-->
+
+<!-- Google Analytics -->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+})(window,document,'script','https://google-analytics.com/analytics.js','ga');
 ga('create', 'UA-2840181-5', 'ancientbeast.com');
 ga('require', 'displayfeatures');
 ga('send', 'pageview');
@@ -80,6 +81,7 @@ if(isset($_GET['action']) == 'logout') {
 <header id="header">
 <div style="margin-top: -5px; margin-bottom: 50px;">
 <a href="<?php echo $site_root; ?>"><img src="<?php echo $site_root; ?>images/AncientBeast.png" height="125" width="555" alt="Ancient Beast" class="lighten"></a>
+
 <!-- Navigation Menu -->
 <nav><table style="font-size: 18px; font-weight: bold; margin: 0; padding: 0; margin-left: auto; margin-right: auto; text-align: center;"><tr>
 <?php
@@ -98,4 +100,3 @@ if(isset($_GET['action']) == 'logout') {
 <!-- Main Area -->
 <div id="scroll"><a href="#"><img src="<?php echo $site_root; ?>images/AB.gif" height="32" width="32" alt="top" style="padding-bottom: 4px;"></a></div>
 <div id="wrapper">
-

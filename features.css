@@ -1,0 +1,83 @@
+.card {
+	width: 400px;
+	height: 520px;
+	padding: 15px;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+    vertical-align: top;
+    display: inline-block;
+}
+.section {
+	color: #fff;
+	width: 100%;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight: bold;
+	font-size: 16px;
+}
+.sideA .info {
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 15px;
+	border: 4px ridge !important;
+	font-size: 24px;
+	text-align: center;
+	margin-top: -35px;
+	position: inherit;
+	width: 392px;
+	z-index: 1;
+}
+
+.sideA .info.sin- { border-color: grey !important; }
+.sideA .info.sinA { border-color: gold !important; }
+.sideA .info.sinE { border-color: orange !important; }
+.sideA .info.sinG { border-color: green !important; }
+.sideA .info.sinL { border-color: red !important; }
+.sideA .info.sinP { border-color: violet !important; }
+.sideA .info.sinS { border-color: blue !important; }
+.sideA .info.sinW { border-color: indigo !important; }
+
+.sideA .info.sin- { text-shadow: 0.1em 0.1em 0.1em black, 0 0 0.7em grey; }
+.sideA .info.sinA { text-shadow: 0.1em 0.1em 0.1em black, 0 0 0.7em gold; }
+.sideA .info.sinE { text-shadow: 0.1em 0.1em 0.1em black, 0 0 0.7em orange; }
+.sideA .info.sinG { text-shadow: 0.1em 0.1em 0.1em black, 0 0 0.7em green; }
+.sideA .info.sinL { text-shadow: 0.1em 0.1em 0.1em black, 0 0 0.7em red; }
+.sideA .info.sinP { text-shadow: 0.1em 0.1em 0.1em black, 0 0 0.7em violet; }
+.sideA .info.sinS { text-shadow: 0.1em 0.1em 0.1em black, 0 0 0.7em blue; }
+.sideA .info.sinW { text-shadow: 0.1em 0.1em 0.1em black, 0 0 0.7em indigo; }
+
+.abilities { text-align: left; }
+
+.abilities h3 { font-size: 16px; margin: 0; }
+
+.abilities .icon { position: absolute; left: 0px; top: 0px; }
+
+.abilities .icon, .contour {
+	display: inline-block;
+	background-size: 100% 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.abilities .icon .contour { background-image: url(../images/contour.png); width: 104px; height: 104px; }
+
+.ability { position: relative; padding-right: 3px; }
+
+.abilities .ability .wrapper {
+	display: table-cell;
+	height: 104px;
+	padding-left: 107px;
+	vertical-align: middle;
+}
+
+.abilities .ability .info { display: inline-block; }
+
+.features {
+	display: flex;
+	scroll-snap-type: mandatory;
+	scroll-behavior: smooth;
+}
+
+.feature {
+	flex-shrink: 0;
+	width: 100%;
+	padding: 0 10px;
+}
