@@ -1,6 +1,6 @@
 <?php
 /* Ancient Beast - Free Open Source Online PvP TBS: card game meets chess, with creatures.
- * Copyright (C) 2007-2014  Valentin Anastase (a.k.a. Dread Knight)
+ * Copyright (C) 2007-2019  Valentin Anastase (a.k.a. Dread Knight)
  *
  * This file is part of Ancient Beast.
  *
@@ -51,14 +51,17 @@ $style = '
 iframe.fullscreen { padding-top: 0; }
 ';
 
-require_once('../header.php'); ?>
+require_once('../header.php'); 
+
+$beta = isset($_GET['beta']) ? 1 : 0; ?>
 
 <!-- Hightlight active page -->
 <script>document.getElementById("<?php echo $page_title; ?>").className += " active";</script>
 
-<div id="bar">
-	<a onclick="if(confirm('Reset Game?')) var ifr=document.getElementsByName('game')[0]; ifr.src=ifr.src;" style="margin-left: 5px;"><img src="reset.svg" style="margin-bottom: 3px;"> Reset Game</a>
-	<a onclick="requestFullScreen()" style="margin-left: 660px;">Fullscreen <img src="fullscreen.svg" style="margin-bottom: 3px;"></a>
+<div id="bar" class="center" style="display: flex;">
+	<div style="width: 150px;"><a onclick="if(confirm('Switch to <?php if ($beta==0) echo 'un'; ?>stable version?'))  window.location.href='<?php if ($beta==0) echo 'index.php?beta'; else echo '/play/' ?>';"><img src="power.svg" style="margin-bottom: 3px;"> Beta <?php if ($beta==0) echo "Off"; else echo "On"; ?></a></div>
+	<div style="width: 650px;"></div>
+	<div style="width: 150px;"><a onclick="requestFullScreen()">Fullscreen <img src="fullscreen.svg" style="margin-bottom: 3px;"></a></div>
 </div>
 
 <?php
@@ -66,8 +69,12 @@ require_once('../header.php'); ?>
 $source = "http://localhost:8080/index.html";
 $whitelist = array('127.0.0.1', '::1');
 
-if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)) {
+if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist) && $beta == 0) {
 	$source = "https://play.AncientBeast.com";
+}
+
+if ($beta == 1) {
+	$source = "https://ancientbeast-beta.herokuapp.com";
 }
 ?>
 
