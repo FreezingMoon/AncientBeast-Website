@@ -8,7 +8,7 @@ function creatureGrid($creature_results = false) {
 	}
 
 echo '<style type="text/css">';
-	//TODO: Parse units in a better way, using set/realm/level data.json variables
+	// TODO: Parse units in a better way, using set/realm/level data.json variables
 	foreach ($creature_results as $r) {
 		if ($r['id'] == 0 ) { continue; } // Ignore Dark Priest
 		echo '.vignette.type' . $r['realm'] . $r['level'] . '{ background-image: url("' . $site_root . 'game/deploy/units/avatars/' . $r["name"] . '.jpg"); }';
