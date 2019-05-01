@@ -16,7 +16,7 @@ require_once '../images/stats/index.php';
 	<colgroup>
 	<?php
 	$i = 0;
-	// there are 22 rows, we must loop over this once per row.
+	// There are 22 rows, we must loop over this once per row.
 	while ($i <= 22) { echo '<col>'; $i++; }
 	?>
 	</colgroup>
@@ -49,17 +49,17 @@ require_once '../images/stats/index.php';
 	</thead>
 	<tbody>
 		<?php
-		// TODO: display cell tool-tip on hover
-		// TODO: add some realm related colors around
+		// TODO: Display cell tool-tip on hover
+		// TODO: Add some realm related colors around
 		foreach ($creature_results as $r) {
 			echo '<tr>';
-			// TODO: make an array with the columns needed
+			// TODO: Make an array with the columns needed
 			$columns = [
 				$r['name'],
 				$r['level'],
 				$r['realm'],
 				$r['size'],
-				// sum the values in the array, divide by number of items and add a % sign.
+				// Sum the values in the array, divide by number of items and add a % sign
 				array_sum($r['progress']) / sizeof($r['progress'])
 			];
 			$stats = $r['stats'];
@@ -75,7 +75,6 @@ require_once '../images/stats/index.php';
 <script>
 // Float table header
 var $table = $('#statsTable');
-
 $table.tablesorter();
 $table.floatThead();
 $('td').hover(function() { $(this).parents('#statsTable').find('col:eq('+$(this).index()+')').toggleClass('hover'); });
