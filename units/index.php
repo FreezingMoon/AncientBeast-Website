@@ -1,7 +1,7 @@
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <?php
 /* Ancient Beast - Free Open Source Online PvP TBS: card game meets chess, with creatures.
- * Copyright (C) 2007-2014  Valentin Anastase (a.k.a. Dread Knight)
+ * Copyright (C) 2007-2019  Valentin Anastase (a.k.a. Dread Knight)
  *
  * This file is part of Ancient Beast.
  *
