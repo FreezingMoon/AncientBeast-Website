@@ -1,12 +1,8 @@
 $(function() {
-	// Establish a globally exposed namespace.
-	window.ABCarousel = window.ABCarousel || {};
-	// This will hold the JSON array of all units
-	var units;
-	// Total items in the carousel (needs to be odd)
-	var carouselLength = 7;
-	// Essentially, the amount on each side after you remove the middle
-	var modValue = (carouselLength - 1) / 2;
+	window.ABCarousel = window.ABCarousel || {}; // Establish a globally exposed namespace
+	var units; // This will hold the JSON array of all units
+	var carouselLength = 7; // Total items in the carousel (needs to be odd)
+	var modValue = (carouselLength - 1) / 2; // Essentially, the amount on each side after you remove the middle
 
 	ABCarousel.updatePageDetails = function(id) {
 		var unit = units[id];
@@ -14,7 +10,7 @@ $(function() {
 		document.title = title;
 		history.pushState({}, title, "/units/?view=viewer&id=" + id);
 
-		// call reset function for Disqus to update page comments.
+		// Call reset function for Disqus to update page comments
 		resetDisqus(title, window.location.href, title);
 	}
 
@@ -46,8 +42,7 @@ $(function() {
 
 	ABCarousel.drawCarousel = function() {
 		ABCarousel.clearCarousel();
-		// Start at -mod
-		var i = modValue * -1;
+		var i = modValue * -1; // Start at -mod
 		// Go until positive mod, should result in carouselLength iterations
 		while (i <= modValue) {
 			// Grabs a spot from the unit array
@@ -69,10 +64,10 @@ $(function() {
 	ABCarousel.updateCarousel = function() {
 		var i = modValue * -1;
 		$(".carouselAvatar").each(function(index) {
-			// Grabs a spot from the unit array
-			var unitIndex = Math.abs((units.length + selectedUnit + i) % units.length);
-			// Add in the data id
-			$(this).data("id", unitIndex);
+			var unitIndex = Math.abs((units.length + selectedUnit + i) % units.length); // Grabs a spot from the unit array
+
+			$(this).data("id", unitIndex); // Add in the data id
+
 			this.href = "/units/?view=viewer&id=" + unitIndex;
 
 			// Add in the background images
@@ -82,8 +77,7 @@ $(function() {
 	}
 
 	ABCarousel.clearCarousel = function() {
-		// Remove all the data from the carousel and that's about it
-		$("#carousel").html("");
+		$("#carousel").html(""); // Remove all the data from the carousel and that's about it
 	}
 
 	ABCarousel.preloadImages = function(unitArr) {
@@ -97,8 +91,8 @@ $(function() {
 	}
 
 	ABCarousel.updateCard = function(unitIndex) {
-		// Set the unit to the selected unit
-		var unit = units[unitIndex];
+		var unit = units[unitIndex]; // Set the unit to the selected unit
+
 		// Update side A
 		$(".sideA").css("background-image", "url('" + siteUrl + "images/cards/margin.png'), url('" + siteUrl + "game/deploy/units/artwork/" + unit.name + ".jpg')");
 		$(".sideA .section.info").removeClass("sin- sinA sinE sinG sinL sinP sinS sinW").addClass("sin" + unit.type.substring(0, 1));
@@ -106,10 +100,10 @@ $(function() {
 		$(".sideA .name").text(unit.name);
 		$(".sideA audio").attr("src", "../game/deploy/units/shouts/" + unit.name.replace(" ", "%20") + ".ogg");
 		$(".sideA .hexs").html(unit.size + "&#11041;");
+
 		// Update side B
 		$(".sideB").css("background-image", "url('" + siteUrl + "images/cards/margin.png'), url('" + siteUrl + "images/cards/" + unit.type.substring(0, 1) + ".jpg')");
-		// Change abilities (icon, title, desc, info, upgrade)
-		for (var property in unit.stats) {
+		for (var property in unit.stats) { // Change abilities (icon, title, desc, info, upgrade)
 			if (unit.stats.hasOwnProperty(property)) {
 				var stat = ".sideB ." + property + " .value";
 				$(stat).text(unit.stats[property]);
@@ -120,8 +114,7 @@ $(function() {
 		abilitiesWrapper.empty();
 		var output = "";
 		unit.ability_info.forEach(function(info, idx) {
-			// Figure out if upgradable
-			var upgrade = info["upgrade"];
+			var upgrade = info["upgrade"]; // Figure out if upgradable
 			var cost;
 
 			if (upgrade) {
