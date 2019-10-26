@@ -57,7 +57,7 @@ $sections = array(
 	'table',
 	'viewer'
 );
-echo '<nav class="div center">';
+echo '<nav class="center">';
 foreach ($sections as &$sectionItem) {
 	echo '<div style="display: inline-block;" class="lighten"><a href="?view=' . $sectionItem . '"><div class="button" style="background-image: url(' . $site_root . 'images/push_button.png);">' . ucfirst($sectionItem) . '</div></a></div>';
 }
