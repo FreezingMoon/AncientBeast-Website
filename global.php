@@ -26,48 +26,6 @@
 if(file_exists(dirname(__FILE__) . "/config.php")) require_once 'config.php';
 else require_once 'config.php.in';
 
-// Session starting for login
-session_start();
-
-// Change character set to utf8
-mysqli_set_charset($link, "utf8");
-
-// Page generation
-function db_execute($query) {
-	global $link;
-	if($link === false)
-		return false;
-	if(is_null($link))
-		if(!db_connect())
-			return false;
-
-	$r = mysqli_query($link, $query);
-	if($r === false) return false;
-	mysqli_free_result($query);
-	return true;
-}
-function db_query($query) {
-	global $link;
-	if($link === false)
-		return false;
-
-	$r = mysqli_query($link, $query);
-	if($r === false) return false;
-	if(mysqli_num_rows($r) > 0) {
-		$o = array();
-		$i = 0;
-		while ($row = @mysqli_fetch_assoc($r)) {
-			$o[$i] = array();
-			foreach($row as $k => $v)
-				$o[$i][$k] = $v;
-			$i++;
-		}
-		return $o;
-	}
-	mysqli_free_result($query);
-	return true;
-}
-
 // Display Disqus comments
 function disqus($x='') {
 	global $page_title;

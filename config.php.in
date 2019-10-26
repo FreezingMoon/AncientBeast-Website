@@ -27,14 +27,4 @@
 // Warning: You might need to use your port number too!
 // Eg: $site_root = ':8088/';
 $site_root = '/'; // Warning: If you need to change this variable, do it in a duplicated file named "config.php"!
-
-// MySQL database information is stored over here
-// Default values are http://OpenShift.com env vars
-// Feel free to change and save this file as config.php
-$host = getenv('OPENSHIFT_MYSQL_DB_HOST') ? getenv('OPENSHIFT_MYSQL_DB_HOST') : 'localhost';
-$user = getenv('OPENSHIFT_MYSQL_DB_USERNAME') ? getenv('OPENSHIFT_MYSQL_DB_USERNAME') : 'root';
-$password = getenv('OPENSHIFT_MYSQL_DB_PASSWORD') ? getenv('OPENSHIFT_MYSQL_DB_PASSWORD') : 'password';
-$database = getenv('OPENSHIFT_APP_NAME') ? getenv('OPENSHIFT_APP_NAME') : 'AncientBeast';
-
-$link = mysqli_connect($host, $user, $password, $database);
 ?>

@@ -1,4 +1,3 @@
-<?php mysqli_close($link); ?>
 </div>
 <div class="footer smalldiv center">
 	<a href="https://www.paypal.me/AncientBeast" target="_blank" rel="noopener">
