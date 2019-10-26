@@ -50,60 +50,58 @@ city layout: 3x3 grid; square (homm3) or diamond (isometric, homm4) to be decide
 <p>
 <b>Avarice</b><br>
 <br>
-<u>Pricy Tower</u><br>
 <p></p>
-<u>Safe House</u> - Swine Thug<br>
+<u>Piggy Bank</u> - Swine Thug<br>
 <p>Them pigs really learned their lesson, no longer giving in to the big bad wolf. Their houses are now made out of state of the art adamantium safes, with roofs on top!</p>
-<u>Black Market</u> - Bounty Hunter<br>
-<p></p>
-<u>Treasure Vault</u> - Cyber Hound<br>
-<p></p>
-<u>Hoarding Halls / Casino</u> - Greedy Knight<br>
-<p></p>
-<u>Poverty Bank</u> - Gilded Maiden<br>
-<p></p>
-<u>Material Church</u> - Living Armor<br>
-<p></p>
-<u>Tribute Shrine / Throne</u> - Golden Wyrm<br>
-<p></p>
+<u>Pricy Tavern</u> - Bounty Hunter<br>
+<p>Nobody sane dares to hang around in this place for the "friendly" people and drinks, some only dare to adventure here in acts of desperation as a last resort solution when in need of a hitman.</p>
+<u>Black Market</u> - Cyber Hound<br>
+<p>Here's the place to find all sorts of gadgets, mass destruction weapons and even dangerous prosthetics if you lose a limb if your negotation skills were poor.</p>
+<u>Cash Casino</u> - Greedy Knight<br>
+<p>Enter this place in hopes to win something and you'll be likely leaving empty handed or worse, in small pieces, no matter what. The house always wins!</p>
+<u>Coin Tower</u> - Gilded Maiden<br>
+<p>Very tall lavish construction made out of huge golden dimes stacked together. Feel free to stare at it if you don't go blind but make sure you don't touch!</p>
+<u>Automated Factory</u> - Living Armor<br>
+<p>Drones constantly dump raw materials into this industrial structure and every once in a while, confused massive golem like creatures start to wonder out of it.</p>
+<u>Tribute Altar</u> - Golden Wyrm<br>
+<p>Rumor has it that each time someone passes by this place, he must throw a coin at it, otherwise a great force will weild the huge axe and cut him in half in a flash.</p>
 </p>
 <br>
 <p>
 <b>Envy</b><br>
 <br>
-<u>Granite Obelisk</u><br>
-<p>An yellowish obelish made from inscripted segmets stacked on top of each other for every level.</p>
 <u>Chickin Farm</u> - Cycloper<br>
 <p>This could be a laboratory, having a femur bone fence surrounding it.</p>
-<u>Wooden Ship</u> - Scavenger<br>
-<p>An old vessel, perhaps it was built to travel over the sands, or these places was once covered with water, who knows... mysterious flying creatures like to use them as homes as they're good places to hoard various junk they find and the masts allow them to easily keep an eye on the nearby area.</p>
-<u>Circus Tent</u> - Mr. Stitches<br>
+<u>Mystic Tent</u> - Mr. Stitches<br>
+<p></p>
+<u>Treasure Chest</u> - Nutcase<br>
+<p></p>
+<u>Gravel Pit / Coal Mine</u> - Stomper<br>
+<p></p>
 <p>A very ragged tent made out of various mismatching textiles that were sawn together. Many enter not to be seen ever again.</p>
-<u>Light House</u> - Vertigo<br>
+<u>Floating Windmill</u> - Vertigo<br>
 <p>This structure was probably designed to lure ships into rocks and bait lost creatures into approaching, seeking shelter during those nasty flesh ripping sand storms.</p>
 <u>Desert Oasis</u> - Scorpius<br>
 <p>While everything is all sun and sand around, the oasis is sure to attract desperate creatures with it's small pond to fill their thirst, tasty looking vegetation to fill their hunger and palm tree making shadow to cool off even more after eating and drinking. Yet they might be not weary that it's all too good to be true.</p>
-<u>Sliced Canyon</u> - Razorback<br>
+<u>Sliced Canyon</u> - Spikes<br>
 <p></p>
-<u>Grotesque/Grave Cavern</u> - Night Stalker<br>
+<u>Grotesque/Grave Cavern</u> - Batmadillo<br>
 </p>
 <br>
 <p>
 <b>Gluttony</b><br>
 <br>
-<u>Sculpted Totem</u><br>
+<u>Fungal Throne</u> - Toxic Shroom<br>
+<p>This funny chair might seem like a cool place to sit and relax, but when you'll get up, you won't get very far. Ingenious a trap designed by the shrooms, which will consume your corpse.</p>
+<u>Lily Swamp</u> - Swampler<br>
 <p></p>
-<u>Fungal Throne / Shrine</u> - Toxic Shroom<br>
-<p></p>
-<u>Peaceful Lily/swamp</u> - Swampler<br>
-<p></p>
-<u>Stump Hyve / Mystic Ziggurat</u> - Uncle Fungus<br>
-<p></p>
-<u>Mystic Ziggurat</u> - Miss Creeper<br>
-<p></p>
+<u>Sacred Ziggurat</u> - Uncle Fungus<br>
+<p>Ferocious creatures leap back and forth all around from the top of this tall pyramid like structure, whenever prey makes the fatal mistake to comes within its area.</p>
+<u>Blood Stump</u> - Miss Creeper<br>
+<p>A jacuzzi within a dead tree filled with the vital fluids of creatures wanting to settle their thirst, it's a never ending cycle apparently, so keep away!</p>
 <u>Monkey Cup</u> - Papa Eggplant<br>
 <p>nepenthes carnivore flower</p>
-<u>Digestive Tub / Corrosive Pool</u> - Marauder<br>
+<u>Corrosive Pond</u> - Marauder<br>
 <p></p>
 <u>Waterfall Den</u> - Moss Hound<br>
 <p>A forest having a small glade, with a dead tree in the middle, having butterflies in it. The forest is so tick that the trees are forming a wall, the only visible entrance appears to be a wolf shaped den.</p>
@@ -112,59 +110,55 @@ city layout: 3x3 grid; square (homm3) or diamond (isometric, homm4) to be decide
 </p>
 <b>Lust</b><br>
 <br>
-<u>Metallic Collumn</u><br>
+<u>Boiling Crater</u> - Lava Mollusk<br>
 <p></p>
-<u>Boiling Tub / Thermal Pool</u> - Lava Mollusk<br>
+<u>Spiral Shell</u> - Magma Spawn<br>
 <p></p>
-<u>Shell Labyrinth</u> - Magma Spawn<br>
-<p></p>
-<u>Crystal Altar</u> - Infernal<br>
+<u>Crystal Carapace</u> - Infernal<br>
 <p></p>
 <u>Weapon Forge</u> - Metal Face<br>
 <p></p>
-<u>Craterous Volcano</u> - Vulcan<br>
+<u>Active Volcano</u> - Vulcan<br>
 <p></p>
-<u>Crematory Unit</u> - Volpyr<br>
+<u>Crematory Passage</u> - Volpyr<br>
 <p></p>
-<u>Pyre Nest</u> - Fire Bird<br>
+<u>Female Statue / Fire Fall - Succubus<br>
+<p></p>
+<u>Egg Shrine</u> - Fire Bird<br>
 <p></p>
 </p>
 <br>
 <p>
 <b>Pride</b><br>
 <br>
-<u>Decorative Pillar</u><br>
+<u>Candy Booth</u> - Gumble<br>
 <p></p>
-<u>Baloon Factory</u> - Gumble<br>
-<p></p>
-<u>Dried Aquarium</u> - Sand Shrimp<br>
-<p>A rectangular glass tank, having the whole bottom covered with sand, some castle ruins on top of that, along with a few plants and such, but lacking any water in it.</p>
-<u>Braille Library</u> - Troglodyte<br>
+<u>Bunker Club</u> - Royal Guard<br>
+<p>One or more snow caves that cave the entrances blocked by huge snow boulders.</p>
+<u>Flying Ship</u> - Scavenger<br>
+<p>A very strange place that's filled with all sorts of things that you can't even imagine. Mysterious silhouettes are flying in and out relentlessly.</p>
+<u>Braille Library</u> - Bookworm<br>
 <p>A rectangular structure made all out of huge books, entrance being done in the middle of the lenght, after you climb some stairs. The roof is made out of 3 huge opened books facing upside-down. This structure contains some strange books, probably written in binary code, that only the troglodytes can read by swipping their tongues over the pages.</p>
-<u>Floating Windmill</u> - Stomper<br>
+<u>Massive Cannon</u> - Aegis<br>
 <p></p>
-<u>Massive Cannon</u> - Royal Guard<br>
-<p></p>
-<u>Sacred Lair</u> - Chimera<br>
-<p></p>
-<u>Forsaken Temple</u> - Abolished<br>
-<p></p>
+<u>Animal Temple</u> - Chimera<br>
+<p>A strange garden featuring a variety of roughly sculpted animal shapes scattered all around, though this place always gives you the impression something is moving in the corner of your eyes.</p>
+<u>Forsaken Portal</u> - Abolished<br>
+<p>Starway that lead into a rather unsetling</p>
 </p>
 <br>
 <p>
 <b>Sloth</b><br>
 <br>
-<u>Glacial Spire</u><br>
-<p>A tower that has an exterior spiral path and window holes. Levels are distinguished by balconies.</p>
-<u>Air Geizer</u> - Snow Bunny<br>
-<p>One or more holes in the ground from which wind blows out from time to time, along with snow flakes, having a spiral flow.</p>
-<u>Forbidden Cave</u> - Bouncer<br>
-<p>One or more snow caves that cave the entrances blocked by huge snow boulders.</p>
-<u>Spring Fountain</u> - Deep Beauty<br>
-<p>An interesting shaped fountain that has water gushing out of it at a constant rate.</p>
-<u>Chess Pond</u> - Nightmare<br>
+<u>Carrot Cottage</u> - Snow Bunny<br>
+<p></p>
+<u>Dried Aquarium</u> - Blue Shrimp<br>
+<p>A rectangular glass tank, having the whole bottom covered with sand, some castle ruins on top of that, along with a few plants and such, but lacking any water in it.</p>
+<u>Wishing Well</u> - Deep Beauty<br>
+<p>An old fountain where desperate people would come to try to make their deepest desires come true, at a cost.</p>
+<u>Chess Lake</u> - Nightmare<br>
 <p>A frozen lake which has a chess board carved into it, having the black sqares as holes into the ice. Some ice made chess pieces are on the white tiles, like rooks and pawns etc., maybe not horses as they might make the impression that Impalers can be recruited from this dwelling.</p>
-<u>Winter Maze</u> - Impaler<br>
+<u>Ivy Maze</u> - Impaler<br>
 <p>A maze kinda like in "The Shinning" movie, having the bushes almost white as they're covered with snow. This makes the link regarding Impaler's ivy like toungue and poisonous vine skill along with the natural vegetation, the bushes that forming the maze itself. Around corners there are pits of ice spikes, so make sure that you don't move too fast and get tricked right in by the slippery floor.</p>
 <u>Water Park</u> - Adaptation<br>
 <p>Here's where all the fun is at! A blue colored spiral water slide, leading right into a pool of water that has a lot of deadly jellyfish in it. What more can you want during your vacation?</p>
@@ -175,21 +169,19 @@ city layout: 3x3 grid; square (homm3) or diamond (isometric, homm4) to be decide
 <p>
 <b>Wrath</b><br>
 <br>
-<u>Skull Pile</u><br>
-<p>This is my kind of thing: a huge different monster bone skull for each level. Really nasty looking stuff for the average guy, but this is definitely a head-hunter's dream collection, no doubt about it.</p>
-<u>Torture Chamber</u> - Nutcase<br>
+<u>Ink Pot</u> - Mangler<br>
 <p></p>
-<u>Bone Yard</u> - Flesh Cleanser<br>
+<u>Bone Kennels</u> - Cataract<br>
 <p></p>
-<u>Guillotine Tunnel / Trench / Catacombs / Mausoleum</u> - Headless<br>
+<u>Guillotine Trap</u> - Headless<br>
 <p></p>
-<u>Blood Bath</u> - Flayed<br>
+<u>Leather Boot</u> - Flayed<br>
 <p></p>
-<u>Slaughter Dungeon</u> - Horn Head<br>
+<u>Giant Skull</u> - Horn Head<br>
 <p></p>
-<u>Cyst Crypt</u> - Satyr<br>
+<u>Meat Grinder</u> - Satyr<br>
 <p></p>
-<u>Burial Tomb</u> - Sarcophag<br>
+<u>Desecrated Tomb</u> - Sarcophag<br>
 <p></p>
 </p>
 
