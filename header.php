@@ -70,7 +70,7 @@ ga('send', 'pageview');
 <!-- Navigation Menu -->
 <nav><table style="font-size: 18px; font-weight: bold; margin: 0; padding: 0; margin-left: auto; margin-right: auto; text-align: center;"><tr>
 <?php
-  $menu = array('lore', 'media', 'shop', 'play', 'blog', 'units');
+  $menu = array('lore', 'media', 'play', 'blog', 'units');
   foreach ($menu as &$menuItem) {
     echo '<td>
       <a href="' . $site_root . $menuItem . '/" id="' . ucfirst($menuItem) . '" style="display:block;" class="lighten">
