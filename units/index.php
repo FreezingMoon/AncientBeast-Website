@@ -53,82 +53,37 @@ $license = '<div class="div" id="license">All the characters are under the <a hr
 <?php
 // Display list of subpages
 $sections = array(
-	'viewer',
-	'table',
 	'sets',
-	'widget',
-	'dwellings',
-	'metrics'
+	'table',
+	'viewer'
 );
-echo '<nav class="div center"><ul class="sections">';
+echo '<nav class="div center">';
 foreach ($sections as &$sectionItem) {
-	echo '<li style="display: inline;"><a href="?view=' . $sectionItem . '"  id="' . $sectionItem . '" style="padding: 2.5em;">' . ucfirst($sectionItem) . '</a></li>';
+	echo '<div style="display: inline-block;" class="lighten"><a href="?view=' . $sectionItem . '"><div class="button" style="background-image: url(' . $site_root . 'images/push_button.png);">' . ucfirst($sectionItem) . '</div></a></div>';
 }
-echo '</ul></nav>';
+echo '</nav>';
 
 // This div serves as an anchor
 echo '<div id="focus"></div>';
 
 switch ($view) {
 	default:
-		?>
-		<div class="center">
-			<div style="display: inline-block;" class="lighten">
-				<a href="?view=viewer"><img src="<?php echo $site_root; ?>images/squares/viewer<?php echo rand(1, 2); ?>.jpg" class="frame frame-top">
-				<div class="frame frame-bottom">Unit Cards Viewer</div></a>
-			</div>
-			<div style="display: inline-block;" class="lighten">
-				<a href="?view=sets"><img src="<?php echo $site_root; ?>images/squares/sets.jpg" class="frame frame-top">
-				<div class="frame frame-bottom">Complete Grid Sets</div></a>
-			</div>
-			<div style="display: inline-block;" class="lighten">
-				<a href="?view=table"><img src="<?php echo $site_root; ?>images/squares/table.jpg" class="frame frame-top">
-				<div class="frame frame-bottom">Stats Comparison Table</div></a>
-			</div>
-			<div style="display: inline-block;" class="lighten">
-				<a href="?view=widget"><img src="<?php echo $site_root; ?>images/squares/widget.jpg" class="frame frame-top">
-				<div class="frame frame-bottom">3D Models Widget</div></a>
-			</div>
-			<div style="display: inline-block;" class="lighten">
-				<a href="?view=dwellings"><img src="<?php echo $site_root; ?>images/squares/dwellings.jpg" class="frame frame-top">
-				<div class="frame frame-bottom">Realms And Dwellings</div></a>
-			</div>
-			<div style="display: inline-block;" class="lighten">
-				<a href="?view=metrics"><img src="<?php echo $site_root; ?>images/squares/metrics.jpg" class="frame frame-top">
-				<div class="frame frame-bottom">Online Usage Metrics</div></a>
-			</div>
-		</div>
-		<?php
-		break;
-
-	case 'viewer':
-		include 'viewer.php';
-		break;
-
-	case 'table':
-		include 'table.php';
+		include 'sets.php';
 		break;
 
 	case 'sets':
 		include 'sets.php';
 		break;
 
-	case 'widget':
-		include 'widget.php';
+	case 'table':
+		include 'table.php';
 		break;
 
-	case 'dwellings':
-		include 'dwellings.php';
-		break;
-
-	case 'metrics':
-		include 'metrics.php';
+	case 'viewer':
+		include 'viewer.php';
 }
 
 include('../footer.php'); ?>
-
-<!-- Highlight active subpage -->
-<script>document.getElementById("<?php echo $view; ?>").className += " active";</script>
 
 <!-- Focus on content when clicking subpage again -->
 <script>document.getElementById("<?php echo $view; ?>").href += "#focus";</script>

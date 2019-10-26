@@ -15,20 +15,6 @@ require_once 'cards.php';
 
 <link rel="stylesheet" href="progress.css">
 <?php creatureGrid($creature_results); ?>
-
-<!-- TODO: Enable when making multiple sets and delete the <br> after
-<div class="center">
-	<div style="display: inline-block;" class="lighten">
-		<a href="?set=alpha"><div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">(α) Alpha Set</div></a>
-	</div>
-	<div style="display: inline-block;" class="lighten">
-		<a href="?set=beta"><div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">(β) Beta Set</div></a>
-	</div>
-	<div style="display: inline-block;" class="lighten">
-		<a href="?set=gamma"><div class="button" style="background-image: url(<?php echo $site_root; ?>images/push_button.png);">(γ) Gamma Set</div></a>
-	</div>
-</div>
--->
 <br>
 
 <?php
