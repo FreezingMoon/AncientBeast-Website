@@ -158,10 +158,11 @@ Any amount you can donate is very appreciated, thank you!<br>
 
 <div style="display: inline-block; vertical-align: top;" class="center">
 <table style="width: 400px;"><tr><td><b>Top Donors via PayPal</b></td><td><b>$</b></td></tr>
-<tr><td><a href="https://FreezingMoon.org" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Anastase family <img src="./yellow.png" class="scale"></a></td><td>3765</td></tr>
+<tr><td><a href="https://FreezingMoon.org" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Anastase family <img src="./yellow.png" class="scale"></a></td><td>9402</td></tr>
 <tr><td><a href="https://harumorii.deviantart.com" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Haru <img src="./yellow.png" class="scale"></a></td><td>2500</td></tr>
 <tr><td><a href="https://fiverr.com/dreadknight" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Dread Knight <img src="./yellow.png" class="scale"></a></td><td>1350</td></tr>
 <tr><td><a href="https://ugnis.com" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Karolis Masiulis  <img src="./yellow.png" class="scale"></a></td><td>300</td></tr>
+<tr><td><a href="https://www.patreon.com/user?u=55200" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Rob <img src="./yellow.png" class="scale"></td><td>170</td></tr>
 <tr><td><a href="https://github.com/unhammer" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Kevin Brubeck Unhammer <img src="./yellow.png" class="scale"></a></td><td>50</td></tr>
 <tr><td><a href="https://teogreengage.blogspot.com" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Teo Cazghir <img src="./yellow.png" class="scale"></td><td>50</td></tr>
 <tr><td><a href="https://bountysource.com" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> David Rappo <img src="./yellow.png" class="scale"></a></td><td>50</td></tr>
@@ -172,7 +173,7 @@ Any amount you can donate is very appreciated, thank you!<br>
 <tr><td><a href="https://twitter.com/alexandredes" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Alexandre Deschamps <img src="./yellow.png" class="scale"></a></td><td>20</td></tr>
 <tr><td><a href="" target="_blank" class="lighten donate"><img src="./yellow.png"> Vincent Bermel <img src="./yellow.png" class="scale"></a></td><td>15</td></tr>
 <tr><td><a href="https://options.tradersapiens.ru/iqoption" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> IQOption <img src="./yellow.png" class="scale"></td><td>11</td></tr>
-<tr><td><a href="https://www.patreon.com/user?u=55200" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Rob <img src="./yellow.png" class="scale"></td><td>10</td></tr>
+<tr><td><a href="https://Mafija.lv" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Ilya Demidovich <img src="./yellow.png" class="scale"></td><td>10</td></tr>
 <tr><td><a href="https://binaryoptionstradingtips.com/no/bdswiss-erfaringer" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> BDSwiss <img src="./yellow.png" class="scale"></td><td>10</td></tr>
 <tr><td><a href="https://facebook.com/leifhl" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Leif Larsen <img src="./yellow.png" class="scale"></td><td>10</td></tr>
 <tr><td><a href="https://mrfaemir.deviantart.com" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Daniel Cohen <img src="./yellow.png" class="scale"></a></td><td>5</td></tr>
