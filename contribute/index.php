@@ -213,12 +213,12 @@ White icon over black background, svg format, 512 by 512 pixels, similar style t
 The <a href="https://inkscape.org" target="_blank" rel="noopener"><b>Inkscape</b></a> vector graphics editor is the right tool for this.</p>
 
 <p><b>Design various promotional items</b><br>
-We can always use some more desktop <a href="../media/?type=wallpapers"><b>wallpapers</b></a>, 1920 by 1080 pixels and more merchandise for our online <a href="../shop"><b>shop</b></a>, such as <b>miniatures</b>, <b>plushies</b>, <b>T-shirts</b>, <b>posters</b> & <b>stickers</b>.
+We can always use some more desktop <a href="../media/?type=wallpapers"><b>wallpapers</b></a>, 1920 by 1080 pixels and more merchandise for our online shop, such as <b>miniatures</b>, <b>plushies</b>, <b>T-shirts</b>, <b>posters</b> & <b>stickers</b>.
 </p>
 <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/license-CC--BY--SA%203.0-green.svg" class="lighten"></a>
 <a href="https://mega.co.nz/#F!GAJAjAzL!AhBUayQndZbH_j2IL2B-nA" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/repository-MEGA-red.svg" class="lighten"></a>
 <a href="https://ancient-beast.deviantart.com" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/group-deviantArt-green.svg" class="lighten"></a>
-<a href="https://gitter.im/FreezingMoon/AncientBeast" target="_blank" rel="noopener"><img src="https://badges.gitter.im/FreezingMoon/AncientBeast.svg" class="lighten"></a>
+<a href="https://discord.me/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/join-Discord-9cf.svg" class="lighten"></a>
 </div>
 
 <?php $i = 0; ?>
