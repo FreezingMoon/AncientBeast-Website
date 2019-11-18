@@ -68,7 +68,7 @@ require_once('../header.php');
 				<div class="wrapper">
 					<div class="info">
 						<h3 id="first_title" class="underline">Donate</h3>
-						<span class="desc" id="desc">You can donate to the project directly via PayPal or Bitcoin and we also have nice Patreon and Bountysource pages.</span>
+						<span class="desc" id="desc">You can came one time donations to the project or monthly recurring ones, which will be put to various great uses.</span>
 					</div>
 				</div>
 				</a>
@@ -143,7 +143,6 @@ We strongly believe in open source software development, but to run a successful
 You should consider donating via <a href="https://www.paypal.me/AncientBeast" target="_blank" rel="noopener"><b>Paypal</b></a> or <a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast"><b>Bitcoin</b></a>, even if you're not into turn based strategy games you must see the bigger picture: we're setting an example in the industry and also creating a huge high quality art repository that you and others can use for commercial work and possibly even make other neat games, comics or maybe even some animations.
 </p><p>
 Feel free to become our <a href="https://patreon.com/FreezingMoon" target="_blank"><b>Patreon</b></a> and receive cool rewards.
-You can address individual issues by using <a href="https://www.bountysource.com/teams/ancientbeast/issues" target="_blank" rel="noopener"><b>Bounty Source</b></a>.
 If you wish to become a sponsor, get in touch via an <a href="mailto:DreadKnight@FreezingMoon.org?Subject=I want to Sponsor the Project" target="_blank"><b>email</b></a>.
 Any amount you can donate is very appreciated, thank you!<br>
 
@@ -152,7 +151,7 @@ Any amount you can donate is very appreciated, thank you!<br>
 <a href="https://www.paypal.me/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-PayPal-yellow.svg" class="lighten"></a>
 <a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast" target="_blank"><img src="https://img.shields.io/badge/Donate-Bitcoin-orange.svg" class="lighten"></a>
 <a href="https://patreon.com/FreezingMoon" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-Patreon-red.svg" class="lighten"></a>
-<a href="https://www.bountysource.com/teams/ancientbeast/issues" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-Bountysource-green.svg" class="lighten"></a>
+<a href="https://opencollective.com/ancientbeast#section-contribute" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-OpenCollective-blue.svg" class="lighten"></a>
 </p>
 </div>
 
@@ -269,7 +268,6 @@ Sometimes even reviewing or talking code can greatly help.
 </p>
 <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/license-AGPL3.0-green.svg" class="lighten"></a>
 <a href="https://github.com/FreezingMoon/AncientBeast/issues" target="_blank" rel="noopener"><img src="https://img.shields.io/github/issues/FreezingMoon/AncientBeast.svg" class="lighten"></a>
-<a href="https://www.bountysource.com/teams/ancientbeast/issues" target="_blank" rel="noopener"><img src="https://bountysource.com/badge/team?team_id=44509&style=bounties_received" class="lighten"></a>
 </div>
 
 <?php $i = 0; ?>
