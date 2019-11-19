@@ -1,3 +1,4 @@
+<br>
 </div>
 <div class="footer smalldiv center">
 	<a href="https://www.paypal.me/AncientBeast" target="_blank" rel="noopener">
@@ -8,6 +9,9 @@
 	</a>
 	<a href="https://www.patreon.com/FreezingMoon" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/patreon.png" style="width: 48px; height: 48px;" class="lighten" alt="patreon" title="Pledge to our Patreon campaign!">
+	</a>
+	<a href="https://opencollective.com/AncientBeast" target="_blank" rel="noopener">
+		<img src="<?php echo $site_root; ?>images/footer/opencollective.png" style="width: 48px; height: 48px;" class="lighten" alt="opencollective" title="Pledge to our OpenCollective!">
 	</a>
 	<a href="https://facebook.com/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/facebook.png" style="width: 48px; height: 48px;" class="lighten" alt="facebook" title="Give us a like on Facebook!">
