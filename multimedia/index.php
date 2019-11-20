@@ -23,7 +23,7 @@
  */
 
 // Display default or selected page
-$type = isset($_GET['type']) ? $_GET['type'] : 'Media';
+$id = isset($_GET['id']) ? $_GET['id'] : 'Multimedia';
 $style = '
 .bigger { font-size: 28px; color: #e6e6e6; }
 .artwork { height: 200px; margin: 5px; }
@@ -35,24 +35,30 @@ require_once "../header.php";
 // Display list of subpages
 $sections = array(
 	'artwork',
-	'fanart',
+	'models',
 	'screenshots',
 	'wallpapers',
 	'videos',
-	'music'
+	'tracks'
 );
-echo '<nav class="div center" id="navigation"><ul class="sections">';
-foreach ($sections as &$sectionItem) {
-	echo '<li style="display: inline;"><a href="?type=' . $sectionItem . '"  id="' . $sectionItem . '" style="padding:2em;">' . ucfirst($sectionItem) . '</a></li>';
-}
-echo '</ul></nav>';
-?>
+
+if ($id != 'Multimedia') { ?>
+	<nav class="div center" id="navigation">
+		<ul class="sections">
+		<?php
+		foreach ($sections as &$sectionItem) {
+			echo '<li style="display: inline;"><a href="?id=' . $sectionItem . '"  id="' . $sectionItem . '" style="padding:2em;">' . ucfirst($sectionItem) . '</a></li>';
+		}
+	}
+	?>
+	</ul>
+</nav>
 
 <script>
 // Set page title
-document.title = "Ancient Beast - <?php echo ucfirst($type); ?>";
+document.title = "Ancient Beast - <?php echo ucfirst($id); ?>";
 
-// Hightlight media page
+// Hightlight page
 document.getElementById("Media").className += " active";
 </script>
 
@@ -60,36 +66,33 @@ document.getElementById("Media").className += " active";
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <?php
-// This div serves as an anchor
-echo '<div id="focus"></div>';
-
-switch($type) {
+switch($id) {
 	default:
 		?>
 		<div class="center">
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=artwork"><img src="<?php echo $site_root; ?>images/squares/artwork.jpg" class="frame frame-top">
-				<div class="frame frame-bottom">Browse Official Artwork</div></a>
+				<a href="?id=artwork"><img src="<?php echo $site_root; ?>images/squares/artwork.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Browse Artwork</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=fanart"><img src="<?php echo $site_root; ?>images/squares/fanart.jpg" class="frame frame-top">
-				<div class="frame frame-bottom">View Selected Fanart</div></a>
+				<a href="?id=models"><img src="<?php echo $site_root; ?>images/squares/models.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Unit Models</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=screenshots"><img src="<?php echo $site_root; ?>images/squares/screenshots.jpg" class="frame frame-top">
+				<a href="?id=screenshots"><img src="<?php echo $site_root; ?>images/squares/screenshots.jpg" class="frame frame-top">
 				<div class="frame frame-bottom">Gameplay Screenshots</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=wallpapers"><img src="<?php echo $site_root; ?>images/squares/wallpapers.jpg" class="frame frame-top">
-				<div class="frame frame-bottom">Pick Desktop Wallpaper</div></a>
+				<a href="?id=wallpapers"><img src="<?php echo $site_root; ?>images/squares/wallpapers.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Desktop Wallpapers</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=videos"><img src="<?php echo $site_root; ?>images/squares/videos.jpg" class="frame frame-top">
-				<div class="frame frame-bottom">Watch Project Videos</div></a>
+				<a href="?id=videos"><img src="<?php echo $site_root; ?>images/squares/videos.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Project Videos</div></a>
 			</div>
 			<div style="display: inline-block;" class="lighten">
-				<a href="?type=music"><img src="<?php echo $site_root; ?>images/squares/music.jpg" class="frame frame-top">
-				<div class="frame frame-bottom">Listen To Music</div></a>
+				<a href="?id=tracks"><img src="<?php echo $site_root; ?>images/squares/tracks.jpg" class="frame frame-top">
+				<div class="frame frame-bottom">Sound Tracks</div></a>
 			</div>
 		</div>
 		<?php
@@ -108,15 +111,11 @@ switch($type) {
 			$i++;
 		}
 		echo '</div>';
-		disqus();
-		break;
 
-	case 'fanart':
-		?>
-		<div class="div center">
-		<?php $images = scandir("fanart");
+		$images = scandir("fanart");
 		natsort($images);
 		$i = 0;
+		echo '<div class="div center">';
 		foreach($images as $image) {
 			if($image == "." || $image == "..") continue;
 			$title = substr($image, 0, -4);
@@ -125,6 +124,16 @@ switch($type) {
 			$i++;
 		}
 		echo '</div><div class="div center">Post your fan art in the <a href="#comments"><b>comments</b></a> section or upload it to the <a href="http://Ancient-Beast.deviantArt.com" target="_blank"><b>deviantArt</b></a> group. The best works will be featured!</div>';
+		disqus();
+		break;
+
+	case 'models':
+		?>
+		<!-- Sketchfab embedded folder -->
+		<div class="div center">
+			<iframe width="890" height="995" src="https://sketchfab.com/playlists/embed?folder=3629b9ff802d45f09771ec13a7d25c75" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+		</div>
+		<?php
 		disqus();
 		break;
 
@@ -146,7 +155,7 @@ switch($type) {
 
 	case 'wallpapers':
 		echo '<div class="div center">';
-		$images = scandir("../media/wallpapers");
+		$images = scandir("wallpapers");
 		natsort($images);
 		$i = 0;
 		foreach($images as $image) {
@@ -169,7 +178,7 @@ switch($type) {
 		<iframe frame-top width="880" height="495" src="//www.youtube.com/embed/videoseries?list=PLADfTwuzK0YR-qoT0Dy6o3AGAoNCq1Y3R" frame frame-topborder="0" allowfullscreen></iframe frame-top></div>
 		<?php break;
 
-	case 'music':
+	case 'tracks':
 		?><div class="div center"><img src="band.jpg"><?php
 		$folders = array('..', '.');
 		$media = array_values(array_diff(scandir("../game/deploy/music"), $folders));
@@ -196,10 +205,10 @@ echo "</div></div>";
 include('../footer.php'); ?>
 
 <!-- Highlight active subpage -->
-<script>document.getElementById("<?php echo $type; ?>").className += " active";</script>
+<script>document.getElementById("<?php echo $id; ?>").className += " active";</script>
 
 <!-- Focus on content when clicking subpage again -->
-<script>document.getElementById("<?php echo $type; ?>").href += "#focus";</script>
+<script>document.getElementById("<?php echo $id; ?>").href += "#focus";</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
 

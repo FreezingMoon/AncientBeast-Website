@@ -110,8 +110,8 @@
 .alpha { color: rgba(0, 0, 0, 0)!important; text-shadow: none; }
 
 body {
-	background: url(images/header.png) no-repeat center top, #000 url(images/bg.jpg) no-repeat left top fixed;
-	background-size: 1180px 295px, cover;
+	background: #000 url(images/bg.jpg) no-repeat left top fixed;
+	background-size: cover;
 	color: #e3e3e3;
 	font-family: Play, sans-serif;
 	font-size: 18px;
@@ -131,7 +131,7 @@ img { border: none; vertical-align: bottom; }
 
 .account { position: absolute; padding-top: -20px; text-shadow: 0.1em 0.1em 0.1em black, 0 0 0.7em black; }
 
-#header { margin: 15px auto 0; padding: 0; }
+#header { margin: 10px auto 15px; padding: 0; }
 
 .indexheader { font-weight: 700; text-align: center; margin: 0 auto; }
 

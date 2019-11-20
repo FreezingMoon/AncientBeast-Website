@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../game/deploy/css/grid.css">
 <?php
 function creatureGrid($creature_results = false) {
 	global $site_root; // From config.php.in or config.php

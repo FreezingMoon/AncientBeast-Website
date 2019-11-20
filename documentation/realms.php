@@ -1,5 +1,3 @@
-<script>document.title = "Ancient Beast - Dwellings";</script>
-
 <style type="text/css">
 .top-part, .bottom-part {
 	background: rgba(73, 73, 73, 0.95);

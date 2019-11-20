@@ -64,22 +64,27 @@ ga('send', 'pageview');
 <body>
 <!-- Title Banner -->
 <header id="header">
-<div style="margin-top: -5px; margin-bottom: 50px;">
 <a href="<?php echo $site_root; ?>"><img src="<?php echo $site_root; ?>images/AncientBeast.png" height="125" width="555" alt="Ancient Beast" class="lighten"></a>
 
 <!-- Navigation Menu -->
-<nav><table style="font-size: 18px; font-weight: bold; margin: 0; padding: 0; margin-left: auto; margin-right: auto; text-align: center;"><tr>
+<nav>
+
 <?php
-  $menu = array('lore', 'media', 'play', 'blog', 'units');
-  foreach ($menu as &$menuItem) {
-    echo '<td>
-      <a href="' . $site_root . $menuItem . '/" id="' . ucfirst($menuItem) . '" style="display:block;" class="lighten">
-      <img src="' . $site_root . 'images/icons/' . $menuItem . '.png" width="90" height="90" alt=" ' . ucfirst($menuItem) . '"><br>
-      ' . ucfirst($menuItem) . '</a></td>';
-  } 
+// Display list of pages
+$menu = array('documentation', 'multimedia', 'contribute');
+echo '<nav class="center">';
+foreach ($menu as &$menuItem) {
+	echo '<div id='. ucfirst($menuItem) . ' style="display: inline-block;" class="lighten"><a href="/' . $menuItem . '/"><div class="button" style="background-image: url(' . $site_root . 'images/push_button.png);">' . ucfirst($menuItem) . '</div></a></div>';
+}
+echo '</nav>';
+
+// This div serves as an anchor
+echo '<div id="focus"></div>';
 ?>
-</tr></table></nav>
-</div>
+
+<!-- Focus on content when clicking subpage again -->
+
+</nav>
 </header>
 
 <!-- Main Area -->

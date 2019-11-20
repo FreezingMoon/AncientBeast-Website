@@ -23,7 +23,7 @@
                 <div class="section abilities">
                     <!-- Display Abilities -->
                     <div class="ability">
-                        <first_icon class="icon" style="background-image: url(images/features/1-1.svg);">
+                        <first_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/1-1.svg);">
                             <div class="contour"></div>
                         </first_icon>
                         <div class="wrapper">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="ability">
-                        <second_icon class="icon" style="background-image: url(images/features/1-2.svg);">
+                        <second_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/1-2.svg);">
                             <div class="contour"></div>
                         </second_icon>
                         <div class="wrapper">
@@ -45,7 +45,7 @@
                         </div>
                     </div>
                     <div class="ability">
-                        <third_icon class="icon" style="background-image: url(images/features/1-3.svg);">
+                        <third_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/1-3.svg);">
                             <div class="contour"></div>
                         </third_icon>
                         <div class="wrapper">
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="ability">
-                        <fourth_icon class="icon" style="background-image: url(images/features/1-4.svg);">
+                        <fourth_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/1-4.svg);">
                             <div class="contour"></div>
                         </fourth_icon>
                         <div class="wrapper">
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="ability">
-                        <fifth_icon class="icon" style="background-image: url(images/features/1-5.svg);">
+                        <fifth_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/1-5.svg);">
                             <div class="contour"></div>
                         </fifth_icon>
                             <div class="wrapper">
@@ -105,7 +105,7 @@
                 <div class="section abilities">
                     <!-- Display Abilities -->
                     <div class="ability">
-                        <first_icon class="icon" style="background-image: url(images/features/2-1.svg);">
+                        <first_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/2-1.svg);">
                             <div class="contour"></div>
                         </first_icon>
                         <div class="wrapper">
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                     <div class="ability">
-                        <second_icon class="icon" style="background-image: url(images/features/2-2.svg);">
+                        <second_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/2-2.svg);">
                             <div class="contour"></div>
                         </second_icon>
                         <div class="wrapper">
@@ -127,18 +127,18 @@
                         </div>
                     </div>
                     <div class="ability">
-                        <third_icon class="icon" style="background-image: url(images/features/2-3.svg);">
+                        <third_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/2-3.svg);">
                             <div class="contour"></div>
                         </third_icon>
                         <div class="wrapper">
                             <div class="info">
-                                <h3><u>Online Multiplayer</u> - Coming Soon"</h3>
+                                <h3><u>Online Multiplayer</u> - Coming Soon</h3>
                                 <span class="desc">You can challenge anyone in the world to a battle while you can also team up with your best friend in 2vs2 matches.</span>
                             </div>
                         </div>
                     </div>
                     <div class="ability">
-                        <fourth_icon class="icon" style="background-image: url(images/features/2-4.svg);">
+                        <fourth_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/2-4.svg);">
                             <div class="contour"></div>
                         </fourth_icon>
                         <div class="wrapper">
@@ -149,7 +149,7 @@
                         </div>
                     </div>
                     <div class="ability">
-                        <fifth_icon class="icon" style="background-image: url(images/features/2-5.svg);">
+                        <fifth_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/2-5.svg);">
                             <div class="contour"></div>
                         </fifth_icon>
                         <div class="wrapper">
@@ -188,7 +188,7 @@
                 <div class="section abilities">
                     <!-- Display Abilities -->
                     <div class="ability">
-                        <first_icon class="icon" style="background-image: url(images/features/3-1.svg);">
+                        <first_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/3-1.svg);">
                             <div class="contour"></div>
                         </first_icon>
                         <div class="wrapper">
@@ -199,7 +199,7 @@
                         </div>
                     </div>
                     <div class="ability">
-                        <second_icon class="icon" style="background-image: url(images/features/3-2.svg);">
+                        <second_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/3-2.svg);">
                             <div class="contour"></div>
                         </second_icon>
                         <div class="wrapper">
@@ -210,7 +210,7 @@
                         </div>
                     </div>
                     <div class="ability">
-                        <third_icon class="icon" style="background-image: url(images/features/3-3.svg);">
+                        <third_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/3-3.svg);">
                             <div class="contour"></div>
                         </third_icon>
                         <div class="wrapper">
@@ -221,7 +221,7 @@
                         </div>
                     </div>
                     <div class="ability">
-                        <fourth_icon class="icon" style="background-image: url(images/features/3-4.svg);">
+                        <fourth_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/3-4.svg);">
                             <div class="contour"></div>
                         </fourth_icon>
                         <div class="wrapper">
@@ -232,7 +232,7 @@
                         </div>
                     </div>
                     <div class="ability">
-                        <fifth_icon class="icon" style="background-image: url(images/features/3-5.svg);">
+                        <fifth_icon class="icon" style="background-image: url(<?php echo $site_root; ?>images/features/3-5.svg);">
                             <div class="contour"></div>
                         </fifth_icon>
                         <div class="wrapper">

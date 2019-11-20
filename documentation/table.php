@@ -1,11 +1,24 @@
 <?php
+require_once '../units/functions.php';
+$creature_results = get_creatures();
+?>
+
+<!-- Hightlight active page -->
+
+<?php
 require_once '../images/stats/index.php';
 // TODO: Show specific unit card when clicking a row
 ?>
-<script>document.title = "Ancient Beast - Table";</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.28.14/js/jquery.tablesorter.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/floatthead/2.0.3/jquery.floatThead.min.js"></script>
 <style>
+	#statsTable { border-collapse: collapse; }
+	#statsTable td { cursor: none; }
+	#statsTable th { font-weight: 400; cursor: pointer; }
+	#statsTable tr:nth-child(even), #statsTable th { background: rgba(200, 200, 200, 0.2); }
+	#statsTable tr:hover, #statsTable col.hover { background: rgba(200, 200, 200, 0.4); }
+	#statsTable td:hover { color: white; }
 	.tablesorter > thead td,
 	.tablesorter > thead th {
 		cursor: pointer;
@@ -82,3 +95,7 @@ $('td').hover(function() { $(this).parents('#statsTable').find('col:eq('+$(this)
 </div>
 
 <?php disqus('Ancient Beast - Table'); ?>
+?>
+
+<!-- Focus on content when clicking subpage again -->
+<script>document.getElementById("<?php echo $view; ?>").href += "#focus";</script>
