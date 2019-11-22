@@ -2,7 +2,7 @@
 
 <div class="div">
 <div id="info"><a href="#info"><h3 class="center">Info</h3></a></div><br>
-<p><b>Ancient Beast</b> is a turn based strategy indie game project, played against other people (or bots) in hotseat or online modes, featuring a wide variety of units to acquire and put to good use in order to defeat all your opponents in battle. This project was carefully designed to be easy to learn, fun to play and hard to master.</p>
+<p><b>Ancient Beast</b> is a turn based strategy indie game project, played against other people (or bots) in hot-seat or online modes, featuring a wide variety of units to acquire and put to good use in order to defeat all your opponents in battle. This project was carefully designed to be easy to learn, fun to play and hard to master.</p>
 <p>This article is meant to provide a detailed view on the project by providing information about the game design elements along with thoughts regarding various design decissions and at times even technical information.<br>You can think of it as the game's manual. It can serve both players who want to know more in-depth details about the game's mechanics or possible contributors who wish to better understand the whole mindset.</p>
 </div>
 
