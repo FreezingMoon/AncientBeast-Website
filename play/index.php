@@ -54,7 +54,7 @@ if ($beta == 1) {
 ?>
 
 <div class="center">
-	<iframe id="game" name="game" src="<?php echo $source; ?>" style="border: 4px ridge; border-color: grey; width: 934px; height: 525px;" seamless webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
+	<iframe id="game" name="game" src="<?php echo $source; ?>" style="border: 4px ridge; border-color: grey; pwidth: 100%; height: 525px;" seamless webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
 </div>
 
 <?php
