@@ -1,6 +1,6 @@
 AddDefaultCharset UTF-8
 
-ErrorDocument 404 /404
+ErrorDocument 404 /404/
 
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
