@@ -50,12 +50,12 @@ require_once("../../header.php");
 <b>Big revamps for all previous units.</b> When you look at a unit, you should pretty much instantly be able to tell what's it capable overall. I consider this one of the key elements for a good design for such a game. Some unit abilities got revamped even 5 times, until I felt they're intuitive, have good synergy with the other ones and also have strategic value that really enriches the gameplay.
 </p>
 <br>
-<a href="<?php echo $site_root; ?>units/?view=viewer#focus" target="_blank"><img src="./upgrades.jpg" alt="upgrades" title="All unit abilities can be upgraded now!"></a>
+<a href="<?php echo $site_root; ?>documentation/?id=units#focus" target="_blank"><img src="./upgrades.jpg" alt="upgrades" title="All unit abilities can be upgraded now!"></a>
 <p>
 <b>Added unit ability upgrades.</b> This is an awesome feature that really takes the gameplay to a whole new level, rewarding players that manage to keep a unit alive long enough to unlock its potential. Passive abilities tend to get upgraded after a number of rounds, while active ones after a number of uses, having extra stomping power or functionality that comes in handy. Also, this feature makes things more interesting when you get to see multiple units of the same type as the same time on the combat field, as each might specialize in different attacks or abilities first. While this wasn't a MVP thing (minimum viable product), I thought I would prioritize this as it requires a lot of thinking and balancing to get right. Other gaming companies would had probably added this as a paid expansion way later on, this is how the industry usually works, DLC's on top of even more DLC's.
 </p>
 <br>
-<a href="<?php echo $site_root; ?>media/?type=music" target="_blank"><img src="<?php echo $site_root; ?>media/band.jpg" alt="music" title="Enjoy the epic tracks!"></a>
+<a href="<?php echo $site_root; ?>multimedia/?type=music" target="_blank"><img src="<?php echo $site_root; ?>multimedia/band.jpg" alt="music" title="Enjoy the epic tracks!"></a>
 <p>
 <b>In-game music player and tracklist.</b> You can now view the tracks and choose which one you want to play. There are also volume sliders you can play with in order to adjust the in-game music independently from the sound fx.
 </p>
@@ -78,12 +78,12 @@ require_once("../../header.php");
 <b>Item drops from killed units.</b> Pick them up to instantly restore a small amount of health and/or energy. Yummy!
 </p>
 <br>
-<a rel="pop" href="<?php echo $site_root; ?>media/screenshots/v0.3 Before Match.jpg"><img class="shadow artwork" width=100% src="<?php echo $site_root; ?>media/screenshots/v0.3 Before Match.jpg" title="Pre-match screen" alt="pre-match screen"></a>
+<a rel="pop" href="<?php echo $site_root; ?>multimedia/screenshots/v0.3 Before Match.jpg"><img class="shadow artwork" width=100% src="<?php echo $site_root; ?>multimedia/screenshots/v0.3 Before Match.jpg" title="Pre-match screen" alt="pre-match screen"></a>
 <p>
 <b>Improved pre-match screen.</b> The layout has been improved and a few more game options have been added.
 </p>
 <br>
-<a rel="pop" href="<?php echo $site_root; ?>media/screenshots/v0.3 Frozen Skull.jpg"><img class="shadow artwork" width=100% src="<?php echo $site_root; ?>media/screenshots/v0.3 Frozen Skull.jpg" title="v0.3 Frozen Skull" alt="Frozen Skull"></a>
+<a rel="pop" href="<?php echo $site_root; ?>multimedia/screenshots/v0.3 Frozen Skull.jpg"><img class="shadow artwork" width=100% src="<?php echo $site_root; ?>multimedia/screenshots/v0.3 Frozen Skull.jpg" title="v0.3 Frozen Skull" alt="Frozen Skull"></a>
 <p>
 <b>Ability tooltips display more info.</b> Ability upgrade status is included, along with numbers of uses remaining.
 </p>
@@ -114,7 +114,7 @@ require_once("../../header.php");
 <br>
 <a href="https://phaser.io" target="_blank"><img src="./Phaser.jpg" alt="Phaser" title="Phaser game engine"></a>
 <p>
-<b>Updated Phaser game engine.</b> We've updated our game engine, <a href="http://phaser.io" target="_blank">Phaser</a>, one major version, from 1.1.3 all the way to 2.3.0, which packs more features and performs better, as quite a few bugs have been fixed along the way and the rendering engine used, <a href="http://www.pixijs.com" target="_blank">Pixi.js</a> was also updated in the process, which is faster, supporting more devices.
+<b>Updated Phaser game engine.</b> We've updated our game engine, <a href="https://phaser.io" target="_blank">Phaser</a>, one major version, from 1.1.3 all the way to 2.3.0, which packs more features and performs better, as quite a few bugs have been fixed along the way and the rendering engine used, <a href="http://www.pixijs.com" target="_blank">Pixi.js</a> was also updated in the process, which is faster, supporting more devices.
 </p>
 </div>
 
@@ -129,7 +129,7 @@ require_once("../../header.php");
 
 <p><b>Subreddit as a forum board.</b> If you're not much for chatrooms but would still be active in the community, then you're in luck, as you can join us in <a href="https://reddit.com/r/AncientBeast" target="_blank"><u>/r/AncientBeast</u></a> subreddit, where you can brainstorm with us project ideas.</p>
 
-<p><b>Lots of website improvements.</b> I'm a big fan of UX (and <a href="http://littlebigdetails.com" target="_blank" title="I suffer from OCD! D:"><u>LittleBigDetails</u></a> along with it), so I strongly belive that a great website is very important for most games in order to become popular. I hope you agree with me on this :-)</p>
+<p><b>Lots of website improvements.</b> I'm a big fan of UX (and <a href="https://littlebigdetails.com" target="_blank" title="I suffer from OCD! D:"><u>LittleBigDetails</u></a> along with it), so I strongly belive that a great website is very important for most games in order to become popular. I hope you agree with me on this :-)</p>
 
 <p><b>Semi-useless user accounts.</b> These are a <a href="<?php echo $site_root; ?>account/register" target="_blank"><b>development</b></a> <a href="<?php echo $site_root; ?>account/login" target="_blank"><b>preview</b></a> and don't serve much point for now, but there is a lot of stuff planned down the line, like player profiles with statistics, bets, online multiplayer, shop and so on.</p>
 </div>
