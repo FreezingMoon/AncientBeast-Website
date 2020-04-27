@@ -154,7 +154,7 @@
                         </fifth_icon>
                         <div class="wrapper">
                             <div class="info">
-                                <h3>Arcade Mode</h3>
+                                <h3><u>Arcade Mode</u></h3>
                                 <span class="desc">Having a few mates over in your living room? Enjoy playing together on your TV while also having a slice of pizza.</span>
                             </div>
                         </div>
