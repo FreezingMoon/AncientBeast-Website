@@ -34,6 +34,7 @@ require_once('global.php'); ?>
 <meta name="description" content="3d print your squad of creatures with unique abilities in order to defeat your enemies.">
 <meta name="keywords" content="ancientbeast, ancient, beast, game, online, multiplayer, strategy, bitcoin, bets, combat, arena, chess, cards, creatures, free, open source, foss">
 <meta name="author" content="Dread Knight">
+<meta name="monetization" content="$pay.stronghold.co/1a15c4d9d46cdd64f9e9094a7c4f04240dc">
 
 <?php
 if (isset($style)) echo '<style type="text/css">' . $style . '</style>';
