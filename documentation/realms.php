@@ -20,8 +20,9 @@
 <span class="bigger" style="text-shadow: black 0.1em 0.1em 0.2em, gold 0 0 10px;">Avarice</span></div>
 <img src='../images/realms/avarice.jpg' width=942px; style="border-color: gold;" class="realm-image">
 <div class="center bottom-part" style="border-color: gold;">
-They like to aquire all sorts of useless things and riches by all means possible.<br>
-Located in the middle, consists of old city scapes, with wrecked buildings and streets filled with anarchy.</div></a>
+Located in the middle, consists of old cityscapes, with wrecked buildings and streets filled with anarchy.</div></a><br>
+Filled with usually humanoid creatures that like to use weapons and gadgets.<br>
+They like to aquire all sorts of useless things and riches by all means possible.
 </div>
 <br>
 <div class="center" id="envy">
@@ -29,8 +30,8 @@ Located in the middle, consists of old city scapes, with wrecked buildings and s
 <span class="bigger" style="text-shadow: black 0.1em 0.1em 0.2em, orange 0 0 10px;">Envy</span></div>
 <img src='../images/realms/envy.jpg' width=942px; style="border-color: orange;" class="realm-image">
 <div class="center bottom-part" style="border-color: orange;">
-The creatures living in this realm always feel rather insecure about themselves and they hate it when others have more or are better in some ways.<br>
-It's located to the West side and it mainly consists of deserts and cannyons.</div></a>
+It's located to the West side and it mainly consists of deserts and canyons.</div></a><br>
+The creatures living in this realm always feel rather insecure about themselves and they hate it when others have more or are better in some ways.
 </div>
 <br>
 <div class="center" id="gluttony">
@@ -38,8 +39,8 @@ It's located to the West side and it mainly consists of deserts and cannyons.</d
 <span class="bigger" style="text-shadow: black 0.1em 0.1em 0.2em, green 0 0 10px;">Gluttony</span></div>
 <img src='../images/realms/gluttony.jpg' width=942px; style="border-color: green;" class="realm-image">
 <div class="center bottom-part" style="border-color: green;">
+In the East side, where the jungles are really tall and wilde, not even the sun's waves go through.<br>
 Overcrowded place where all sorts of beasts and plants eat each other as soon as they get a chance.<br>
-In the east side, where the jungles are really tall and wilde, not even the sun's waves go through.<br>
 Beware of the vegetation as well and don't pet any animals!</div></a>
 </div>
 <br>
@@ -48,9 +49,9 @@ Beware of the vegetation as well and don't pet any animals!</div></a>
 <span class="bigger" style="text-shadow: black 0.1em 0.1em 0.2em, red 0 0 10px;">Lust</span></div>
 <img src='../images/realms/lust.jpg' width=942px; style="border-color: red;" class="realm-image">
 <div class="center bottom-part" style="border-color: red;">
-The creatures around here have a burning lust for destruction, incinerating everything within reach.<br>
 North side. Volcanoes spread all across this land, which is usually covered by ashes,<br>
-while rivers of hot magma run by, so beware your step and keep in mind that the air rather toxic.</div></a>
+while rivers of hot magma run by, so beware your step and keep in mind that the air is rather toxic.</div></a><br>
+The creatures around here have a burning lust for destruction, incinerating everything within reach.
 </div>
 <br>
 <div class="center" id="pride">
@@ -78,9 +79,9 @@ providing a home for many of the creatures.</div></a>
 <span class="bigger" style="text-shadow: black 0.1em 0.1em 0.2em, indigo 0 0 10px;">Wrath</span></div>
 <img src='../images/realms/wrath.jpg' width=942px; style="border-color: indigo;" class="realm-image">
 <div class="center bottom-part" style="border-color: indigo;">
-The beasts from this realm enjoy killing and inflicting suffering on others.<br>
 Underworld. Back in the day there used to be secret underground facilities that were used for<br>
-God forbidden experiments regarding genetics and bio weapons.</div></a>
+God forbidden experiments regarding genetics and bio weapons.</div></a><br>
+The beasts from this realm enjoy killing and inflicting suffering on others.
 </div>
 <br>
 <?php disqus('Ancient Beast - Factions'); ?>
