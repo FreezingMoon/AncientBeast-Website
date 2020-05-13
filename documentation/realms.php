@@ -20,9 +20,9 @@
 <span class="bigger" style="text-shadow: black 0.1em 0.1em 0.2em, gold 0 0 10px;">Avarice</span></div>
 <img src='../images/realms/avarice.jpg' width=942px; style="border-color: gold;" class="realm-image">
 <div class="center bottom-part" style="border-color: gold;">
-Located in the middle, consists of old cityscapes, with wrecked buildings and streets filled with anarchy.</div></a><br>
+Located in the middle, consists of old cityscapes, with wrecked buildings and streets filled with anarchy.<br>
 Filled with usually humanoid creatures that like to use weapons and gadgets.<br>
-They like to aquire all sorts of useless things and riches by all means possible.
+They like to aquire all sorts of useless things and riches by all means possible.</div></a>
 </div>
 <br>
 <div class="center" id="envy">
@@ -30,8 +30,9 @@ They like to aquire all sorts of useless things and riches by all means possible
 <span class="bigger" style="text-shadow: black 0.1em 0.1em 0.2em, orange 0 0 10px;">Envy</span></div>
 <img src='../images/realms/envy.jpg' width=942px; style="border-color: orange;" class="realm-image">
 <div class="center bottom-part" style="border-color: orange;">
-It's located to the West side and it mainly consists of deserts and canyons.</div></a><br>
-The creatures living in this realm always feel rather insecure about themselves and they hate it when others have more or are better in some ways.
+It's located to the West side and it mainly consists of deserts and canyons.<br>
+The creatures living in this realm always feel rather insecure about themselves.<br>
+They hate it when others have more or are better in some ways.</div></a>
 </div>
 <br>
 <div class="center" id="gluttony">
@@ -50,8 +51,8 @@ Beware of the vegetation as well and don't pet any animals!</div></a>
 <img src='../images/realms/lust.jpg' width=942px; style="border-color: red;" class="realm-image">
 <div class="center bottom-part" style="border-color: red;">
 North side. Volcanoes spread all across this land, which is usually covered by ashes,<br>
-while rivers of hot magma run by, so beware your step and keep in mind that the air is rather toxic.</div></a><br>
-The creatures around here have a burning lust for destruction, incinerating everything within reach.
+while rivers of hot magma run by, so beware your step and keep in mind that the air is rather toxic.<br>
+The creatures around here have a burning lust for destruction, incinerating everything within reach.</div></a>
 </div>
 <br>
 <div class="center" id="pride">
@@ -80,8 +81,8 @@ providing a home for many of the creatures.</div></a>
 <img src='../images/realms/wrath.jpg' width=942px; style="border-color: indigo;" class="realm-image">
 <div class="center bottom-part" style="border-color: indigo;">
 Underworld. Back in the day there used to be secret underground facilities that were used for<br>
-God forbidden experiments regarding genetics and bio weapons.</div></a><br>
-The beasts from this realm enjoy killing and inflicting suffering on others.
+God forbidden experiments regarding genetics and bio weapons.<br>
+The beasts from this realm enjoy killing and inflicting suffering on others.</div></a>
 </div>
 <br>
 <?php disqus('Ancient Beast - Factions'); ?>
