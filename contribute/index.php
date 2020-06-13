@@ -142,7 +142,7 @@ We strongly believe in open source software development, but to run a successful
 </p><p>
 You should consider donating via <a href="https://www.paypal.me/AncientBeast" target="_blank" rel="noopener"><b>Paypal</b></a> or <a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast"><b>Bitcoin</b></a>, even if you're not into turn based strategy games you must see the bigger picture: we're setting an example in the industry and also creating a huge high quality art repository that you and others can use for commercial work and possibly even make other neat games, comics or maybe even some animations.
 </p><p>
-Feel free to become our <a href="https://patreon.com/FreezingMoon" target="_blank"><b>Patreon</b></a> and receive cool rewards.
+Feel free to become our <a href="https://patreon.com/AncientBeast" target="_blank"><b>Patreon</b></a> and receive cool rewards.
 If you wish to become a sponsor, get in touch via an <a href="mailto:DreadKnight@FreezingMoon.org?Subject=I want to Sponsor the Project" target="_blank"><b>email</b></a>.
 Any amount you can donate is very appreciated, thank you!<br>
 
@@ -150,7 +150,7 @@ Any amount you can donate is very appreciated, thank you!<br>
 <p>
 <a href="https://www.paypal.me/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-PayPal-yellow.svg" class="lighten"></a>
 <a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast" target="_blank"><img src="https://img.shields.io/badge/Donate-Bitcoin-orange.svg" class="lighten"></a>
-<a href="https://patreon.com/FreezingMoon" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-Patreon-red.svg" class="lighten"></a>
+<a href="https://patreon.com/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-Patreon-red.svg" class="lighten"></a>
 <a href="https://opencollective.com/ancientbeast#section-contribute" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-OpenCollective-blue.svg" class="lighten"></a>
 </p>
 </div>

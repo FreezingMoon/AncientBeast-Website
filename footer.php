@@ -7,7 +7,7 @@
 	<a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast">
 		<img src="<?php echo $site_root; ?>images/footer/bitcoin.png" style="width: 48px; height: 48px;" class="lighten" alt="bitcoin" title="Donate some Bitcoins!">
 	</a>
-	<a href="https://www.patreon.com/FreezingMoon" target="_blank" rel="noopener">
+	<a href="https://www.patreon.com/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/patreon.png" style="width: 48px; height: 48px;" class="lighten" alt="patreon" title="Pledge to our Patreon campaign!">
 	</a>
 	<a href="https://opencollective.com/AncientBeast" target="_blank" rel="noopener">
