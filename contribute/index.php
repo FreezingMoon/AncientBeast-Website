@@ -323,7 +323,7 @@ If you make any sample tracks, it would be ideal to have them uploaded to <a hre
 <tr><td><a href="https://youtube.com/user/moonthiefro" target="_blank" rel="noopener" class="lighten audio"><img src="./blue.png"> Moonthief <img src="./blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
 <tr><td><a href="https://twitter.com/Jenskiilstofte" target="_blank" rel="noopener" class="lighten audio"><img src="./blue.png"> Jens Kiilstofte <img src="./blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
 <tr><td><a href="https://soundcloud.com/agret_brisignr" target="_blank" rel="noopener" class="lighten audio"><img src="./blue.png"> Agret Brisignr <img src="./blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
-<tr><td><a href="#" target="_blank" rel="noopener" class="lighten audio"><img src="./blue.png"> Tad Miller <img src="./blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
+<tr><td><a href="https://youtube.com/Tadon" target="_blank" rel="noopener" class="lighten audio"><img src="./blue.png"> Tad Miller <img src="./blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
 <tr><td><a href="https://youtube.com/user/DruoxTheShredder" target="_blank" rel="noopener" class="lighten audio"><img src="./blue.png"> Dreux Ferrano <img src="./blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
 <tr><td><a href="https://opengameart.org/users/haeldb" target="_blank" rel="noopener" class="lighten audio"><img src="./blue.png"> Brandon756 <img src="./blue.png" class="scale"></a></td><td><?php echo ++$i; ?></td></tr>
 <tr><td>Your Name</td><td>?</td></tr>
