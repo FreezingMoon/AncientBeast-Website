@@ -189,7 +189,7 @@ Any amount you can donate is very appreciated, thank you!<br>
 <div style="width: 475px; text-align: justify; display: inline-block;">
 <h3 class="indexheader"><a href="#artwork">Artwork</a></h3>
 <p>
-Perhaps it's not money you want to contribute, but rather spend some time and energy while putting your pen and brush to some good use in order to create more visual content for the project or simply having fun drawing fan art of already existing creatures? If you have something lying around and you think it could nicely fit the game while under the same <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener"><b>CC-BY-SA 3.0</b></a> license, feel free to send it our way!<br>
+Perhaps it's not money you want to contribute, but rather spend some time and energy while putting your pen and brush to some good use in order to create more visual content for the project or simply having fun drawing fan art of already existing creatures? If you have something lying around and you think it could nicely fit the game while under the same <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener"><b>CC-BY-SA 4.0</b></a> license, feel free to send it our way!<br>
 If you want a task assigned, simply drop by our <a href="https://discord.me/AncientBeast" target="_blank" rel="noopener"><b>Discord chat</b></a> and poke <i>DreadKnight</i>, the project's founder, he'll brief you.
 </p><p>
 Several ways you can help out using with your artistic skills:<br>
@@ -214,7 +214,7 @@ The <a href="https://inkscape.org" target="_blank" rel="noopener"><b>Inkscape</b
 <p><b>Design various promotional items</b><br>
 We can always use some more desktop <a href="../media/?type=wallpapers"><b>wallpapers</b></a>, 1920 by 1080 pixels and more merchandise for our online shop, such as <b>miniatures</b>, <b>plushies</b>, <b>T-shirts</b>, <b>posters</b> & <b>stickers</b>.
 </p>
-<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/license-CC--BY--SA%203.0-green.svg" class="lighten"></a>
+<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/license-CC--BY--SA%204.0-green.svg" class="lighten"></a>
 <a href="https://mega.co.nz/#F!GAJAjAzL!AhBUayQndZbH_j2IL2B-nA" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/repository-MEGA-red.svg" class="lighten"></a>
 <a href="https://ancient-beast.deviantart.com" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/group-deviantArt-green.svg" class="lighten"></a>
 <a href="https://discord.me/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/join-Discord-9cf.svg" class="lighten"></a>
@@ -300,7 +300,7 @@ Sometimes even reviewing or talking code can greatly help.
 If composing is more of your expertise, we can always use more tracks of epic genre, as example you can check out the existing tracks and also some from related games, such as the Heroes of Might and Magic 3's combat tracks and the OST from the King's Bounty games. I consider sound effects a very important part that can make or break gameplay, meaning that they should not be annoying and repetitive while nicely complementing and reinforcing various actions.
 </p><p>
 The ideal track for the combat mode would be around 3:30 lenght, non-loopable, epic style, rather dark and fast paced.<br>
-All tracks and SFX need to be under <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener"><b>CC-BY-SA 3.0</b></a> licensing.
+All tracks and SFX need to be under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener"><b>CC-BY-SA 4.0</b></a> licensing.
 </p><p>
 Check out these tracks as reference, but always be original:<br>
 <a href="https://AncientBeast.com/media?type=music" target="_blank"><b>Ancient Beast Official Soundtrack</b></a><br>
