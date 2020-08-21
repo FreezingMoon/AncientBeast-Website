@@ -32,7 +32,7 @@ require_once 'header.php';
 
 <div id="sponsors" class="center">
 		<a href="https://Raj.bet" target="_blank" title="Rajbet - Online Casino India"><img src="<?php echo $site_root; ?>images/sponsors/Rajbet.svg" alt="Rajbet"></a>
-	</div>
+</div>
 
 <?php
 include 'footer.php';
