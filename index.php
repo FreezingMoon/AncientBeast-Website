@@ -31,7 +31,7 @@ require_once 'header.php';
 </div>
 
 <div id="sponsors" class="center lighten">
-		<a href="https://Raj.bet" target="_blank" title="Rajbet - Online Casino India"><img src="<?php echo $site_root; ?>images/sponsors/Rajbet.png" alt="Rajbet"></a>
+		<a href="https://Raj.bet" target="_blank" title="Rajbet - Online Casino India"><img src="https://raw.github.com/FreezingMoon/AncientBeast-Website/master/images/sponsors/Rajbet.png" alt="Rajbet"></a>
 </div>
 
 <?php
