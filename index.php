@@ -30,8 +30,8 @@ require_once 'header.php';
 	<iframe id="game" name="game" src="https://www.freezingmoon.org/AncientBeast/" style="border: 4px ridge; border-color: grey; width: 934px; height: 525px;" seamless webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
 </div>
 
-<div id="sponsors" class="center">
-		<a href="https://Raj.bet" target="_blank" title="Rajbet - Online Casino India"><img src="<?php echo $site_root; ?>images/sponsors/Rajbet.svg" alt="Rajbet"></a>
+<div id="sponsors" class="center lighten">
+		<a href="https://Raj.bet" target="_blank" title="Rajbet - Online Casino India"><img src="<?php echo $site_root; ?>images/sponsors/Rajbet.png" alt="Rajbet"></a>
 </div>
 
 <?php

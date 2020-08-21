@@ -259,7 +259,7 @@ iframe {
 	padding: 4px 0;
 }
 
-#sponsors { margin-bottom: -25px; }
+#sponsors {  padding: 15px !important; margin-bottom: -28px; }
 
 #scroll {
 	bottom: 0;
