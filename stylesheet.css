@@ -259,6 +259,8 @@ iframe {
 	padding: 4px 0;
 }
 
+#sponsors { margin-bottom: -25px; }
+
 #scroll {
 	bottom: 0;
 	display: block;
