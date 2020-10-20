@@ -27,7 +27,7 @@ require_once 'header.php';
 ?>
 
 <div class="center">
-	<iframe id="game" name="game" src="https://www.freezingmoon.org/AncientBeast/" style="border: 4px ridge; border-color: grey; width: 934px; height: 525px;" seamless sandbox="allow-same-origin allow-scripts" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
+	<iframe id="game" name="game" src="https://www.freezingmoon.org/AncientBeast/" style="border: 4px ridge; border-color: grey; width: 934px; height: 525px;" seamless sandbox="allow-same-origin allow-forms allow-scripts" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
 </div>
 
 <div id="sponsors" class="center lighten">
