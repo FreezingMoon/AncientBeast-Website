@@ -31,9 +31,9 @@ require_once 'header.php';
 </div>
 
 <div id="sponsors" class="center lighten">
-		<a href="https://Raj.Bet" target="_blank" title="Rajbet - Online Casino India"><img src="images/sponsors/Rajbet.png" alt="Rajbet"></a>
+		<a href="https://Raj.Bet" target="_blank" title="Rajbet - Online Casino India"><img src="images/sponsors/Raj.Bet.png" alt="Rajbet"></a>
 		<a href="https://casinoshunter.com/online-casinos" target="_blank" title="Casinos Hunter - Best Online Casinos Canada"><img src="images/sponsors/casinos-hunter-logo.png" alt="Casinos Hunter"></a>
-        <a href="https://OnlineCasinoHEX.ca" target="_blank" title="Online Casino HEX - Best Online Casinos"><img src="OnlineCasinoHEX.ca.png" alt="Online Casino HEX"></a>
+        <a href="https://OnlineCasinoHEX    .ca" target="_blank" title="Online Casino HEX - Best Online Casinos"><img src="images/sponsors/OnlineCasinoHEX.ca.png" alt="Online Casino HEX"></a>
 
 </div>
 
