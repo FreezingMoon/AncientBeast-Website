@@ -140,16 +140,16 @@ require_once('../header.php');
 <p>
 We strongly believe in open source software development, but to run a successful project, you still require quite a bit of money in order to have at least few people work part-time on the project and deal with the stuff nobody else wants to ever actually do and there are also services and hardware requirements that must be satisfied which tend to add up.
 </p><p>
-You should consider donating via <a href="https://www.paypal.me/AncientBeast" target="_blank" rel="noopener"><b>Paypal</b></a> or <a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast"><b>Bitcoin</b></a>, even if you're not into turn based strategy games you must see the bigger picture: we're setting an example in the industry and also creating a huge high quality art repository that you and others can use for commercial work and possibly even make other neat games, comics or maybe even some animations.
+You should consider donating via <a href="https://paypal.me/AncientBeast" target="_blank" rel="noopener"><b>Paypal</b></a> or <a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33"><b>ERC20 crypto</b></a>, even if you're not into turn based strategy games you must see the bigger picture: we're setting an example in the industry and also creating a huge high quality art repository that you and others can use for commercial work and possibly even make other neat games, comics or maybe even some animations.
 </p><p>
-Feel free to become our <a href="https://patreon.com/AncientBeast" target="_blank"><b>Patreon</b></a> and receive cool rewards.
-If you wish to become a sponsor, get in touch via an <a href="mailto:DreadKnight@FreezingMoon.org?Subject=I want to Sponsor the Project" target="_blank"><b>email</b></a>.
+We would appreciate it if you would become our <a href="https://patreon.com/AncientBeast" target="_blank"><b>Patreon</b></a> or donate via <a href="https://opencollective.com/AncientBeast" target="_blank"><b>OpenCollective</b></a> and receive cool rewards.
+If you wish to become a sponsor, get in touch with us via an <a href="mailto:DreadKnight@FreezingMoon.org?Subject=I want to Sponsor the Project" target="_blank"><b>email</b></a>.
 Any amount you can donate is very appreciated, thank you!<br>
-
-</p>
-<p>
-<a href="https://www.paypal.me/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-PayPal-yellow.svg" class="lighten"></a>
-<a href="bitcoin:1ALLZzy3AZGvAuNso4Wca8SCx9YGXJdFGb?label=Ancient%20Beast" target="_blank"><img src="https://img.shields.io/badge/Donate-Bitcoin-orange.svg" class="lighten"></a>
+</p><p>
+Also, keep in mind that you can already purchase our utility token, <a href="https://mintme.com/token/XatteR" target="_blank"><b>XatteR</b></a>, which greatly helps the development and maintainence of the project, while allowing you to vote for various development aspects, help balance unit stats and abilities, purchase physical merchandise and NFTs or even participate in an upcoming game mode. Buy & HODL! 🚀🌙
+</p><p>
+<a href="https://paypal.me/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-PayPal-yellow.svg" class="lighten"></a>
+<a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33" target="_blank"><img src="https://img.shields.io/badge/Donate-Ethereum-darkgrey.svg" class="lighten"></a>
 <a href="https://patreon.com/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-Patreon-red.svg" class="lighten"></a>
 <a href="https://opencollective.com/ancientbeast#section-contribute" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-OpenCollective-blue.svg" class="lighten"></a>
 </p>
