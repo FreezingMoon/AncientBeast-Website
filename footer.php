@@ -40,7 +40,7 @@
 	<a href="https://discord.gg/x78rKen" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/discord.png" style="width: 40px; height: 48px;" class="lighten" alt="discord" title="Join our Discord server!">
 	</a>
-	<a href="https://t.me/TheAncientBeast" target="_blank" rel="noopener">
+	<a href="https://t.me/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/telegram.png" style="width: 40px; height: 48px;" class="lighten" alt="telegram" title="Join our Telegram server!">
 	</a>
 	<a href="mailto:DreadKnight@FreezingMoon.org?Subject=I love this project!" target="_blank">
