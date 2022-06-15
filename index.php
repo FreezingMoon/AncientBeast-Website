@@ -34,6 +34,7 @@ require_once 'header.php';
 		<a href="https://Raj.Bet" target="_blank" title="Rajbet - Online Casino India"><img src="images/sponsors/Raj.Bet.png" alt="Rajbet"></a>
 		<a href="https://CasinosHunter.com/online-casinos" target="_blank" title="Casinos Hunter - Best Online Casinos Canada"><img src="images/sponsors/CasinosHunter.com.png" alt="Casinos Hunter"></a>
         <a href="https://OnlineCasinoHEX.ca" target="_blank" title="Online Casino HEX - Best Online Casinos"><img src="images/sponsors/OnlineCasinoHEX.ca.png" alt="Online Casino HEX"></a>
+		<a href="https://SlotsEmpire.com" target="_blank" title="Online Slots for Real Money | Play at Slots Empire Casino"><img src="images/sponsors/Slots.Empire.png" alt="Slots Empire" width="150" height="49"></a>
 
 </div>
 
