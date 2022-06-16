@@ -31,12 +31,12 @@ require_once 'header.php';
 </div>
 
 <div id="sponsors" class="center lighten">
-		<a href="https://Raj.Bet" target="_blank" title="Rajbet - Online Casino India"><img src="images/sponsors/Raj.Bet.png" alt="Rajbet"></a>
-		<a href="https://CasinosHunter.com/online-casinos" target="_blank" title="Casinos Hunter - Best Online Casinos Canada"><img src="images/sponsors/CasinosHunter.com.png" alt="Casinos Hunter"></a>
-        <a href="https://OnlineCasinoHEX.ca" target="_blank" title="Online Casino HEX - Best Online Casinos"><img src="images/sponsors/OnlineCasinoHEX.ca.png" alt="Online Casino HEX"></a>
-		<a href="https://SlotsEmpire.com" target="_blank" title="Online Slots for Real Money | Play at Slots Empire Casino"><img src="images/sponsors/Slots.Empire.png" alt="Slots Empire" width="150" height="49"></a>
-		<a href="https://inkedin.com/free-spins-no-deposit" target="_blank" title="Free Spins No Deposit 🎖️ Best UK Slots Offers June 2022"><img src="images/sponsors/Inkedin.png" alt="Inkedin"></a>
-		<a href="https://theinternetslots.com/au/" target="_blank" title="Best Online Casino in Australia for Real Money ❤️ 2022"><img src="images/sponsors/theinternetslots.png" alt="The Internet Slots"></a>
+		<a href="https://Raj.Bet" target="_blank" title="Rajbet - Online Casino India"><img src="images/sponsors/RajBet.png" alt="Rajbet"></a>
+		<a href="https://CasinosHunter.com/online-casinos" target="_blank" title="Casinos Hunter - Best Online Casinos Canada"><img src="images/sponsors/CasinosHunter.png" alt="CasinosHunter"></a>
+        <a href="https://OnlineCasinoHEX.ca" target="_blank" title="Online Casino HEX - Best Online Casinos"><img src="images/sponsors/OnlineCasinoHEX.png" alt="OnlineCasinoHEX"></a>
+		<a href="https://SlotsEmpire.com" target="_blank" title="Online Slots for Real Money | Play at Slots Empire Casino"><img src="images/sponsors/SlotsEmpire.png" alt="SlotsEmpire" width="150" height="49"></a>
+		<a href="https://Inkedin.com/free-spins-no-deposit" target="_blank" title="Free Spins No Deposit 🎖️ Best UK Slots Offers June 2022"><img src="images/sponsors/Inkedin.png" alt="Inkedin" width="155" height="49"></a>
+		<a href="https://TheInternetSlots.com/au" target="_blank" title="Best Online Casino in Australia for Real Money ❤️ 2022"><img src="images/sponsors/TheInternetSlots.png" alt="TheInternetSlots"></a>
 
 
 
