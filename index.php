@@ -36,6 +36,8 @@ require_once 'header.php';
         <a href="https://OnlineCasinoHEX.ca" target="_blank" title="Online Casino HEX - Best Online Casinos"><img src="images/sponsors/OnlineCasinoHEX.ca.png" alt="Online Casino HEX"></a>
 		<a href="https://SlotsEmpire.com" target="_blank" title="Online Slots for Real Money | Play at Slots Empire Casino"><img src="images/sponsors/Slots.Empire.png" alt="Slots Empire" width="150" height="49"></a>
 		<a href="https://inkedin.com/free-spins-no-deposit" target="_blank" title="Free Spins No Deposit 🎖️ Best UK Slots Offers June 2022"><img src="images/sponsors/Inkedin.png" alt="Inkedin"></a>
+		<a href="https://theinternetslots.com/au/" target="_blank" title="Best Online Casino in Australia for Real Money ❤️ 2022"><img src="images/sponsors/theinternetslots.png" alt="The Internet Slots"></a>
+
 
 
 </div>
