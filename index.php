@@ -37,7 +37,9 @@ require_once 'header.php';
 		<a href="https://SlotsEmpire.com" target="_blank" title="Online Slots for Real Money | Play at Slots Empire Casino"><img src="images/sponsors/SlotsEmpire.png" alt="SlotsEmpire" width="150" height="49" class="lighten"></a>
 		<a href="https://Inkedin.com/free-spins-no-deposit" target="_blank" title="Free Spins No Deposit 🎖️ Best UK Slots Offers"><img src="images/sponsors/Inkedin.png" alt="Inkedin" width="155" height="49" class="lighten"></a>
 		<a href="https://TheInternetSlots.com/au" target="_blank" title="Best Online Casino in Australia for Real Money ❤️"><img src="images/sponsors/TheInternetSlots.png" alt="TheInternetSlots" class="lighten"></a>
-</div>
+		<a href="https://reddogcasino.com/en/games/blackjack" target="_blank" title="Online Blackjack for Real Money or Free | Play at Red Dog"><img src="images/sponsors/RedDog.png" alt="RedDogCasino" class="lighten"></a>
+
+	</div>
 
 <?php
 include 'footer.php';
