@@ -30,15 +30,7 @@ require_once 'header.php';
 	<iframe id="game" name="game" src="https://www.freezingmoon.org/AncientBeast/" style="border: 4px ridge; border-color: grey; width: 934px; height: 525px;" seamless sandbox="allow-same-origin allow-forms allow-scripts allow-popups" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
 </div>
 
-<div id="sponsors" class="center">
-		<a href="https://Raj.Bet" target="_blank" title="Rajbet - Online Casino India"><img src="images/sponsors/RajBet.png" alt="Rajbet" class="lighten"></a>
-		<a href="https://CasinosHunter.com/online-casinos" target="_blank" title="Casinos Hunter - Best Online Casinos Canada"><img src="images/sponsors/CasinosHunter.png" alt="CasinosHunter" class="lighten"></a>
-        <a href="https://OnlineCasinoHEX.ca" target="_blank" title="Online Casino HEX - Best Online Casinos"><img src="images/sponsors/OnlineCasinoHEX.png" alt="OnlineCasinoHEX" class="lighten"></a>
-		<a href="https://SlotsEmpire.com" target="_blank" title="Online Slots for Real Money | Play at Slots Empire Casino"><img src="images/sponsors/SlotsEmpire.png" alt="SlotsEmpire" width="150" height="50" class="lighten"></a>
-		<a href="https://Inkedin.com/free-spins-no-deposit" target="_blank" title="Free Spins No Deposit 🎖️ Best UK Slots Offers"><img src="images/sponsors/Inkedin.png" alt="Inkedin" width="150" height="50" class="lighten"></a>
-		<a href="https://reddogcasino.com/en/games/blackjack" target="_blank" title="Online Blackjack for Real Money or Free | Play at Red Dog"><img src="images/sponsors/RedDog.png" alt="RedDogCasino" width="150" height="50" class="lighten"></a>
-	</div>
-
 <?php
+include 'supporters.php';
 include 'footer.php';
 ?>
