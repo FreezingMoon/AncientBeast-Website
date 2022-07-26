@@ -148,6 +148,8 @@ img { border: none; vertical-align: bottom; }
 
 .sections li { display: inline; }
 
+#supporters img { padding: 10px 30px; }
+
 .center { margin-left: auto !important; margin-right: auto !important; text-align: center !important; }
 
 .lighten:hover { filter: brightness(120%); }
