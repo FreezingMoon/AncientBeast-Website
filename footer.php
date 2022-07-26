@@ -1,4 +1,3 @@
-<br>
 </div>
 <div class="footer smalldiv center">
 	<a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33">
