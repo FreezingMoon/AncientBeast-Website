@@ -3,9 +3,6 @@
 	<a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33">
 		<img src="<?php echo $site_root; ?>images/footer/ethereum.png" style="width: 40px; height: 48px;" class="lighten" alt="ethereum" title="Donate ERC20 tokens to this address!">
 	</a>
-	<a href="https://mintme.com/token/XatteR" target="_blank" rel="noopener">
-		<img src="<?php echo $site_root; ?>images/footer/mintme.png" style="width: 40px; height: 48px;" class="lighten" alt="mintme" title="Purchase our token, XatteR!">
-	</a>
 	<a href="https://opencollective.com/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/opencollective.png" style="width: 40px; height: 48px;" class="lighten" alt="opencollective" title="Pledge to our OpenCollective!">
 	</a>
