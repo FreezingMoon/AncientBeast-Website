@@ -145,13 +145,6 @@ You should consider donating via <a href="https://paypal.me/AncientBeast" target
 We would appreciate it if you would become our <a href="https://patreon.com/AncientBeast" target="_blank"><b>Patreon</b></a> or donate via <a href="https://opencollective.com/AncientBeast" target="_blank"><b>OpenCollective</b></a> and receive cool rewards.
 If you wish to become a sponsor, get in touch with us via an <a href="mailto:DreadKnight@FreezingMoon.org?Subject=I want to Sponsor the Project" target="_blank"><b>email</b></a>.
 Any amount you can donate is very appreciated, thank you!<br>
-</p><p>
-Also, keep in mind that you can already purchase our utility token, <a href="https://mintme.com/token/XatteR" target="_blank"><b>XatteR</b></a>, which greatly helps the development and maintainence of the project, while allowing you to vote for various development aspects, help balance unit stats and abilities, purchase physical merchandise and NFTs or even participate in an upcoming game mode. Buy & HODL! 🚀🌙
-</p><p>
-<a href="https://paypal.me/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-PayPal-yellow.svg" class="lighten"></a>
-<a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33" target="_blank"><img src="https://img.shields.io/badge/Donate-Ethereum-darkgrey.svg" class="lighten"></a>
-<a href="https://patreon.com/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-Patreon-red.svg" class="lighten"></a>
-<a href="https://opencollective.com/ancientbeast#section-contribute" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-OpenCollective-blue.svg" class="lighten"></a>
 </p>
 </div>
 
