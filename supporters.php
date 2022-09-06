@@ -10,7 +10,8 @@
         <a href="https://OnlineCasinoHEX.ca" target="_blank" title="Online Casino HEX - Best Online Casinos"><img src="images/sponsors/OnlineCasinoHEX.png" alt="OnlineCasinoHEX" width="150" height="50" class="lighten"></a>
 		<a href="https://SlotsEmpire.com" target="_blank" title="Online Slots for Real Money | Play at Slots Empire Casino"><img src="images/sponsors/SlotsEmpire.png" alt="SlotsEmpire" width="150" height="50" class="lighten"></a>
 		<a href="https://reddogcasino.com/en/games/blackjack" target="_blank" title="Online Blackjack for Real Money or Free | Play at Red Dog"><img src="images/sponsors/RedDog.png" alt="RedDogCasino" width="150" height="50" class="lighten"></a>
-</div>
+		<a href="https://casino-professor.com" target="_blank" title="Casino Professor - casino-professor.com"><img src="images/sponsors/CasinoProfessor.png" alt="CasinoProfessor" width="150" height="50" class="lighten"></a>
+	</div>
 
 <br>
 
