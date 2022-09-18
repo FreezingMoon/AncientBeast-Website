@@ -1,15 +1,12 @@
 <div id="supporters" class="div">
 
 <div id="sponsors" class="center">
-	<!-- switched to manual until fix for https://github.com/opencollective/opencollective/issues/5968 is in place
 	<object type="image/svg+xml" data="https://opencollective.com/ancientbeast/tiers/sponsor.svg?avatarHeight=123&button=false"></object>
-	-->
-	<a href="https://inkedin.com/free-spins-no-deposit" target="_blank"><img src="https://images.opencollective.com/inkedin/40e0c14/logo/256.png" width=123px; heigth=123px;></a>
-	<a href="https://writersperhour.com/write-my-paper" target="_blank"><img src="https://images.opencollective.com/write-my-paper/5787d4b/logo/256.png" width=123px; heigth=123px;></a>
 </div>
 <br>
 <div id="backers" class="center">
 	<object type="image/svg+xml" data="https://opencollective.com/ancientbeast/tiers/backer.svg?avatarHeight=80&button=false"></object>
+	<a href="https://goread.io/buy-instagram-followers" target="_blank"><img src="https://images.opencollective.com/goread_io/eb6337d/logo/256.png" width=80px; heigth=80px;></a>
 </div>
 
 <br>

@@ -150,6 +150,9 @@ img { border: none; vertical-align: bottom; }
 
 #supporters img { padding: 5px; }
 
+/** Hidding goread_io "dofollow" from widget **/
+a#goread_io { display: none !important; overflow: hidden; }
+
 .center { margin-left: auto !important; margin-right: auto !important; text-align: center !important; }
 
 .lighten:hover { filter: brightness(120%); }
