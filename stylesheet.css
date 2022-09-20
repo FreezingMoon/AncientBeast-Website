@@ -163,6 +163,15 @@ a#goread_io { display: none !important; overflow: hidden; }
 
 #wrapper { text-align: left; }
 
+.important {
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 15px;
+	border: 4px ridge !important;
+	font-size: 24px;
+	text-align: center;
+	border-color: red !important;
+}
+
 .div {
 	border: 20px solid transparent;
 	border-image: url(images/div.png) 20 fill stretch;
