@@ -1,6 +1,8 @@
 <div id="supporters" class="div">
 
 <div id="sponsors" class="center">
+	<!-- Keep RajBet logo until end of 2023 if still not subscribbed -->
+	<a href="https://raj.bet" target="_blank"><img src="https://pbs.twimg.com/profile_images/1522830021999706112/Ub16XX3X_200x200.jpg" width=123px; heigth=123px; style="border-radius: 66px;"></a>
 	<object type="image/svg+xml" data="https://opencollective.com/ancientbeast/tiers/sponsor.svg?avatarHeight=123&button=false"></object>
 </div>
 <br>
