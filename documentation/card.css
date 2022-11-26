@@ -35,9 +35,9 @@
 .ability { position: relative; padding-right: 3px; }
 
 .abilities .ability .wrapper{
+	display: table-cell; 
 	height: 130px;
 	padding-left: 133px;
-	vertical-align: middle;
 }
 
 .abilities .ability .info { display: inline-block; }
