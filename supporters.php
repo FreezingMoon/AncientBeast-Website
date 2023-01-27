@@ -10,7 +10,9 @@
 <br>
 <div id="backers" class="center">
 	<object type="image/svg+xml" data="https://opencollective.com/ancientbeast/tiers/backer.svg?avatarHeight=80&width=890&limit=unlimited&button=false"></object>
+	<!-- Manually placed backers for follow-up links (SEO) until this OC issue https://github.com/opencollective/opencollective/issues/5968 is fixed -->
 	<a href="https://goread.io/buy-instagram-followers" target="_blank"><img src="https://images.opencollective.com/goread_io/eb6337d/logo/80.png" width=80px; heigth=80px;></a>
+	<a href="https://likewave.io/buy-instagram-likes" target="_blank"><img src="https://images.opencollective.com/likewave/a2a24ae/logo/80.png" width=80px; heigth=80px;></a>
 </div>
 
 <br>
