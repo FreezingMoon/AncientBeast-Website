@@ -6,7 +6,7 @@
 [![Flattr this Project](http://img.shields.io/badge/donate-Flattr-green.svg)](https://flattr.com/thing/126547/Ancient-Beast)
 
 
-![1vs1 Dark Forest](https://raw.github.com/FreezingMoon/AncientBeast-Website/master/media/screenshots/v0.3%20Dark%20Forest.jpg)
+![1vs1 Dark Forest](https://raw.github.com/FreezingMoon/AncientBeast-Website/master/multimedia/screenshots/v0.3%20Dark%20Forest.jpg)
 **"We all die. The goal isn't to live forever. The goal is to create something that will."** *Chuck Palahniuk*
 
 ### Intro
