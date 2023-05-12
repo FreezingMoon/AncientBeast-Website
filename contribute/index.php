@@ -172,8 +172,8 @@ Please consider donating <a href="ethereum:0x21f53DB4D2eAcde70a2E4F0407D073C971e
 <tr><td><a href="https://facebook.com/akumdara" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Adam Dalton <img src="./yellow.png" class="scale"></a></td><td>20</td></tr>
 <tr><td><a href="https://twitter.com/alexandredes" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Alexandre Deschamps <img src="./yellow.png" class="scale"></a></td><td>20</td></tr>
 <tr><td><a href="" target="_blank" class="lighten donate"><img src="./yellow.png"> Vincent Bermel <img src="./yellow.png" class="scale"></a></td><td>15</td></tr>
-<tr><td><a href="https://binanceavis.fr" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Binanceavis.fr <img src="./yellow.png" class="scale"></td><td>11</td></tr>
-<tr><td><a href="https://options.tradersapiens.ru/iqoption" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> IQOption <img src="./yellow.png" class="scale"></td><td>11</td></tr>
+<tr><td><a href="https://brunocasino.fr" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Brunocasino.fr <img src="./yellow.png" class="scale"></td><td>11</td></tr>
+<tr><td><a href="https://cryptoleo.fr" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Cryptoleo.fr <img src="./yellow.png" class="scale"></td><td>11</td></tr>
 <tr><td><a href="https://win.expert" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Win.expert <img src="./yellow.png" class="scale"></td><td>11</td></tr>
 <tr><td><a href="https://Mafija.lv" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> Mafija.lv <img src="./yellow.png" class="scale"></td><td>10</td></tr>
 <tr><td><a href="https://binaryoptionstradingtips.com/no/bdswiss-erfaringer" target="_blank" rel="noopener" class="lighten donate"><img src="./yellow.png"> BDSwiss <img src="./yellow.png" class="scale"></td><td>10</td></tr>
