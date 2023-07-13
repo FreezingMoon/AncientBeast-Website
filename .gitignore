@@ -1,5 +1,6 @@
 .ds_store
 .vscode
 .directory
+vendor
 config.php
 robots.txt
