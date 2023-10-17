@@ -24,7 +24,7 @@
 
 $page_title = 'Contribute';
 $style = '
-.contributeCard .ability .wrapper {display: flex !important;align-items: center;}
+.contributeCard .ability .wrapper { display: flex !important; align-items: center; }
 .abilities .ability .wrapper { height: 104px !important; padding-left: 107px !important; }
 .abilities .icon, .contour { width: 104px !important; height: 104px !important; }
 .donate { color: #FFE873 !important; }
