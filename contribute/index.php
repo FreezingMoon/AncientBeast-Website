@@ -58,7 +58,7 @@ require_once('../header.php');
 	<!-- Right Side -->
 	<div class="card sideB" style="background-image: url(<?php echo $site_root; ?>images/cards/margin.png), url(<?php echo $site_root; ?>images/cards/G.jpg);">
 	  	<!-- Display main ways to contribute -->
-		<div class="section abilities">
+		<div class="section abilities contributeCard">
 
 			<div class="ability">
 				<a href="#donate">
@@ -68,7 +68,7 @@ require_once('../header.php');
 				<div class="wrapper">
 					<div class="info">
 						<h3 id="first_title" class="underline">Donate</h3>
-						<span class="desc" id="desc">You can came one time donations to the project or monthly recurring ones, which will be put to various great uses.</span>
+						<span class="desc" id="desc">You can make one time donations to the project or monthly recurring ones, which will be put to various great uses.</span>
 					</div>
 				</div>
 				</a>
