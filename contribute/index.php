@@ -24,6 +24,7 @@
 
 $page_title = 'Contribute';
 $style = '
+.contributeCard .ability .wrapper { display: flex !important; align-items: center; }
 .abilities .ability .wrapper { height: 104px !important; padding-left: 107px !important; }
 .abilities .icon, .contour { width: 104px !important; height: 104px !important; }
 .donate { color: #FFE873 !important; }
@@ -79,7 +80,7 @@ require_once('../header.php');
 				<div id="second_icon" class="icon" style="background-image: url(<?php echo $site_root; ?>images/contribute/artwork.svg);">
 					<div class="contour"></div>
 				</div>
-				<div class="wrapper">
+                <div class="wrapper">
 					<div class="info">
 						<h3 id="second_title" class="underline">Artwork</h3>
 						<span class="desc" id="desc">You can donate existing artwork that you think it could nicely fit the project or offer your skills to create new stuff.</span>
@@ -93,7 +94,7 @@ require_once('../header.php');
 				<div id="third_icon" class="icon" style="background-image: url(<?php echo $site_root; ?>images/contribute/coding.svg);">
 					<div class="contour"></div>
 				</div>
-				<div class="wrapper">
+                <div class="wrapper">
 					<div class="info">
 						<h3 id="third_title" class="underline">Coding</h3>
 						<span class="desc" id="desc">We can always use an extra coding hand adding new functionality to the game or website and to squash bugs.</span>
@@ -107,7 +108,7 @@ require_once('../header.php');
 				<div id="fourth_icon" class="icon" style="background-image: url(<?php echo $site_root; ?>images/contribute/audio.svg);">
 					<div class="contour"></div>
 				</div>
-				<div class="wrapper">
+                <div class="wrapper">
 					<div class="info">
 						<h3 id="fourth_title" class="underline">Audio</h3>
 						<span class="desc" id="desc">Fast paced epic tracks can really set players in the mood for combat, while sound effects can empower abilities.</span>
@@ -121,7 +122,7 @@ require_once('../header.php');
 				<div id="fifth_icon" class="icon" style="background-image: url(<?php echo $site_root; ?>images/contribute/writing.svg);">
 					<div class="contour"></div>
 				</div>
-				<div class="wrapper">
+                <div class="wrapper">
 					<div class="info">
 						<h3 id="fifth_title" class="underline">Support</h3>
 						<span class="desc" id="desc">If none of the options above suit you but you still want to contribute to the project, there are many ways to do so!</span>
