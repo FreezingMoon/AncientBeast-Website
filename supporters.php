@@ -18,7 +18,6 @@
 	<a href="https://raj.bet" target="_blank"><img src="https://pbs.twimg.com/profile_images/1522830021999706112/Ub16XX3X_200x200.jpg" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<!-- Manually placed backers for follow-up links (SEO) until this OC issue https://github.com/opencollective/opencollective/issues/5968 is fixed -->
 	<a href="https://goread.io/buy-instagram-followers" target="_blank"><img src="https://images.opencollective.com/goread_io/eb6337d/logo/80.png" width=80px; heigth=80px;></a>
-	<a href="https://likewave.io/buy-instagram-likes" target="_blank"><img src="https://images.opencollective.com/likewave/a2a24ae/logo/80.png" width=80px; heigth=80px;></a>
 	<br><br>
 	Cheers to our partners. If you have something useful to provide to the project, feel free to send us an e-mail &#8595;
 </div>
