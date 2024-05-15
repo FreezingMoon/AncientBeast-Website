@@ -6,7 +6,7 @@
 	<a href="https://opencollective.com/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/opencollective.png" style="width: 40px; height: 48px;" class="lighten" alt="opencollective" title="Pledge to our OpenCollective!">
 	</a>
-	<a href="https://giveth.io/ancient-beast" target="_blank" rel="noopener">
+	<a href="https://giveth.io/project/ancient-beast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/giveth.png" style="width: 40px; height: 48px;" class="lighten" alt="giveth" title="Donate using Giveth!">
 	</a>
 	<a href="https://revolut.me/dreadknight" target="_blank" rel="noopener">
