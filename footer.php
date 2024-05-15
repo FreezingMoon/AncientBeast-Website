@@ -6,11 +6,11 @@
 	<a href="https://opencollective.com/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/opencollective.png" style="width: 40px; height: 48px;" class="lighten" alt="opencollective" title="Pledge to our OpenCollective!">
 	</a>
-	<a href="https://patreon.com/AncientBeast" target="_blank" rel="noopener">
-		<img src="<?php echo $site_root; ?>images/footer/patreon.png" style="width: 40px; height: 48px;" class="lighten" alt="patreon" title="Pledge to our Patreon campaign!">
+	<a href="https://giveth.io/ancient-beast" target="_blank" rel="noopener">
+		<img src="<?php echo $site_root; ?>images/footer/giveth.png" style="width: 40px; height: 48px;" class="lighten" alt="giveth" title="Donate using Giveth!">
 	</a>
-	<a href="https://paypal.me/AncientBeast" target="_blank" rel="noopener">
-		<img src="<?php echo $site_root; ?>images/footer/paypal.png" style="width: 40px; height: 48px;" class="lighten" alt="paypal" title="Donate using PayPal!">
+	<a href="https://revolut.me/dreadknight" target="_blank" rel="noopener">
+		<img src="<?php echo $site_root; ?>images/footer/revolut.png" style="width: 40px; height: 48px;" class="lighten" alt="revolut" title="Donate using Revolut!">
 	</a>
 	<a href="https://facebook.com/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/facebook.png" style="width: 40px; height: 48px;" class="lighten" alt="facebook" title="Give us a like on Facebook!">
