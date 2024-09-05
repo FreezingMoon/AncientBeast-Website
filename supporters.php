@@ -12,7 +12,7 @@
 
 <div id="partners" class="div center">
 	<a href="https://qoddi.com" target="_blank"><img src="../images/sponsors/Qoddi.png" width=80px; heigth=80px;></a>
-	<a href="https://BloodGrail.com" target="_blank"><img src="../images/sponsors/BloodGrail.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
+	<a href="https://facebook.com/BloodGrail" target="_blank"><img src="../images/sponsors/BloodGrail.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<a href="https://ebay.co.uk/usr/dreadknight666" target="_blank"><img src="../images/sponsors/DreadKnight.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<!-- Keep RajBet logo until end of 2023 if still not subscribbed -->
 	<a href="https://raj.bet" target="_blank"><img src="https://pbs.twimg.com/profile_images/1522830021999706112/Ub16XX3X_200x200.jpg" width=80px; heigth=80px; style="border-radius: 66px;"></a>
