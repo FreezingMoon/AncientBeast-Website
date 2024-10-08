@@ -140,20 +140,13 @@ require_once('../header.php');
 <h3 class="indexheader"><a href="#donate">Donate</a></h3>
 <p>
 We strongly believe in open source software development, but to run a successful project, you still require quite a bit of money in order to have at least few people work part-time on the project and deal with the stuff nobody else wants to ever actually do and there are also services and hardware requirements that must be satisfied which tend to add up.
-</p><p>
-We would appreciate it if you would become our <a href="https://patreon.com/AncientBeast" target="_blank"><b>Patreon</b></a> or donate via <a href="https://opencollective.com/AncientBeast" target="_blank"><b>OpenCollective</b></a> and receive cool rewards.
-If you wish to become a sponsor, get in touch with us via an <a href="mailto:DreadKnight@FreezingMoon.org?Subject=I want to Sponsor the Project" target="_blank"><b>email</b></a>.
+</p>
 <p>
 Please consider donating <b>Ethereum</b> or any <b>ERC20 tokens</b> (ideally better known ones) to the following wallet address:
 </p>
 <p class="center" style="margin: 0px;">
 <img src="<?php echo $site_root; ?>contribute/ERC-20.png">
 <div style="background-color: rgba(0, 0, 0, 0.8); border-radius: 5px; padding: 10px 20px;" class="center">0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33</div>
-</p><p>
-<a href="https://paypal.me/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-PayPal-yellow.svg" class="lighten"></a>
-<a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33" target="_blank"><img src="https://img.shields.io/badge/Donate-Ethereum-darkgrey.svg" class="lighten"></a>
-<a href="https://patreon.com/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-Patreon-red.svg" class="lighten"></a>
-<a href="https://opencollective.com/ancientbeast#section-contribute" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-OpenCollective-blue.svg" class="lighten"></a>
 </p>
 </div>
 
