@@ -144,10 +144,10 @@ We strongly believe in open source software development, but to run a successful
 We would appreciate it if you would become our <a href="https://patreon.com/AncientBeast" target="_blank"><b>Patreon</b></a> or donate via <a href="https://opencollective.com/AncientBeast" target="_blank"><b>OpenCollective</b></a> and receive cool rewards.
 If you wish to become a sponsor, get in touch with us via an <a href="mailto:DreadKnight@FreezingMoon.org?Subject=I want to Sponsor the Project" target="_blank"><b>email</b></a>.
 <p>
-Please consider donating <a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33"><b>Ethereum</b></a> or any <a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33"><b>ERC20 tokens</b></a> (ideally better known ones) to the following wallet address:
+Please consider donating <b>Ethereum</b> or any <b>ERC20 tokens</b> (ideally better known ones) to the following wallet address:
 </p>
 <p class="center" style="margin: 0px;">
-<a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33"><img src="<?php echo $site_root; ?>contribute/ERC-20.png"><br>
+<a href=""><img src="<?php echo $site_root; ?>contribute/ERC-20.png"><br>
 <div style="background-color: rgba(0, 0, 0, 0.8); border-radius: 5px; padding: 10px 20px;" class="center">0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33</div></a>
 </p><p>
 <a href="https://paypal.me/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-PayPal-yellow.svg" class="lighten"></a>
