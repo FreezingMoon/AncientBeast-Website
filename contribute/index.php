@@ -147,7 +147,7 @@ If you wish to become a sponsor, get in touch with us via an <a href="mailto:Dre
 Please consider donating <a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33"><b>Ethereum</b></a> or any <a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33"><b>ERC20 tokens</b></a> (ideally better known ones) to the following wallet address:
 </p>
 <p class="center" style="margin: 0px;">
-<a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33"><img src="<?php echo $site_root; ?>images/contribute/ERC-20.png"><br>
+<a href="0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33"><img src="<?php echo $site_root; ?>contribute/ERC-20.png"><br>
 <div style="background-color: rgba(0, 0, 0, 0.8); border-radius: 5px; padding: 10px 20px;" class="center">0x21f53DB4D2eAcde70a2E4F0407D073C971eC1A33</div></a>
 </p><p>
 <a href="https://paypal.me/AncientBeast" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Donate-PayPal-yellow.svg" class="lighten"></a>

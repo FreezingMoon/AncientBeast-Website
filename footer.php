@@ -1,6 +1,6 @@
 </div>
 <div class="footer smalldiv center">
-	<a href="<?php echo $site_root; ?>images/contribute/ERC-20.png" target="_blank" rel="noopener">
+	<a href="<?php echo $site_root; ?>contribute/ERC-20.png" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/ethereum.png" style="width: 40px; height: 48px;" class="lighten" alt="ethereum" title="Donate ERC20 tokens to this address!">
 	</a>
 	<a href="https://opencollective.com/AncientBeast" target="_blank" rel="noopener">
