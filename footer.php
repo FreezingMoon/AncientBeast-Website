@@ -1,16 +1,10 @@
 </div>
 <div class="footer smalldiv center">
-	<a href="<?php echo $site_root; ?>contribute/ERC-20.png" target="_blank" rel="noopener">
-		<img src="<?php echo $site_root; ?>images/footer/ethereum.png" style="width: 40px; height: 48px;" class="lighten" alt="ethereum" title="Donate ERC20 tokens to this address!">
-	</a>
 	<a href="https://opencollective.com/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/opencollective.png" style="width: 40px; height: 48px;" class="lighten" alt="opencollective" title="Pledge to our OpenCollective!">
 	</a>
 	<a href="https://giveth.io/project/ancient-beast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/giveth.png" style="width: 40px; height: 48px;" class="lighten" alt="giveth" title="Donate using Giveth!">
-	</a>
-	<a href="https://revolut.me/dreadknight" target="_blank" rel="noopener">
-		<img src="<?php echo $site_root; ?>images/footer/revolut.png" style="width: 40px; height: 48px;" class="lighten" alt="revolut" title="Donate using Revolut!">
 	</a>
 	<a href="https://facebook.com/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/facebook.png" style="width: 40px; height: 48px;" class="lighten" alt="facebook" title="Give us a like on Facebook!">
