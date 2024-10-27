@@ -190,7 +190,7 @@ a#goread_io { display: none !important; overflow: hidden; }
 	padding: 5px 10px 0;
 }
 
-.footer img { padding: 0 14px; }
+.footer img { padding: 0 10px; }
 
 .button {
 	background-color: transparent;
