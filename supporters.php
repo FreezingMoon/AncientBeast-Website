@@ -11,14 +11,16 @@
 </div>
 
 <div id="partners" class="div center">
-	<a href="https://qoddi.com" target="_blank"><img src="../images/sponsors/Qoddi.png" width=80px; heigth=80px;></a>
-	<a href="https://facebook.com/BloodGrail" target="_blank"><img src="../images/sponsors/BloodGrail.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
-	<a href="https://ebay.co.uk/usr/dreadknight666" target="_blank"><img src="../images/sponsors/DreadKnight.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
-	<!-- Keep RajBet logo until end of 2023 if still not subscribbed -->
+	<a href="https://Qoddi.com" target="_blank"><img src="../images/partners/Qoddi.png" width=80px; heigth=80px;></a>
+	<a href="https://facebook.com/BloodGrail" target="_blank"><img src="../images/partners/BloodGrail.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
+	<a href="https://about.me/DreadKnight" target="_blank"><img src="../images/partners/DreadKnight.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
+	<a href="https://game-icons.net" target="_blank"><img src="../images/partners/Game-Icons.png" width=80px; heigth=80px;></a>
+	<a href="https://OpenGameArt.org" target="_blank"><img src="../images/partners/OpenGameArt.png" width=80px; heigth=80px;></a>
+	<!-- Keep RajBet logo until end of 2024 if still not subscribbed -->
 	<a href="https://raj.bet" target="_blank"><img src="https://pbs.twimg.com/profile_images/1522830021999706112/Ub16XX3X_200x200.jpg" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<!-- Manually placed backers for follow-up links (SEO) until this OC issue https://github.com/opencollective/opencollective/issues/5968 is fixed -->
 	<a href="https://goread.io/buy-instagram-followers" target="_blank"><img src="https://images.opencollective.com/goread_io/eb6337d/logo/80.png" width=80px; heigth=80px;></a>
-	<!-- Manually placed backers for follow-up links (SEO) until this OC issue https://github.com/opencollective/opencollective/issues/7633 is fixed -->
+	<!-- Manually placed backers to compensate for issue https://github.com/opencollective/opencollective/issues/7633 -->
 	<a href="https://linkedin.com/pulse/top-website-buy-tiktok-followers-influencers-choice-john-anderson-dtnff" target="_blank"><img src="https://images.opencollective.com/buy-tiktok-followers1/b14220e/logo/80.png" width=80px; heigth=80px;></a>
 	<a href="https://linkedin.com/pulse/top-website-buy-tiktok-likes-influencers-choice-john-anderson-o1zaf" target="_blank"><img src="https://images.opencollective.com/buy-tiktok-likes2/bf42e2d/logo/80.png" width=80px; heigth=80px;></a>
 	<br><br>
