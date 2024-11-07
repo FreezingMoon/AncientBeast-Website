@@ -31,7 +31,7 @@ require_once 'header.php';
 
 <!-- Ad - 7-14 Nov -->
 <div class="center important" style="border-color: grey !important;">
-Check out <a href="https://dogswap.xyz" target="_blank"><b><u>DogSwap.xyz</u></b></a> - the best MintMe DeFi there is! You can stake tokens for rewards! 🦴🍖🍗
+<a href="https://dogswap.xyz" target="_blank"><b><u>DogSwap.xyz</u></b></a> - the best MintMe DeFi there is! You can stake tokens for rewards! 🦴🍖🍗
 </div>
 
 
