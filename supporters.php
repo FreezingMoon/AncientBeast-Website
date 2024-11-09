@@ -16,6 +16,7 @@
 	<a href="https://about.me/DreadKnight" target="_blank"><img src="../images/partners/DreadKnight.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<a href="https://game-icons.net" target="_blank"><img src="../images/partners/Game-Icons.png" width=80px; heigth=80px;></a>
 	<a href="https://OpenGameArt.org" target="_blank"><img src="../images/partners/OpenGameArt.png" width=80px; heigth=80px;></a>
+	<a href="https://discadia.com/server/AncientBeast" target="_blank"><img src="../images/partners/Discadia.png" width=80px; heigth=80px;></a>
 	<!-- Keep RajBet logo until end of 2024 if still not subscribbed -->
 	<a href="https://raj.bet" target="_blank"><img src="https://pbs.twimg.com/profile_images/1522830021999706112/Ub16XX3X_200x200.jpg" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<!-- Manually placed backers for follow-up links (SEO) until this OC issue https://github.com/opencollective/opencollective/issues/5968 is fixed -->
