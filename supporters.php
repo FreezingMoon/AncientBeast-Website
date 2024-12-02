@@ -11,6 +11,7 @@
 </div>
 
 <div id="partners" class="div center">
+	<a href="https://q-acc.giveth.io/project/ancient-beast" target="_blank"><img src="../images/partners/qacc.png" width=80px; heigth=80px;></a>
 	<a href="https://Qoddi.com" target="_blank"><img src="../images/partners/Qoddi.png" width=80px; heigth=80px;></a>
 	<a href="https://facebook.com/BloodGrail" target="_blank"><img src="../images/partners/BloodGrail.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<a href="https://about.me/DreadKnight" target="_blank"><img src="../images/partners/DreadKnight.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
@@ -21,9 +22,7 @@
 	<a href="https://raj.bet" target="_blank"><img src="https://pbs.twimg.com/profile_images/1522830021999706112/Ub16XX3X_200x200.jpg" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<!-- Manually placed backers for follow-up links (SEO) until this OC issue https://github.com/opencollective/opencollective/issues/5968 is fixed -->
 	<a href="https://goread.io/buy-instagram-followers" target="_blank"><img src="https://images.opencollective.com/goread_io/eb6337d/logo/80.png" width=80px; heigth=80px;></a>
-	<!-- Manually placed backers to compensate for issue https://github.com/opencollective/opencollective/issues/7633 -->
-	<a href="https://linkedin.com/pulse/top-website-buy-tiktok-followers-influencers-choice-john-anderson-dtnff" target="_blank"><img src="https://images.opencollective.com/buy-tiktok-followers1/b14220e/logo/80.png" width=80px; heigth=80px;></a>
-	<a href="https://linkedin.com/pulse/top-website-buy-tiktok-likes-influencers-choice-john-anderson-o1zaf" target="_blank"><img src="https://images.opencollective.com/buy-tiktok-likes2/bf42e2d/logo/80.png" width=80px; heigth=80px;></a>
+	<a href="https://DogSwap.xyz" target="_blank"><img src="../images/partners/DogSwap.png" width=80px; heigth=80px;></a>
 	<br><br>
 	Cheers to our partners. If you have something useful to provide to the project, feel free to send us an e-mail &#8595;
 </div>
