@@ -29,14 +29,13 @@ require_once 'header.php';
 <!-- Announcement -->
 <!-- <div class="center important"><b>Summoners, we need your help! Please donate $1+ to our <a href="https://explorer.gitcoin.co/#/round/42161/608/31" target="_blank"><u>Gitcoin campaign</u>, thanks!</a></b></div> -->
 
-<!-- Ad - 7-14 Nov -->
-<div class="center important" style="border-color: grey !important;">
-<a href="https://dogswap.xyz" target="_blank"><b><u>DogSwap.xyz</u></b></a> - the best MintMe DeFi there is! You can stake tokens for rewards! 🦴🍖🍗
-</div>
-
-
 <div class="center">
 	<iframe id="game" name="game" src="https://play.AncientBeast.com" style="border: 4px ridge; border-color: grey; width: 934px; height: 525px;" seamless sandbox="allow-same-origin allow-forms allow-scripts allow-popups" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
+</div>
+
+<!-- Ticker- Ad - 7-14 Nov -->
+<div class="center important" style="border-color: grey !important;">
+<a href="https://dogswap.xyz" target="_blank"><b><u>DogSwap.xyz</u></b></a> - the best MintMe DeFi there is! You can stake tokens for rewards! 🦴🍖🍗
 </div>
 
 <?php
