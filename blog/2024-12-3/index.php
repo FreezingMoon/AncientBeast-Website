@@ -27,7 +27,7 @@ require_once("../../header.php");
 ?>
 
 <div class="div" id="intro">
-<h2 class="indexheader"><a href="#intro">We're finally part of an accelerator</a></h2>
+<h2 class="indexheader"><a href="#intro">Enter the BEAST 🐺</a></h2>
 
 <p>Greetings to all sinners! Ancient Beast 🐺 is the first project to get accepted in the first cohort of a state-of-the-art accelerator called <a href="https://qacc.giveth.io" target="_blank"><b>q/acc</b></a>, even though I've applied after the deadline and we already have a token, <a href="https://mintme.com/token/XatteR" target="_blank"><b>XatteR</b></a>. This is a great opportunity, as it will allow us to have more resources at our disposal, like marketing, networking, partners and even a bit of funding, which can go a long way for us, hopefully managing to fix some of the current project bottlenecks and increase monthly income.</p>
 

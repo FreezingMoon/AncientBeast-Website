@@ -34,7 +34,7 @@ if there's a GET link variable, it should gather that and display that article o
 <div class="center" id="focus">
 	<div style="display: inline-block;" class="lighten">
 		<a href="2024-12-3/"><img src="2024-12-3/thumb.jpg" class="frame frame-top">
-		<div class="frame frame-bottom">q/acc Accelerator</div></a>
+		<div class="frame frame-bottom">Enter the BEAST</div></a>
 	</div>
 	<div style="display: inline-block;" class="lighten">
 		<a href="2017-03-15/"><img src="2017-03-15/thumb.jpg" class="frame frame-top">
@@ -50,7 +50,6 @@ if there's a GET link variable, it should gather that and display that article o
 	<div style="display: inline-block;" class="lighten">
 		<a href="2013-06-15/"><img src="2013-06-15/thumb.jpg" class="frame frame-top">
 		<div class="frame frame-bottom">Version 0.2 Released</div></a>
-	</div>
 	</div>
 	<div style="display: inline-block;" class="lighten">
 		<a href="2012-12-12/"><img src="2012-12-12/thumb.jpg" class="frame frame-top">
