@@ -13,7 +13,6 @@
 <div id="partners" class="div center">
 	<a href="https://q-acc.giveth.io/project/ancient-beast" target="_blank"><img src="../images/partners/qacc.png" width=80px; heigth=80px;></a>
 	<a href="https://Qoddi.com" target="_blank"><img src="../images/partners/Qoddi.png" width=80px; heigth=80px;></a>
-	<a href="https://facebook.com/BloodGrail" target="_blank"><img src="../images/partners/BloodGrail.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<a href="https://about.me/DreadKnight" target="_blank"><img src="../images/partners/DreadKnight.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<a href="https://game-icons.net" target="_blank"><img src="../images/partners/Game-Icons.png" width=80px; heigth=80px;></a>
 	<a href="https://OpenGameArt.org" target="_blank"><img src="../images/partners/OpenGameArt.png" width=80px; heigth=80px;></a>
@@ -23,6 +22,7 @@
 	<!-- Manually placed backers for follow-up links (SEO) until this OC issue https://github.com/opencollective/opencollective/issues/5968 is fixed -->
 	<a href="https://goread.io/buy-instagram-followers" target="_blank"><img src="https://images.opencollective.com/goread_io/eb6337d/logo/80.png" width=80px; heigth=80px;></a>
 	<a href="https://DogSwap.xyz" target="_blank"><img src="../images/partners/DogSwap.png" width=80px; heigth=80px;></a>
+	<a href="https://mintme.com/token/BaTs" target="_blank"><img src="../images/partners/BaTs.png" width=80px; heigth=80px;></a>
 	<br><br>
 	Cheers to our partners. If you have something useful to provide to the project, feel free to send us an e-mail &#8595;
 </div>
