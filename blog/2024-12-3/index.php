@@ -50,7 +50,7 @@ require_once("../../header.php");
 </div>
 
 <div class="div" id="minting">
-<p>Amazing opportunity! You'll be able to mint the new BEAST token at a very advantageous ratio during the public round taking place between 6 until 20 December. The newly minted tokens have all sorts of safety mechanisms in place against rug-pulls, sybling attacks, whales and a lot of other stuff. The locking is way bigger for the projects and there's also a liquidity pool provided straight up, so you'll be able to cash-out as the tokens unlock without taking a loss.</p>
+<p>Amazing opportunity! You'll be able to mint the new <a href="https://q-acc.giveth.io/project/ancient-beast" target="_blank"><b>BEAST</b></a> token at a very advantageous ratio during the public round taking place between 6 until 20 December. The newly minted tokens have all sorts of safety mechanisms in place against rug-pulls, sybling attacks, whales and a lot of other stuff. The locking is way bigger for the projects and there's also a liquidity pool provided straight up, so if needed, you'll be able to cash-out as the tokens unlock without taking a loss.</p>
 
 <p>Requirements: you need to be over 18, undergo a bit of KYC (two options available) and not be from USA, UK plus a few other handful of countries that are restricted, though if you're "donating" under $1000 worth of POL, you can bypass the country restriction at your own risk! For this first option, you can aim for at least 15 points within <a href="https://passport.xyz" target="_blank"><b>passport.xyz</b></a>, which is quite nice and useful, or for larger amounts (over $1000, up to $15000), you can go for <a href="https://privado.id" target="_blank"><b>Privado.id</b></a>, though this one requires a scan of your id and can take a day or two. You can find a very detailed guide about the KYC options over <a href="https://giveth.notion.site/Get-Verified-1223ab28d48c80458699d18cb0f54494" target="_blank"><u>here</u></a>. There is also <a href="https://q-acc.giveth.io" target="_blank"><u>support</u></a> provided in case you get stuck or face issues.</p>
 
@@ -58,7 +58,7 @@ require_once("../../header.php");
 
 <p>Also keep in mind that <a href="https://q-acc.giveth.io" target="_blank">the first cohort</a> is formed of <a href="https://q-acc.giveth.io/projects" target="_blank"><u>8 projects</u></a>, so perhaps some of the other ones will peek your interest as well, just don't forget about us while checking all those other projects out 😉</p>
 
-<p> You can find everything you need to know over here: <a href="https://q-acc.giveth.io" target="_blank"><u>q-acc.giveth.io</u></a> - prepare for 6th December and get your <a href="https://q-acc.giveth.io/project/ancient-beast" target="_blank"><b>BEAST</b></a> on!</p>
+<p> You can find everything you need to know over here: <a href="https://q-acc.giveth.io" target="_blank"><u>q-acc.giveth.io</u></a> - prepare for 6th and get your <a href="https://q-acc.giveth.io/project/ancient-beast" target="_blank"><b>BEAST</b></a> on!</p>
 </div>
 
 <?php
