@@ -27,7 +27,7 @@ require_once 'header.php';
 ?>
 
 <!-- Announcement -->
-<div class="center important">Check out our <a href="/blog/2024-12-3" target="_blank"><u>latest article</u></a> about the q/acc Accelerator and our upcoming token, BEAST 🐺</div>
+<div class="center important">Check out our <a href="/blog/2024-12-3" target="_blank"><u>latest article</u></a> about the q/acc Accelerator and our upcoming token, <a href="https://q-acc.giveth.io/project/ancient-beast" target="_blank"><b>BEAST</b></a></div>
 
 <div class="center">
 	<iframe id="game" name="game" src="https://play.AncientBeast.com" style="border: 4px ridge; border-color: grey; width: 934px; height: 525px;" seamless sandbox="allow-same-origin allow-forms allow-scripts allow-popups" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
