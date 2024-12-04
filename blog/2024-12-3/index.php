@@ -22,7 +22,7 @@
  * DreadKnight@FreezingMoon.org
  */
 
-$page_title = "q/acc Accelerator";
+$page_title = "Enter the BEAST 🐺";
 require_once("../../header.php");
 ?>
 
