@@ -29,7 +29,7 @@ require_once("../../header.php");
 <div class="div" id="intro">
 <h2 class="indexheader"><a href="#intro">Enter the BEAST 🐺</a></h2>
 <br>
-<img src="Enter.png">
+<img src="Enter.webp">
 <br>
 <p>Greetings to all sinners! Ancient Beast 🐺 is the first project to get accepted in the first cohort of a state-of-the-art accelerator called <a href="https://qacc.giveth.io" target="_blank"><b>q/acc</b></a>, even though I've applied after the deadline and we already have a token, <a href="https://mintme.com/token/XatteR" target="_blank"><b>XatteR</b></a>. This is a great opportunity, as it will allow us to have more resources at our disposal, like marketing, networking, partners and even a bit of funding, which can go a long way for us, hopefully managing to fix some of the current project bottlenecks and increase monthly income.</p>
 
@@ -37,6 +37,8 @@ require_once("../../header.php");
 </div>
 
 <div class="div" id="tokens">
+<img src="Temple.webp">
+<br>
 <p>One of the conditions of the accelerator was to create a new token on <a href="https://polygon.technology/polygon-zkevm" target="_blank"><u>Polygon zkEVM</u></a>, which is a sidechain scaling solution that complements the Ethereum blockchain. I didn't wanted to kill the current token, <a href="https://mintme.com/token/XatteR" target="_blank"><b>XatteR</b></a>, as a lot of time and work was already invested into it, it has a few hundred holders already and several exchange listings, so I've found a way to make things work in the favor of the project: since every tech is different and has pros and cons, I would have the tokens be complementary by having each one focus on different areas where they would perform better based on the pros, with only a bit of overlap ☯️.</p>
 </div>
 
@@ -52,9 +54,11 @@ require_once("../../header.php");
 </div>
 
 <div class="div" id="minting">
+<img src="Minting.webp">
+<br>
 <p>Amazing opportunity! You'll be able to mint the new <a href="https://q-acc.giveth.io/project/ancient-beast" target="_blank"><b>BEAST</b></a> token at a very advantageous ratio during the public round taking place between 6 until 20 December. The newly minted tokens have all sorts of safety mechanisms in place against rug-pulls, sybling attacks, whales and a lot of other stuff. The locking is way bigger for the projects and there's also a liquidity pool provided straight up, so if needed, you'll be able to cash-out as the tokens unlock without taking a loss.</p>
 
-<p>Requirements: you need to be over 18, undergo a bit of KYC (two options available) and not be from USA, UK plus a few other handful of countries that are restricted, though if you're "donating" under $1000 worth of POL, you can bypass the country restriction at your own risk! For this first option, you can aim for at least 15 points within <a href="https://passport.xyz" target="_blank"><b>passport.xyz</b></a>, which is quite nice and useful, or for larger amounts (over $1000, up to $15000), you can go for <a href="https://privado.id" target="_blank"><b>Privado.id</b></a>, though this one requires a scan of your id and can take a day or two. You can find a very detailed guide about the KYC options over <a href="https://giveth.notion.site/Get-Verified-1223ab28d48c80458699d18cb0f54494" target="_blank"><u>here</u></a>. There is also <a href="https://q-acc.giveth.io" target="_blank"><u>support</u></a> provided in case you get stuck or face issues.</p>
+<p>Requirements: you need to be over 18, undergo a bit of KYC (two options available) and not be from USA, UK plus a few other handful of countries that are restricted, though if you're "donating" under $1000 worth of POL, you can bypass the country restriction at your own risk! VPNs FTW! For this first option, you can aim for at least 15 points within <a href="https://passport.xyz" target="_blank"><b>passport.xyz</b></a>, which is quite nice and useful, or for larger amounts (over $1000, up to $15000), you can go for <a href="https://privado.id" target="_blank"><b>Privado.id</b></a>, though this one requires a scan of your id and can take a day or two. You can find a very detailed guide about the KYC options over <a href="https://giveth.notion.site/Get-Verified-1223ab28d48c80458699d18cb0f54494" target="_blank"><u>here</u></a>. There is <a href="https://q-acc.giveth.io" target="_blank"><u>support</u></a> provided in case you get stuck or face issues.</p>
 
 <p>Crypto: you will also need to have some ETH and POL on Polygon zkEVM, there's a nice easy to use widget for you to easily bridge and swap tokens if needed and you can also check out this very handy guide <a href="https://giveth.notion.site/Move-ETH-and-POL-to-Polygon-zkEVM-1223ab28d48c8003b76fd98c3ed2a194" target="_blank"><u>over here</u></a>.</p>
 
