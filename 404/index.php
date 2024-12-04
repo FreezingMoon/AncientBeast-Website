@@ -26,7 +26,7 @@ $page_title = "Page Not Found";
 require_once "../header.php";
 ?>
 <div class="center">
-    <a class="center" href="<?php echo $site_root; ?>" title="Go to homepage"><img src="../images/We_Want_YOU.jpg"><br><h1>...to go to another page because this one is missing!</h1></a>
+    <a class="center" href="<?php echo $site_root; ?>" title="Go to homepage"><img src="../images/We_Want_YOU.webp"><br><h1>...to go to another page because this one is missing!</h1></a>
 </div>
 <?php
 include '../footer.php';
