@@ -5,7 +5,7 @@
 </div>
 
 <div id="backers" class="div center">
-	<object type="image/svg+xml" data="https://opencollective.com/ancientbeast/tiers/backer.svg?avatarHeight=80&width=890&button=false"></object>
+	<object type="image/svg+xml" data="https://opencollective.com/ancientbeast/tiers/backer.svg?avatarHeight=80&width=890"></object>
 	<br><br>
 	Big thanks to all our backers! If you wish to have your banner here, become a <a href="https://opencollective.com/ancientbeast/contribute/backer-8021" target="_blank"><b><u>Backer</u></b></a> as well.
 </div>
