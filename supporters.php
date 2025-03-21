@@ -11,7 +11,7 @@
 </div>
 
 <div id="partners" class="div center">
-	<a href="https://q-acc.giveth.io/project/ancient-beast" target="_blank"><img src="../images/partners/qacc.png" width=80px; heigth=80px;></a>
+	<a href="https://quickswap.exchange/#/swap?currency0=ETH&currency1=0x4191F84f66e0B7CC10370Ff47a0E2168E35b9Bdf&swapIndex=2" target="_blank"><img src="../images/partners/BEAST.png" width=80px; heigth=80px;></a>
 	<a href="https://Qoddi.com" target="_blank"><img src="../images/partners/Qoddi.png" width=80px; heigth=80px;></a>
 	<a href="https://about.me/DreadKnight" target="_blank"><img src="../images/partners/DreadKnight.png" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<a href="https://game-icons.net" target="_blank"><img src="../images/partners/Game-Icons.png" width=80px; heigth=80px;></a>
