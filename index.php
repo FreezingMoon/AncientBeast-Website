@@ -27,7 +27,10 @@ require_once 'header.php';
 ?>
 
 <!-- Announcement -->
-<div class="center important">Buy our <a href="https://quickswap.exchange/#/swap?currency0=ETH&currency1=0x4191F84f66e0B7CC10370Ff47a0E2168E35b9Bdf&swapIndex=2" target="_blank"><u>$BEAST</u></a> 🐺 token from <a href="https://quickswap.exchange/#/swap?currency0=ETH&currency1=0x4191F84f66e0B7CC10370Ff47a0E2168E35b9Bdf&swapIndex=2" target="_blank"><u>QuickSwap</u></a>🐲, the sooner you do so, the better the price!</div>
+<div class="center important">Mint our <a href="https://q-acc.giveth.io/project/ancient-beast" target="_blank"><u>$BEAST</u></a> 🐺 token from <a href="https://q-acc.giveth.io/project/ancient-beast" target="_blank"><u>this page</u></a> and get access to various goodies!</div>
+
+<!-- <div class="center important">Buy our <a href="https://quickswap.exchange/#/swap?currency0=ETH&currency1=0x4191F84f66e0B7CC10370Ff47a0E2168E35b9Bdf&swapIndex=2" target="_blank"><u>$BEAST</u></a> 🐺 token from <a href="https://quickswap.exchange/#/swap?currency0=ETH&currency1=0x4191F84f66e0B7CC10370Ff47a0E2168E35b9Bdf&swapIndex=2" target="_blank"><u>QuickSwap</u></a>🐲, the sooner you do so, the better the price!</div>
+-->
 
 <div class="center">
 	<iframe id="game" name="game" src="https://play.AncientBeast.com" style="border: 4px ridge; border-color: grey; width: 934px; height: 525px;" seamless sandbox="allow-same-origin allow-forms allow-scripts allow-popups" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
