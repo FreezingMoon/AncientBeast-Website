@@ -9,7 +9,7 @@
 	<a href="https://giveth.io/project/ancient-beast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/giveth.png" style="width: 40px; height: 48px;" class="lighten" alt="giveth" title="Donate using Giveth!">
 	</a>
-	<a href="https://www.mintme.com/token/XatteR/invite" target="_blank" rel="noopener">
+	<a href="https://mintme.com/token/XatteR" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/MintMe.png" style="width: 40px; height: 48px;" class="lighten" alt="giveth" title="Purchase our token, XatteR!">
 	</a>
 	<a href="https://facebook.com/AncientBeast" target="_blank" rel="noopener">
