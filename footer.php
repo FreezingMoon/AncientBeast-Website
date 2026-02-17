@@ -3,7 +3,7 @@
 	<a href="https://opencollective.com/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/opencollective.png" style="width: 40px; height: 48px;" class="lighten" alt="opencollective" title="Pledge to our OpenCollective!">
 	</a>
-	<a href="https://quickswap.exchange/#/swap?currency0=ETH&currency1=0x4191F84f66e0B7CC10370Ff47a0E2168E35b9Bdf&swapIndex=2" target="_blank" rel="noopener">
+	<a href="https://dapp.quickswap.exchange/swap/best/ETH/0x4191F84f66e0B7CC10370Ff47a0E2168E35b9Bdf" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/beast.png" style="width: 40px; height: 48px;" class="lighten" alt="beast" title="Purchase our token, BEAST! 🐺">
 	</a>
 	<a href="https://giveth.io/project/ancient-beast" target="_blank" rel="noopener">
