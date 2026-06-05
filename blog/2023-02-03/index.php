@@ -267,33 +267,33 @@ improvements and less visible groundwork, and both matter.
 <div class="div" id="sponsors">
 <h3 class="indexheader"><a href="sponsors">Thanks to our Sponsors:</a></h3>
 <p><ul>
-<li>https://writersperhour.com/write-my-paper</li>
-<li>https://raj.bet</li>
-<li>https://inkedin.com</li>
-<li>https://bloodgrail.com</li>
-<li>https://ebay.co.uk/usr/dreadknight666</li>
+<li><a href="https://writersperhour.com/write-my-paper" target="_blank"></a></li>
+<li><a href="https://raj.bet" target="_blank"></a></li>
+<li><a href="https://inkedin.com" target="_blank"></a></li>
+<li><a href="https://bloodgrail.com" target="_blank"></a></li>
+<li><a href="https://ebay.co.uk/usr/dreadknight666" target="_blank"></a></li>
 </ul></p>
-Become one over here: https://opencollective.com/ancientbeast/contribute/sponsor-8022
+Become one over here: <a href="https://opencollective.com/ancientbeast/contribute/sponsor-8022" target="_blank"></a>
 </div>
 
 <div class="div" id="backers">
 <h3 class="indexheader"><a href="backers">Thanks to our Backers:</a></h3>
 Thanks to our Backers:
 <p><ul>
-<li>https://zh.casinoshunter.com/online-casinos</li>
-<li>https://slotsempire.com</li>
-<li>https://reddogcasino.com</li>
-<li>https://casino-professor.com</li>
-<li>https://goread.io/buy-instagram-followers</li>
-<li>https://www.igamblingsites.com</li>
-<li>https://likewave.io/buy-instagram-likes</li>
-<li>https://aviatorgame.guru</li>
-<li>https://crash-gambling-game.com</li>
-<li>https://twicsy.com/buy-instagram-likes</li>
-<li>https://www.casinocanada.me</li>
-<li>https://inkedin.com</li>
+<li><a href="https://zh.casinoshunter.com/online-casinos" target="_blank"></a></li>
+<li><a href="https://slotsempire.com" target="_blank"></a></li>
+<li><a href="https://reddogcasino.com" target="_blank"></a></li>
+<li><a href="https://casino-professor.com" target="_blank"></a></li>
+<li><a href="https://goread.io/buy-instagram-followers" target="_blank"></a></li>
+<li><a href="https://www.igamblingsites.com" target="_blank"></a></li>
+<li><a href="https://likewave.io/buy-instagram-likes" target="_blank"></a></li>
+<li><a href="https://aviatorgame.guru" target="_blank"></a></li>
+<li><a href="https://crash-gambling-game.com" target="_blank"></a></li>
+<li><a href="https://twicsy.com/buy-instagram-likes" target="_blank"></a></li>
+<li><a href="https://www.casinocanada.me" target="_blank"></a></li>
+<li><a href="https://inkedin.com" target="_blank"></a></li>
 </ul></p>
-Become one over here: https://opencollective.com/ancientbeast/contribute/backer-8021
+Become one over here: <a href="https://opencollective.com/ancientbeast/contribute/backer-8021" target="_blank"></a>
 </div>
 
 <?php
