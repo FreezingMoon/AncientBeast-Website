@@ -42,7 +42,8 @@ part of it is foundational work that makes future versions easier to build and s
 </p>
 <p>
 The scale of this milestone is hard to overstate: it spans about 5 years and 11 months between v0.3 and v0.4, touched 2,229 files, and changed
-40,251 lines added against 244,371 lines removed. 118 people contributed code along the way.</p>
+40,251 lines added against 244,371 lines removed. 118 people contributed code along the way.
+</p>
 </div>
 
 
@@ -56,9 +57,7 @@ The v0.4 release added 3 new playable creatures: <b>Stomper</b>, <b>Vehemoth</b>
 Alongside those additions, this cycle delivered heavy ability implementation and follow-up refinement across multiple creatures and combat
 interactions.
 </p>
-
-<div class="div" id="banner">
-<img src="release.png" alt="release" title="3 new playable units!">
+<a rel="pop" href="release.png"><img class="shadow artwork" width=100% src="release.png" title="New playable creatures" alt="creatures"></a>
 </div>
 
 <div class="div" id="stomper">
@@ -140,7 +139,7 @@ attrition.
 <p>
 A new combat location has been carefully crafted so that we now have an even nicer variety of places to duel your opponents!
 </p>
-<img src="DragonBones.png" alt="DragonBones" title="Dragon Bones">
+<a rel="pop" href="DragonBones.png"><img class="shadow artwork" width=100% src="DragonBones.png" title="New location: Dragon Bones" alt="location"></a>
 </div>
 
 <div class="div" id="revamps">
@@ -181,16 +180,17 @@ fullscreen play.
 Several presentation upgrades landed alongside the gameplay work. We added new ability sprites and icons, improved some upgrade sounds,
 and continued reworking music support with a more useful player and refreshed track layout.
 <img src="player.png" alt="player" title="Refined audio view">
+</p>
 
 <p>
-<img src="UI.jpg" alt="interface" title="Interface">
 Interface buttons are now way more intuitive regarding when abilities are usable or have already been used, making things way easier at a glance.
+<img src="UI.jpg" alt="interface" title="Interface">
 </p>
 
 </p>
 <p>
-<img src="score.jpg" alt="score" title="Score screen">
 The score and portrait feedback was also made clearer, helping matches feel easier to read at a glance.
+<img src="score.jpg" alt="score" title="Score screen">
 </p>
 </div>
 
