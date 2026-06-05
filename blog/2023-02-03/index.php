@@ -179,19 +179,20 @@ fullscreen play.
 <p>
 Several presentation upgrades landed alongside the gameplay work. We added new ability sprites and icons, improved some upgrade sounds,
 and continued reworking music support with a more useful player and refreshed track layout.
-<img src="player.png" alt="player" title="Refined audio view">
 </p>
+<img src="player.png" alt="player" title="Refined audio view">
 
 <p>
 Interface buttons are now way more intuitive regarding when abilities are usable or have already been used, making things way easier at a glance.
-<img src="UI.jpg" alt="interface" title="Interface">
 </p>
+<img src="UI.jpg" alt="interface" title="Interface">
 
 </p>
 <p>
 The score and portrait feedback was also made clearer, helping matches feel easier to read at a glance.
-<img src="score.jpg" alt="score" title="Score screen">
 </p>
+<img src="score.jpg" alt="score" title="Score screen">
+
 </div>
 
 <div class="div" id="multiplayer">
@@ -223,6 +224,8 @@ plus PRs #1684 and #1751).</li>
 <li>Tooling and pipeline upgrades, including workflow modernization and build updates (PR #1309), webpack update for faster builds and live
 rebuild support (PR #1328), and dotenv dependency updates (PR #2048).</li>
 </ul>
+</p>
+</div>
 
 <div class="div" id="issues">
 <h3 class="indexheader"><a href="issues">Known issues</a></h3>
