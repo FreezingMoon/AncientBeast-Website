@@ -267,33 +267,33 @@ improvements and less visible groundwork, and both matter.
 <div class="div" id="sponsors">
 <h3 class="indexheader"><a href="sponsors">Thanks to our Sponsors:</a></h3>
 <p><ul>
-<li><a href="https://writersperhour.com/write-my-paper" target="_blank"></a></li>
-<li><a href="https://raj.bet" target="_blank"></a></li>
-<li><a href="https://inkedin.com" target="_blank"></a></li>
-<li><a href="https://bloodgrail.com" target="_blank"></a></li>
-<li><a href="https://ebay.co.uk/usr/dreadknight666" target="_blank"></a></li>
+<li><a href="https://writersperhour.com/write-my-paper" target="_blank">write-my-paper</a></li>
+<li><a href="https://raj.bet" target="_blank">raj.bet</a></li>
+<li><a href="https://inkedin.com" target="_blank">inkedin.com</a></li>
+<li><a href="https://bloodgrail.com" target="_blank">bloodgrail.com</a></li>
+<li><a href="https://ebay.co.uk/usr/dreadknight666" target="_blank">ebay.co.uk/usr/dreadknight666</a></li>
 </ul></p>
-Become one over here: <a href="https://opencollective.com/ancientbeast/contribute/sponsor-8022" target="_blank"></a>
+Become one over here: <a href="https://opencollective.com/ancientbeast/contribute/sponsor-8022" target="_blank">OC Sponsor</a>
 </div>
 
 <div class="div" id="backers">
 <h3 class="indexheader"><a href="backers">Thanks to our Backers:</a></h3>
 Thanks to our Backers:
 <p><ul>
-<li><a href="https://zh.casinoshunter.com/online-casinos" target="_blank"></a></li>
-<li><a href="https://slotsempire.com" target="_blank"></a></li>
-<li><a href="https://reddogcasino.com" target="_blank"></a></li>
-<li><a href="https://casino-professor.com" target="_blank"></a></li>
-<li><a href="https://goread.io/buy-instagram-followers" target="_blank"></a></li>
-<li><a href="https://www.igamblingsites.com" target="_blank"></a></li>
-<li><a href="https://likewave.io/buy-instagram-likes" target="_blank"></a></li>
-<li><a href="https://aviatorgame.guru" target="_blank"></a></li>
-<li><a href="https://crash-gambling-game.com" target="_blank"></a></li>
-<li><a href="https://twicsy.com/buy-instagram-likes" target="_blank"></a></li>
-<li><a href="https://www.casinocanada.me" target="_blank"></a></li>
-<li><a href="https://inkedin.com" target="_blank"></a></li>
+<li><a href="https://zh.casinoshunter.com/online-casinos" target="_blank">online-casinos</a></li>
+<li><a href="https://slotsempire.com" target="_blank">slotsempire.com</a></li>
+<li><a href="https://reddogcasino.com" target="_blank">reddogcasino.com</a></li>
+<li><a href="https://casino-professor.com" target="_blank">casino-professor.com</a></li>
+<li><a href="https://goread.io/buy-instagram-followers" target="_blank">buy-instagram-followers</a></li>
+<li><a href="https://www.igamblingsites.com" target="_blank">igamblingsites.com</a></li>
+<li><a href="https://likewave.io/buy-instagram-likes" target="_blank">buy-instagram-likes</a></li>
+<li><a href="https://aviatorgame.guru" target="_blank">aviatorgame.guru</a></li>
+<li><a href="https://crash-gambling-game.com" target="_blank">crash-gambling-game.com</a></li>
+<li><a href="https://twicsy.com/buy-instagram-likes" target="_blank">buy-instagram-likes</a></li>
+<li><a href="https://www.casinocanada.me" target="_blank">casinocanada.me</a></li>
+<li><a href="https://inkedin.com" target="_blank">inkedin.com</a></li>
 </ul></p>
-Become one over here: <a href="https://opencollective.com/ancientbeast/contribute/backer-8021" target="_blank"></a>
+Become one over here: <a href="https://opencollective.com/ancientbeast/contribute/backer-8021" target="_blank">OC Backer</a>
 </div>
 
 <?php
