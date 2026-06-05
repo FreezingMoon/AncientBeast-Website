@@ -239,8 +239,7 @@ We beta-tested online multiplayer feature (Issue #1616, plus Nakama PRs #1765 an
 </p>
 
 <p>
-Over 480 issues closed, you can see list over here:
-https://github.com/FreezingMoon/AncientBeast/milestone/4?closed=1
+Over 480 issues closed, you can see list over <a href="https://github.com/FreezingMoon/AncientBeast/milestone/4?closed=1" target="_blank"><b><u>here</u></b></a>.
 </p>
 </div>
 
