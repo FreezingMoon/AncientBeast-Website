@@ -26,9 +26,7 @@ $page_title = "Play";
 
 $style = '';
 
-require_once('../header.php'); 
-
-$beta = isset($_GET['beta']) ? 1 : 0; ?>
+require_once('../header.php'); ?>
 
 <!-- Hightlight active page -->
 <script>document.getElementById("<?php echo $page_title; ?>").className += " active";</script>
@@ -44,12 +42,8 @@ $beta = isset($_GET['beta']) ? 1 : 0; ?>
 $source = "http://localhost:8080/index.html";
 $whitelist = array('127.0.0.1', '::1');
 
-if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist) && $beta == 0) {
+if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)) {
 	$source = "https://play.AncientBeast.com";
-}
-
-if ($beta == 1) {
-	$source = "https://ancientbeast-beta.herokuapp.com";
 }
 ?>
 
