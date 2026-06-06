@@ -29,9 +29,10 @@ require_once("../../header.php");
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/css/jquery.fancybox.min.css" media="screen">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+<a rel="pop" href="cake.jpg"><img class="shadow artwork" width=100% src="cake.jpg" title="Party Time!" alt="cake"></a>
+
 <div class="div" id="intro">
 <h2 class="indexheader"><a href="#intro">Version 0.4 - released on 2nd February (2023)</a></h2>
-<a rel="pop" href="cake.jpg"><img class="shadow artwork" width=100% src="cake.jpg" title="Party Time!" alt="cake"></a>
 
 <p>Hello to all sinners!
 Version 0.4 of Ancient Beast has finally been released on GitHub, and it marks another meaningful step forward for the project. This build closes
