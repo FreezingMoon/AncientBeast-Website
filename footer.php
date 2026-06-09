@@ -18,7 +18,7 @@
 	<a href="https://twitter.com/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/twitter.png" style="width: 40px; height: 48px;" class="lighten" alt="twitter" title="Follow us on Twitter!">
 	</a>
-	<a href="https://youtube.com/AncientBeastGame" target="_blank" rel="noopener">
+	<a href="https://youtube.com/AncientBeast" target="_blank" rel="noopener">
 		<img src="<?php echo $site_root; ?>images/footer/youtube.png" style="width: 40px; height: 48px;" class="lighten" alt="youtube" title="Subscribe to our Youtube channel!">
 	</a>
 	<a href="https://github.com/FreezingMoon/AncientBeast" target="_blank" rel="noopener">
