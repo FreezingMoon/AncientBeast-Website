@@ -11,7 +11,6 @@
 </div>
 
 <div id="partners" class="div center">
-	<a href="https://dapp.quickswap.exchange/swap/best/ETH/0x4191F84f66e0B7CC10370Ff47a0E2168E35b9Bdf?chainId=137" target="_blank"><img src="../images/partners/BEAST.png" title="Purchase our token, BEAST! 🐺" width=80px; heigth=80px;></a>
 	<a href="https://Qoddi.com" target="_blank"><img src="../images/partners/Qoddi.png" title="Check out our hosting partner!" width=80px; heigth=80px;></a>
 	<a href="https://about.me/DreadKnight" target="_blank"><img src="../images/partners/DreadKnight.png" title="This is the project's creator!" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<a href="https://game-icons.net" target="_blank"><img src="../images/partners/Game-Icons.png" title="The ability icons are from this website!" width=80px; heigth=80px;></a>
