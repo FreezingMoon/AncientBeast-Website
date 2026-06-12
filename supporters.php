@@ -21,7 +21,6 @@
 	<a href="https://raj.bet" target="_blank"><img src="https://pbs.twimg.com/profile_images/1522830021999706112/Ub16XX3X_200x200.jpg" title="These guys supported us big time!" width=80px; heigth=80px; style="border-radius: 66px;"></a>
 	<!-- Manually placed backers for follow-up links (SEO) until this OC issue https://github.com/opencollective/opencollective/issues/5968 is fixed -->
 	<a href="https://goread.io/buy-instagram-followers" target="_blank"><img src="https://images.opencollective.com/goread_io/eb6337d/logo/80.png" title="Check out one of our main backers!" width=80px; heigth=80px;></a>
-	<a href="https://DogSwap.xyz" target="_blank"><img src="../images/partners/DogSwap.png" title="This amazing DeFi is where XatteR is being traded!" width=80px; heigth=80px;></a>
 	<a href="https://mintme.com/token/BaTs" target="_blank"><img src="../images/partners/BaTs.png" title="Token by DreadKnight for synergy music project!" width=80px; heigth=80px;></a>
 	<br><br>
 	Cheers to our partners. If you have something useful to provide to the project, feel free to send us an e-mail &#8595;
