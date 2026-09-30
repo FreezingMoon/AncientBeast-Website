@@ -1,3 +1,9 @@
+<div id="divine" class="div center">
+	<object type="image/svg+xml" data="https://opencollective.com/ancientbeast/tiers/divine.svg?avatarHeight=190&width=890&button=false"></object>
+	<br><br>
+	Here are our top tier helpers! If you wish to have your banner here, become <a href="https://opencollective.com/ancientbeast/contribute/divine-103801" target="_blank"><b><u>Divine</u></b></a>.
+</div>
+
 <div id="sponsors" class="div center">
 	<object type="image/svg+xml" data="https://opencollective.com/ancientbeast/tiers/sponsor.svg?avatarHeight=121&width=890&button=false"></object>
 	<br><br>
